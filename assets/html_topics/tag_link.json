@@ -1,0 +1,41 @@
+{
+  "title": "HTML <link> Tag",
+  "content": [
+    {
+      "heading": "<link> Tag",
+      "paragraphs": [
+        "The <link> tag defines a relationship between a document and an external resource.",
+        "Example: <head>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Commonly used for CSS stylesheets.",
+        "Placed in the <head> section."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["href", "URL", "Resource URL"],
+              ["rel", "stylesheet", "Relationship type"],
+              ["type", "text/css", "MIME type"]
+            ]
+          }
+        },
+        "Supports global attributes."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "HTML <canvas> Tag",
+    "content": [
+      {
+        "heading": "<canvas> Tag",
+        "paragraphs": [
+          "The <canvas> tag is a container for drawing graphics via JavaScript.",
+          "Example: <canvas id=\"myCanvas\">Your browser does not support canvas.</canvas><script>let canvas = document.getElementById(\"myCanvas\"); let ctx = canvas.getContext(\"2d\"); ctx.fillStyle = \"#FF0000\"; ctx.fillRect(0, 0, 80, 80);</script>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Transparent; requires scripting for graphics.",
+          "Text inside <canvas> shows if unsupported."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 4.0, Edge 9.0, Firefox 2.0, Safari 3.1, Opera 9.0."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["height", "pixels", "Canvas height (default: 150)"],
+                ["width", "pixels", "Canvas width (default: 300)"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Transparent rectangles: <canvas id=\"myCanvas\">Your browser does not support canvas.</canvas><script>let c = document.getElementById(\"myCanvas\"); let ctx = c.getContext(\"2d\"); ctx.fillStyle = \"red\"; ctx.fillRect(20, 20, 75, 50); ctx.globalAlpha = 0.2; ctx.fillStyle = \"blue\"; ctx.fillRect(50, 50, 75, 50); ctx.fillStyle = \"green\"; ctx.fillRect(80, 80, 75, 50);</script>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "canvas { height: 150px; width: 300px; }"
+        ]
+      }
+    ]
+  }

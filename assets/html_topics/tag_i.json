@@ -1,0 +1,37 @@
+{
+    "title": "HTML <i> Tag",
+    "content": [
+      {
+        "heading": "<i> Tag",
+        "paragraphs": [
+          "The <i> tag defines text in an alternate voice or mood, typically italicized.",
+          "Example: <p><i>Lorem ipsum</i> is filler text.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for technical terms, foreign phrases, or ship names.",
+          "Use semantic alternatives like <em>, <strong>, or <cite> when appropriate."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "i { font-style: italic; }"
+        ]
+      }
+    ]
+  }

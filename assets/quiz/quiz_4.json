@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Document Structure",
+  "questions": [
+    {
+      "question": "What is the root element of HTML?",
+      "options": ["<body>", "<title>", "<html>", "<head>"],
+      "correctAnswer": "<html>"
+    },
+    {
+      "question": "What does the <head> tag contain?",
+      "options": ["Scripts only", "Visible content", "Metadata", "Styles only"],
+      "correctAnswer": "Metadata"
+    },
+    {
+      "question": "What is the <title> tag’s purpose?",
+      "options": ["Links pages", "Styles page", "Sets page title", "Adds content"],
+      "correctAnswer": "Sets page title"
+    },
+    {
+      "question": "What does the <meta> tag define?",
+      "options": ["Main content", "Navigation", "Metadata", "Footer"],
+      "correctAnswer": "Metadata"
+    },
+    {
+      "question": "Where is visible content placed?",
+      "options": ["<meta>", "<head>", "<body>", "<html>"],
+      "correctAnswer": "<body>"
+    },
+    {
+      "question": "What is the <base> tag used for?",
+      "options": ["Metadata", "Page title", "Base URL", "Main content"],
+      "correctAnswer": "Base URL"
+    },
+    {
+      "question": "Which attribute is used in <base>?",
+      "options": ["class", "id", "src", "href"],
+      "correctAnswer": "href"
+    },
+    {
+      "question": "What does <meta charset> specify?",
+      "options": ["Page title", "Content type", "Character encoding", "Base URL"],
+      "correctAnswer": "Character encoding"
+    },
+    {
+      "question": "Where is <title> placed?",
+      "options": ["Before <html>", "In <body>", "In <head>", "In <html>"],
+      "correctAnswer": "In <head>"
+    },
+    {
+      "question": "What is a common charset value?",
+      "options": ["CSS-3", "JS-2", "HTML-5", "UTF-8"],
+      "correctAnswer": "UTF-8"
+    },
+    {
+      "question": "What does <meta name='description'> do?",
+      "options": ["Script loading", "Content hiding", "SEO description", "Page styling"],
+      "correctAnswer": "SEO description"
+    },
+    {
+      "question": "Which tag is optional in HTML5?",
+      "options": ["<body>", "<head>", "<html>", "All of these"],
+      "correctAnswer": "All of these"
+    },
+    {
+      "question": "What is the role of <head>?",
+      "options": ["Visible content", "Navigation", "Non-visible content", "Footer"],
+      "correctAnswer": "Non-visible content"
+    },
+    {
+      "question": "Why use <base> tag?",
+      "options": ["Add scripts", "Style links", "Simplify relative URLs", "Hide content"],
+      "correctAnswer": "Simplify relative URLs"
+    },
+    {
+      "question": "What displays in the browser tab?",
+      "options": ["<head>", "<meta>", "<base>", "<title>"],
+      "correctAnswer": "<title>"
+    }
+  ]
+}

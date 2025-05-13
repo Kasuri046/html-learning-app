@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Styling & CSS",
+  "questions": [
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Creative Style System", "Cascading Style Sheets", "Content Style Sheets", "Color Style System"],
+      "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+      "question": "Where is CSS applied in HTML?",
+      "options": ["<meta> tag", "<title> tag", "<style> tag", "<script> tag"],
+      "correctAnswer": "<style> tag"
+    },
+    {
+      "question": "What is responsive design?",
+      "options": ["Inline styles", "Fixed layouts", "Scripted layouts", "Device adaptability"],
+      "correctAnswer": "Device adaptability"
+    },
+    {
+      "question": "What does the <script> tag do?",
+      "options": ["Applies CSS", "Runs JavaScript", "Adds metadata", "Structures content"],
+      "correctAnswer": "Runs JavaScript"
+    },
+    {
+      "question": "What is the <noscript> tag for?",
+      "options": ["CSS fallback", "Metadata", "No JavaScript content", "Navigation"],
+      "correctAnswer": "No JavaScript content"
+    },
+    {
+      "question": "How is CSS linked externally?",
+      "options": ["<style> tag", "<script> tag", "<meta> tag", "<link> tag"],
+      "correctAnswer": "<link> tag"
+    },
+    {
+      "question": "What is inline CSS?",
+      "options": ["External file", "<style> tag", "Style attribute", "JavaScript"],
+      "correctAnswer": "Style attribute"
+    },
+    {
+      "question": "What does responsive CSS use?",
+      "options": ["Inline scripts", "Media queries", "Fixed widths", "Meta tags"],
+      "correctAnswer": "Media queries"
+    },
+    {
+      "question": "Where is <script> typically placed?",
+      "options": ["In <footer>", "In <head>", "In <nav>", "End of <body>"],
+      "correctAnswer": "End of <body>"
+    },
+    {
+      "question": "What improves with CSS?",
+      "options": ["Security", "File size", "Visual design", "Database access"],
+      "correctAnswer": "Visual design"
+    },
+    {
+      "question": "What does <noscript> display?",
+      "options": ["Metadata", "No-script message", "CSS styles", "Navigation"],
+      "correctAnswer": "No-script message"
+    },
+    {
+      "question": "Which is a CSS property?",
+      "options": ["id", "href", "font-size", "src"],
+      "correctAnswer": "font-size"
+    },
+    {
+      "question": "What targets CSS rules?",
+      "options": ["Tags only", "Attributes", "Selectors", "Scripts"],
+      "correctAnswer": "Selectors"
+    },
+    {
+      "question": "Why use external CSS?",
+      "options": ["Smaller files", "Inline styling", "Reusability", "Faster scripts"],
+      "correctAnswer": "Reusability"
+    },
+    {
+      "question": "What does CSS cascade mean?",
+      "options": ["Tag nesting", "Style priority", "File order", "Script execution"],
+      "correctAnswer": "Style priority"
+    }
+  ]
+}

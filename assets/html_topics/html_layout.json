@@ -1,0 +1,40 @@
+{
+  "title": "HTML Layout Elements and Techniques",
+  "content": [
+    {
+      "heading": "HTML Layout Elements and Techniques",
+      "paragraphs": [
+        "Websites use multi-column layouts, similar to magazines or newspapers, for organized content display."
+      ]
+    },
+    {
+      "heading": "HTML Layout Elements",
+      "paragraphs": [
+        "<header> - Defines a header for a document or section.",
+        "<nav> - Contains navigation links.",
+        "<section> - Represents a thematic section in a document.",
+        "<article> - Holds independent, self-contained content.",
+        "<aside> - Provides supplementary content, like sidebars.",
+        "<footer> - Defines a footer for a document or section.",
+        "<details> - Offers expandable additional details.",
+        "<summary> - Acts as a heading for the <details> element."
+      ]
+    },
+    {
+      "heading": "HTML Layout Techniques",
+      "paragraphs": [
+        "Four techniques create multi-column layouts, each with distinct benefits:",
+        "CSS Frameworks - Tools like Bootstrap or W3.CSS for rapid layout creation.",
+        "CSS Float - Simple but less flexible due to document flow dependency.",
+        "CSS Flexbox - Adapts layouts to various screen sizes predictably.",
+        "CSS Grid - Grid-based system for layouts without floats or positioning."
+      ]
+    },
+    {
+      "heading": "Example: Multi-Column Layout",
+      "paragraphs": [
+        "<div class=\"cities\">\n  <div>London</div>\n  <div>Paris</div>\n  <div>Tokyo</div>\n</div>\n<div class=\"main\">\n  <h1>London</h1>\n  <p>London, England's capital, is the UK's most populous city with over 13 million inhabitants. Founded by the Romans as Londinium, it stands on the River Thames.</p>\n</div>\n<footer>Footer</footer>"
+      ]
+    }
+  ]
+}

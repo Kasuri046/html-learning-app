@@ -1,0 +1,51 @@
+{
+    "title": "HTML <details> Tag",
+    "content": [
+      {
+        "heading": "<details> Tag",
+        "paragraphs": [
+          "The <details> tag creates an interactive widget for hideable content.",
+          "Example: <details><summary>Epcot Center</summary><p>Epcot is a theme park at Walt Disney World.</p></details>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Closed by default; expands when opened.",
+          "Use <summary> for visible heading."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 12.0, Edge 79.0, Firefox 49.0, Safari 6.0, Opera 15.0."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["open", "open", "Details are visible by default"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled details: <html><style>details > summary { padding: 4px; width: 200px; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer;}details > p { background-color: #eeeeee; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb;}</style><body><details><summary>Epcot Center</summary><p>Epcot is a theme park at Walt Disney World.</p></details></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "details { display: block; }"
+        ]
+      }
+    ]
+  }

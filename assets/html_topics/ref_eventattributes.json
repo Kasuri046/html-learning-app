@@ -1,0 +1,105 @@
+{
+    "title": "HTML Event Attributes",
+    "content": [
+      {
+        "heading": "Event Attributes",
+        "paragraphs": [
+          "HTML event attributes trigger JavaScript actions on user interactions."
+        ]
+      },
+      {
+        "heading": "Window Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["onload", "Fires after page loads"],
+                ["onresize", "Fires on window resize"],
+                ["onerror", "Fires on error"],
+                ["onbeforeunload", "Fires before document unloads"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Form Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["onblur", "Fires on losing focus"],
+                ["onchange", "Fires on value change"],
+                ["onfocus", "Fires on gaining focus"],
+                ["onsubmit", "Fires on form submission"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Keyboard Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["onkeydown", "Fires on key press"],
+                ["onkeypress", "Fires on key press"],
+                ["onkeyup", "Fires on key release"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Mouse Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["onclick", "Fires on click"],
+                ["ondblclick", "Fires on double-click"],
+                ["onmouseover", "Fires on mouse hover"],
+                ["onmouseout", "Fires on mouse leave"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Drag Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["ondragstart", "Fires on drag start"],
+                ["ondragover", "Fires on drag over target"],
+                ["ondrop", "Fires on drop"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Media Events",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Description"],
+              "rows": [
+                ["onplay", "Fires when media plays"],
+                ["onpause", "Fires when media pauses"],
+                ["onended", "Fires when media ends"],
+                ["onerror", "Fires on media error"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+  "title": "HTML Summary",
+  "content": [
+    {
+      "heading": "HTML Overview",
+      "paragraphs": [
+        "HTML is the universal markup language for creating web pages, enabling text formatting, graphics, links, forms, and tables."
+      ]
+    },
+    {
+      "heading": "Next Steps",
+      "paragraphs": [
+        "Learn CSS to style HTML pages and JavaScript to add interactivity."
+      ]
+    },
+    {
+      "heading": "Publishing a Website",
+      "paragraphs": [
+        "Publish your website via an Internet Service Provider (ISP) or by hosting it on your own server.",
+        "ISPs offer fast connections, powerful hardware, and high uptime, while self-hosting provides full control."
+      ]
+    }
+  ]
+}

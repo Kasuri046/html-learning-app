@@ -1,0 +1,24 @@
+{
+    "title": "HTML <tt> Tag",
+    "content": [
+      {
+        "heading": "<tt> Tag",
+        "paragraphs": [
+          "The <tt> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Defined teletype text in HTML4."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use <kbd>, <var>, <code>, <samp>, or CSS.",
+          "Example: <p style=\"font-family:'Lucida Console', monospace\">\nThis text is monospace text.\n</p>"
+        ]
+      }
+    ]
+  }

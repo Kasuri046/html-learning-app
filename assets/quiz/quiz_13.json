@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Links & Navigation",
+  "questions": [
+    {
+      "question": "What does the <a> tag create?",
+      "options": ["Video", "Form", "Hyperlink", "Image"],
+      "correctAnswer": "Hyperlink"
+    },
+    {
+      "question": "Which attribute sets link destination?",
+      "options": ["alt", "title", "href", "src"],
+      "correctAnswer": "href"
+    },
+    {
+      "question": "What does target='_blank' do?",
+      "options": ["Styles link", "Hides link", "Opens new tab", "Closes tab"],
+      "correctAnswer": "Opens new tab"
+    },
+    {
+      "question": "What is a bookmark link?",
+      "options": ["Script link", "Image link", "Page section link", "External link"],
+      "correctAnswer": "Page section link"
+    },
+    {
+      "question": "What does the <link> tag do?",
+      "options": ["Embeds images", "Plays media", "Links resources", "Creates hyperlinks"],
+      "correctAnswer": "Links resources"
+    },
+    {
+      "question": "What is URL encoding used for?",
+      "options": ["Hiding links", "Running scripts", "Safe URLs", "Styling links"],
+      "correctAnswer": "Safe URLs"
+    },
+    {
+      "question": "Which is a relative file path?",
+      "options": ["C:/file.html", "https://site.com", "./page.html", "ftp://server"],
+      "correctAnswer": "./page.html"
+    },
+    {
+      "question": "What does link color CSS target?",
+      "options": ["<img> tag", "<p> tag", "<a> tag", "<div> tag"],
+      "correctAnswer": "<a> tag"
+    },
+    {
+      "question": "What is a common link color?",
+      "options": ["Large", "Center", "Blue", "Bold"],
+      "correctAnswer": "Blue"
+    },
+    {
+      "question": "Why use bookmarks?",
+      "options": ["Form inputs", "Image maps", "In-page navigation", "External links"],
+      "correctAnswer": "In-page navigation"
+    },
+    {
+      "question": "Which attribute aids bookmarks?",
+      "options": ["src", "href", "id", "class"],
+      "correctAnswer": "id"
+    },
+    {
+      "question": "What does <link> typically link?",
+      "options": ["Images", "JS files", "CSS files", "HTML files"],
+      "correctAnswer": "CSS files"
+    },
+    {
+      "question": "What is an absolute path?",
+      "options": ["File only", "Folder only", "Full URL", "Relative path"],
+      "correctAnswer": "Full URL"
+    },
+    {
+      "question": "What improves with URL encoding?",
+      "options": ["Image quality", "Page speed", "Link safety", "File size"],
+      "correctAnswer": "Link safety"
+    },
+    {
+      "question": "Which tag is self-closing?",
+      "options": ["<href>", "<url>", "<link>", "<a>"],
+      "correctAnswer": "<link>"
+    }
+  ]
+}

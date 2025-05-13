@@ -1,0 +1,54 @@
+{
+    "title": "HTML Favicon",
+    "content": [
+        {
+            "heading": "HTML Favicon",
+            "paragraphs": [
+                "A favicon is a small image displayed next to the page title in the browser tab."
+            ]
+        },
+        {
+            "heading": "How To Add a Favicon in HTML",
+            "paragraphs": [
+                "You can use any image as your favicon. Simple images with high contrast work best.",
+                "To add a favicon to your website, save your favicon image in the root directory of your web server, or in an 'images' folder. A common name for a favicon image is 'favicon.ico'.",
+                "Add a <link> element to your 'index.html' file, after the <title> element, like this:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<title>My Page Title</title>\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.ico\">\n</head>\n<body>\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Favicon File Format Support",
+            "paragraphs": [
+                "The following table shows the file format support for a favicon image:"
+            ],
+            "table": {
+                "headers": [
+                    "Browser",
+                    "ICO",
+                    "PNG",
+                    "GIF",
+                    "JPEG",
+                    "SVG"
+                ],
+                "rows": [
+                    ["Edge", "Yes", "Yes", "Yes", "Yes", "Yes"],
+                    ["Chrome", "Yes", "Yes", "Yes", "Yes", "Yes"],
+                    ["Firefox", "Yes", "Yes", "Yes", "Yes", "Yes"],
+                    ["Opera", "Yes", "Yes", "Yes", "Yes", "Yes"],
+                    ["Safari", "Yes", "Yes", "Yes", "Yes", "Yes"]
+                ]
+            }
+        },
+        {
+            "heading": "Chapter Summary",
+            "paragraphs": [
+                "Use the HTML <link> element to insert a favicon."
+            ]
+        }
+    ]
+}

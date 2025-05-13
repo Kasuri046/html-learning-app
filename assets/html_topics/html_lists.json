@@ -1,0 +1,32 @@
+{
+  "title": "HTML Lists",
+  "content": [
+    {
+      "heading": "HTML Lists",
+      "paragraphs": [
+        "HTML lists structure related items in ordered, unordered, or descriptive formats."
+      ]
+    },
+    {
+      "heading": "Unordered Lists",
+      "paragraphs": [
+        "Unordered lists use <ul> with <li> for each item, marked by bullets by default:",
+        "<ul>\n  <li>HTML</li>\n  <li>CSS</li>\n  <li>JavaScript</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Ordered Lists",
+      "paragraphs": [
+        "Ordered lists use <ol> with <li> for each item, numbered automatically:",
+        "<ol>\n  <li>Introduction</li>\n  <li>Basics</li>\n  <li>Advanced Topics</li>\n</ol>"
+      ]
+    },
+    {
+      "heading": "Description Lists",
+      "paragraphs": [
+        "Description lists use <dl> for the list, <dt> for terms, and <dd> for descriptions:",
+        "<dl>\n  <dt>HTML</dt>\n  <dd>Markup language for web pages</dd>\n  <dt>CSS</dt>\n  <dd>Styles visual layout</dd>\n</dl>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "title": "HTML Other Lists",
+    "content": [
+      {
+        "heading": "HTML Other Lists",
+        "paragraphs": [
+          "HTML also supports description lists."
+        ]
+      },
+      {
+        "heading": "HTML Description Lists",
+        "paragraphs": [
+          "A description list is a list of terms, with a description of each term.",
+          "The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<dl> \n<dt>Coffee</dt> \n<dd>- black hot drink</dd>\n <dt>Milk</dt> \n<dd>- white cold drink</dd> \n</dl>"
+        ]
+      },
+      {
+        "heading": "Chapter Summary",
+        "paragraphs": [
+          "Use the HTML <dl> element to define a description list",
+          "Use the HTML <dt> element to define the description term",
+          "Use the HTML <dd> element to describe the term in a description list"
+        ]
+      }
+    ]
+  }
+  

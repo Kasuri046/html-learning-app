@@ -1,0 +1,43 @@
+{
+  "title": "HTML <summary> Tag",
+  "content": [
+    {
+      "heading": "<summary> Tag",
+      "paragraphs": [
+        "The <summary> tag defines a heading for <details>.",
+        "Example: <details>\n  <summary>Epcot Center</summary>\n  <p>Epcot is a theme park at Walt Disney World.</p>\n</details>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Clickable to show/hide details.",
+        "Must be the first child of <details>."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 12, Edge 79, Firefox 49, Safari 6, Opera 15."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Styled: <style>\n  details > summary {padding:4px;}\n</style>\n<details>\n  <summary>Epcot Center</summary>\n  <p>Epcot is a theme park.</p>\n</details>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "summary { display: block; }"
+      ]
+    }
+  ]
+}

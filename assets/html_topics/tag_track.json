@@ -1,0 +1,43 @@
+{
+    "title": "HTML <track> Tag",
+    "content": [
+      {
+        "heading": "<track> Tag",
+        "paragraphs": [
+          "The <track> tag specifies text tracks for media elements.",
+          "Example: <video controls>\n  <source src=\"movie.mp4\" type=\"video/mp4\">\n  <track src=\"subtitles_en.vtt\" kind=\"subtitles\" srclang=\"en\" label=\"English\">\n</video>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for subtitles, captions, or descriptions in WebVTT (.vtt) format.",
+          "Displayed during media playback."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported since Chrome 23, Edge 10, Firefox 31, Safari 6, Opera 12.1."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["default", "default", "Enables track by default"],
+                ["kind", "captions chapters descriptions metadata subtitles", "Text track type"],
+                ["label", "text", "Track title"],
+                ["src", "URL", "Track file URL"],
+                ["srclang", "language_code", "Track language (required for subtitles)"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

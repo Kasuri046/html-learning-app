@@ -1,0 +1,38 @@
+{
+  "title": "HTML <samp> Tag",
+  "content": [
+    {
+      "heading": "<samp> Tag",
+      "paragraphs": [
+        "The <samp> tag defines sample output from a program.",
+        "Example: <p><samp>File not found.<br>Press F1 to continue</samp></p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Displayed in monospace font.",
+        "Style with CSS for richer effects.",
+        "Related tags: <code>, <kbd>, <var>, <pre>."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "samp { font-family: monospace; }"
+      ]
+    }
+  ]
+}

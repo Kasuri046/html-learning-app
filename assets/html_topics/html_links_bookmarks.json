@@ -1,0 +1,25 @@
+{
+  "title": "HTML Links - Create Bookmarks",
+  "content": [
+    {
+      "heading": "HTML Bookmarks",
+      "paragraphs": [
+        "Bookmarks allow jumping to specific sections within or across web pages."
+      ]
+    },
+    {
+      "heading": "Creating Bookmarks",
+      "paragraphs": [
+        "Assign an id to an element and link to it with href=\"#id\":",
+        "<h2 id=\"features\">Key Features</h2>\n<a href=\"#features\">Go to Features Section</a>"
+      ]
+    },
+    {
+      "heading": "Cross-Page Bookmarks",
+      "paragraphs": [
+        "Link to a section on another page using URL and #id:",
+        "<a href=\"product.html#features\">See Product Features</a>"
+      ]
+    }
+  ]
+}

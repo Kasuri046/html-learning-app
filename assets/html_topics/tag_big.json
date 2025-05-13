@@ -1,0 +1,17 @@
+{
+    "title": "HTML <big> Tag",
+    "content": [
+      {
+        "heading": "<big> Tag",
+        "paragraphs": [
+          "The <big> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use CSS for font-size: <html><head><style>p.ex1 { font-size: 30px;} p.ex2 { font-size: 50px;}</style></head><body><p>Normal text.</p><p class=\"ex1\">Bigger text.</p><p class=\"ex2\">Much bigger text.</p></body></html>"
+        ]
+      }
+    ]
+  }

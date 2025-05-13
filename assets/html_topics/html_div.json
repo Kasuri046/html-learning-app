@@ -1,0 +1,113 @@
+{
+    "title": "HTML Div Tutorial",
+    "content": [
+        {
+            "heading": "HTML Div Element",
+            "paragraphs": [
+                "The <div> element is used as a container for other HTML elements."
+            ]
+        },
+        {
+            "heading": "The <div> Element",
+            "paragraphs": [
+                "The <div> element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Lorem Ipsum <div>\n I am a div\n</div> dolor sit amet."
+            ]
+        },
+        {
+            "heading": "<div> as a container",
+            "paragraphs": [
+                "The <div> element is often used to group sections of a web page together."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<div> \n<h2>London</h2>\n <p>London is the capital city of England.\n</p>\n<p>London has over 9 million inhabitants.</p> \n</div>"
+            ]
+        },
+        {
+            "heading": "Center align a <div> element",
+            "paragraphs": [
+                "If you have a <div> element that is not 100% wide, and you want to center-align it, set the CSS margin property to auto."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>\ndiv { width:300px; margin:auto;}\n </style>"
+            ]
+        },
+        {
+            "heading": "Multiple <div> elements",
+            "paragraphs": [
+                "You can have many <div> containers on the same page."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<div>\n <h2>\nLondon</h2> \n<p>London is the capital city of England.</p> \n<p>London has over 9 million inhabitants.</p>\n </div>\n<div>\n <h2>Oslo</h2> \n<p>Oslo is the capital city of Norway.</p> \n<p>Oslo has over 700,000 inhabitants.</p>\n </div>\n<div> \n<h2>Rome</h2> \n<p>Rome is the capital city of Italy.</p>\n <p>Rome has over 4 million inhabitants.</p> \n</div>"
+            ]
+        },
+        {
+            "heading": "Aligning <div> elements side by side",
+            "paragraphs": [
+                "When building web pages, you often want to have two or more <div> elements side by side."
+            ]
+        },
+        {
+            "heading": "Float",
+            "paragraphs": [
+                "The CSS float property is used for positioning and formatting content and allows elements to be positioned horizontally."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>.mycontainer\n { width:100%; overflow:auto; }.mycontainer div \n{ width:33%; float:left;}</style>"
+            ]
+        },
+        {
+            "heading": "Inline-block",
+            "paragraphs": [
+                "If you change the <div> element's display property from block to inline-block, the <div> elements will be displayed side by side."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>div \n{ width: 30%; display: inline-block;}</style>"
+            ]
+        },
+        {
+            "heading": "Flex",
+            "paragraphs": [
+                "The CSS Flexbox Layout Module was introduced to make it easier to design flexible responsive layout structures."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>.mycontainer\n { display: flex;}.mycontainer > div\n { width:33%;}</style>"
+            ]
+        },
+        {
+            "heading": "Grid",
+            "paragraphs": [
+                "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>.grid-container \n{ display: grid; grid-template-columns: 33% 33% 33%;}\n</style>"
+            ]
+        }
+    ]
+}

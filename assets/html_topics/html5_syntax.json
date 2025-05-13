@@ -1,0 +1,67 @@
+{
+  "title": "HTML Style Guide and Coding Conventions",
+  "content": [
+    {
+      "heading": "Coding Conventions",
+      "paragraphs": [
+        "Consistent style for elements, attributes, quotes, and indentation improves readability."
+      ]
+    },
+    {
+      "heading": "Lowercase Names",
+      "paragraphs": [
+        "Use lowercase for element and attribute names:",
+        "<p class=\"intro\">Text</p>"
+      ]
+    },
+    {
+      "heading": "Close Elements",
+      "paragraphs": [
+        "Always close elements properly:",
+        "<ul>\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Quoted Attributes",
+      "paragraphs": [
+        "Use double quotes for attribute values:",
+        "<a href=\"https://example.com\">Link</a>"
+      ]
+    },
+    {
+      "heading": "Image Alt Attribute",
+      "paragraphs": [
+        "Include alt for accessibility:",
+        "<img src=\"logo.png\" alt=\"Company Logo\">"
+      ]
+    },
+    {
+      "heading": "Indentation and Spacing",
+      "paragraphs": [
+        "Use 2 or 4 spaces for indentation, no tabs:",
+        "<ul>\n  <li>Item</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Short Lines",
+      "paragraphs": [
+        "Break long lines for readability:",
+        "<input type=\"text\" name=\"firstname\" placeholder=\"First name\">"
+      ]
+    },
+    {
+      "heading": "File Naming",
+      "paragraphs": [
+        "Use lowercase with hyphens: contact-form.html"
+      ]
+    },
+    {
+      "heading": "Avoid Inline Styles and Scripts",
+      "paragraphs": [
+        "Use external CSS and JS:",
+        "<p class=\"intro\">Text</p>\n<style>.intro { color: blue; }</style>",
+        "<button id=\"myBtn\">Click</button>\n<script>document.getElementById(\"myBtn\").addEventListener(\"click\", () => alert(\"Clicked!\"));</script>"
+      ]
+    }
+  ]
+}

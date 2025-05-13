@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Accessibility",
+  "questions": [
+    {
+      "question": "What is web accessibility?",
+      "options": ["Secure sites", "Small files", "Inclusive design", "Fast loading"],
+      "correctAnswer": "Inclusive design"
+    },
+    {
+      "question": "What does <bdi> tag do?",
+      "options": ["Italics text", "Deletes text", "Isolates text direction", "Bolds text"],
+      "correctAnswer": "Isolates text direction"
+    },
+    {
+      "question": "What is the <bdo> tag for?",
+      "options": ["Code text", "Deleted text", "Overrides text direction", "Quotes text"],
+      "correctAnswer": "Overrides text direction"
+    },
+    {
+      "question": "What does <wbr> tag indicate?",
+      "options": ["Line break", "Italic text", "Word break opportunity", "Bold text"],
+      "correctAnswer": "Word break opportunity"
+    },
+    {
+      "question": "What does the alt attribute do?",
+      "options": ["Image size", "Image style", "Image description", "Image source"],
+      "correctAnswer": "Image description"
+    },
+    {
+      "question": "What is ARIA used for?",
+      "options": ["Navigation", "Scripting", "Accessibility roles", "Styling"],
+      "correctAnswer": "Accessibility roles"
+    },
+    {
+      "question": "Which tag aids screen readers?",
+      "options": ["<bdo>", "<wbr>", "All of these", "<bdi>"],
+      "correctAnswer": "All of these"
+    },
+    {
+      "question": "What does dir attribute do in <bdo>?",
+      "options": ["Adds links", "Hides text", "Sets text direction", "Styles text"],
+      "correctAnswer": "Sets text direction"
+    },
+    {
+      "question": "Why use <wbr>?",
+      "options": ["Text linking", "Text bolding", "Text wrapping", "Text hiding"],
+      "correctAnswer": "Text wrapping"
+    },
+    {
+      "question": "What improves accessibility?",
+      "options": ["JavaScript", "Meta tags", "Semantic tags", "Inline styles"],
+      "correctAnswer": "Semantic tags"
+    },
+    {
+      "question": "Which attribute aids navigation?",
+      "options": ["style", "src", "tabindex", "href"],
+      "correctAnswer": "tabindex"
+    },
+    {
+      "question": "What is a common accessibility tool?",
+      "options": ["Image editor", "Script debugger", "Screen reader", "Text editor"],
+      "correctAnswer": "Screen reader"
+    },
+    {
+      "question": "Why use <bdi> for text?",
+      "options": ["Italic text", "Quoted text", "Bidirectional text", "Bold text"],
+      "correctAnswer": "Bidirectional text"
+    },
+    {
+      "question": "What does WCAG stand for?",
+      "options": ["Web Creation Accessibility Goals", "Web Content Analysis Guide", "Web Coding Accessibility Group", "Web Content Accessibility Guidelines"],
+      "correctAnswer": "Web Content Accessibility Guidelines"
+    },
+    {
+      "question": "What does accessibility enhance?",
+      "options": ["Security", "Page speed", "User experience", "File size"],
+      "correctAnswer": "User experience"
+    }
+  ]
+}

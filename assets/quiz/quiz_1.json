@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: HTML Fundamentals",
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": ["HighText Machine Language", "None of these", "HyperText Markup Language", "HyperTool Markup Language"],
+      "correctAnswer": "HyperText Markup Language"
+    },
+    {
+      "question": "What is the purpose of HTML?",
+      "options": ["Program web apps", "Structure web content", "Style web pages", "Manage databases"],
+      "correctAnswer": "Structure web content"
+    },
+    {
+      "question": "Which tag defines an HTML document?",
+      "options": ["<title>", "<body>", "<head>", "<html>"],
+      "correctAnswer": "<html>"
+    },
+    {
+      "question": "What is an HTML element?",
+      "options": ["Only content", "Tag and content", "Only a tag", "A style rule"],
+      "correctAnswer": "Tag and content"
+    },
+    {
+      "question": "What is an HTML attribute?",
+      "options": ["JavaScript code", "CSS style", "Main tag content", "Extra tag info"],
+      "correctAnswer": "Extra tag info"
+    },
+    {
+      "question": "Which attribute sets an element’s unique identifier?",
+      "options": ["style", "name", "id", "class"],
+      "correctAnswer": "id"
+    },
+    {
+      "question": "What does the DOCTYPE declaration do?",
+      "options": ["Adds JavaScript", "Links to CSS", "Specifies HTML version", "Styles the page"],
+      "correctAnswer": "Specifies HTML version"
+    },
+    {
+      "question": "Where is the DOCTYPE placed?",
+      "options": ["End of document", "In <body>", "In <head>", "Top of document"],
+      "correctAnswer": "Top of document"
+    },
+    {
+      "question": "What is the role of an HTML editor?",
+      "options": ["Host websites", "Browse web pages", "Write HTML code", "Debug scripts"],
+      "correctAnswer": "Write HTML code"
+    },
+    {
+      "question": "Which is a common HTML editor?",
+      "options": ["Photoshop", "VS Code", "Excel", "PowerPoint"],
+      "correctAnswer": "VS Code"
+    },
+    {
+      "question": "What does HTML5 syntax emphasize?",
+      "options": ["JavaScript only", "Complex attributes", "Simpler tag usage", "Inline CSS"],
+      "correctAnswer": "Simpler tag usage"
+    },
+    {
+      "question": "What is an HTML comment used for?",
+      "options": ["Style elements", "Add notes", "Run scripts", "Display text"],
+      "correctAnswer": "Add notes"
+    },
+    {
+      "question": "Which is the correct comment syntax?",
+      "options": ["# Comment", "// Comment", "<!-- Comment -->", "/* Comment */"],
+      "correctAnswer": "<!-- Comment -->"
+    },
+    {
+      "question": "Which tag is self-closing in HTML5?",
+      "options": ["<p>", "<span>", "<div>", "<br>"],
+      "correctAnswer": "<br>"
+    },
+    {
+      "question": "What does the lang attribute do?",
+      "options": ["Adds scripts", "Styles text", "Links pages", "Sets document language"],
+      "correctAnswer": "Sets document language"
+    }
+  ]
+}

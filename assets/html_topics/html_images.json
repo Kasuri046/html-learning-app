@@ -1,0 +1,143 @@
+{
+    "title": "HTML Images",
+    "content": [
+        {
+            "heading": "HTML Images",
+            "paragraphs": [
+                "Images can improve the design and appearance of a web page."
+            ]
+        },
+        {
+            "heading": "HTML Images Syntax",
+            "paragraphs": [
+                "The HTML <img> tag is used to embed an image in a web page. Images are linked to web pages, and the <img> tag creates a holding space for the referenced image."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"pic_trulli.jpg\" \nalt=\"Italian Trulli\">"
+            ]
+        },
+        {
+            "heading": "The src Attribute",
+            "paragraphs": [
+                "The required src attribute specifies the path (URL) to the image. If the browser cannot find the image, it will display a broken link icon and the alt text."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"img_chania.jpg\" \nalt=\"Flowers in Chania\">"
+            ]
+        },
+        {
+            "heading": "The alt Attribute",
+            "paragraphs": [
+                "The required alt attribute provides an alternate text for an image if the user cannot view it. The value of the alt attribute should describe the image."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"wrongname.gif\" \nalt=\"Flowers in Chania\">"
+            ]
+        },
+        {
+            "heading": "Image Size - Width and Height",
+            "paragraphs": [
+                "You can use the style attribute to specify the width and height of an image."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"img_girl.jpg\" \nalt=\"Girl in a jacket\" \n style=\"width:500px;height:600px;\">"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"img_girl.jpg\" \nalt=\"Girl in a jacket\" \nwidth=\"500\" \nheight=\"600\">"
+            ]
+        },
+        {
+            "heading": "Width and Height, or Style?",
+            "paragraphs": [
+                "The width, height, and style attributes are valid in HTML, but it's suggested to use the style attribute to prevent stylesheets from changing the size of images."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<style>\nimg { width: 100%;\n }\n</style>\n</head>\n<body>\n<img src=\"html5.gif\"\n alt=\"HTML5 Icon\" \nwidth=\"128\" \nheight=\"128\">\n<img src=\"html5.gif\" \nalt=\"HTML5 Icon\"\n style=\"width:128px;\nheight:128px;\n\">\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Images in Another Folder",
+            "paragraphs": [
+                "If you have your images in a sub-folder, you must include the folder name in the src attribute."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"/images/html5.gif\" alt=\"HTML5 Icon\" style=\"width:128px;\nheight:128px;\n\">"
+            ]
+        },
+        {
+            "heading": "Images on Another Server/Website",
+            "paragraphs": [
+                "To point to an image on another server, specify an absolute (full) URL in the src attribute."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"https://www.bitlogicx.com/front/assets/images/web2.jpg\" alt=\"W3Schools.com\">"
+            ]
+        },
+        {
+            "heading": "Animated Images",
+            "paragraphs": [
+                "HTML allows animated GIFs."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"programming.gif\" \nalt=\"Computer Man\" \nstyle=\"width:48px;\nheight:48px;\n\">"
+            ]
+        },
+        {
+            "heading": "Image as a Link",
+            "paragraphs": [
+                "To use an image as a link, put the <img> tag inside the <a> tag."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<a href=\"default.asp\">\n<img src=\"smiley.gif\" \nalt=\"HTML tutorial\" \nstyle=\"width:42px;\nheight:42px;\n\">\n</a>"
+            ]
+        },
+        {
+            "heading": "Image Floating",
+            "paragraphs": [
+                "Use the CSS float property to let the image float to the right or left of text."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p><img src=\"smiley.gif\" \nalt=\"Smiley face\" \nstyle=\"float:right;\nwidth:42px;\nheight:42px;\n\"> The image will float to the right of the text.\n</p>\n<p><img src=\"smiley.gif\" alt=\"Smiley face\" \nstyle=\"float:left;\nwidth:42px;\nheight:42px;\n\"> The image will float to the left of the text.\n</p>"
+            ]
+        },
+        {
+            "heading": "Common Image Formats",
+            "paragraphs": [
+                "Here are the most common image file types supported in all browsers."
+            ]
+        }
+    ]
+}

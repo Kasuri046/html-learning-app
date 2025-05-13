@@ -1,0 +1,19 @@
+{
+    "title": "HTML <font> Tag",
+    "content": [
+      {
+        "heading": "<font> Tag",
+        "paragraphs": [
+          "The <font> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Set color: <p style=\"color:red\">This is a paragraph.</p>",
+          "Set font: <p style=\"font-family:verdana\">This is a paragraph.</p>",
+          "Set size: <p style=\"font-size:30px\">This is a paragraph.</p>"
+        ]
+      }
+    ]
+  }

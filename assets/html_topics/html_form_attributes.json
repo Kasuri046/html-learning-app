@@ -1,0 +1,196 @@
+{
+    "title": "HTML Input Attributes",
+    "content": [
+        {
+            "heading": "HTML Input Attributes",
+            "paragraphs": [
+                "This chapter describes the different attributes for the HTML <input> element."
+            ]
+        },
+        {
+            "heading": "The value Attribute",
+            "paragraphs": [
+                "The input value attribute specifies an initial value for an input field:",
+                "Example:\n<form>\n <label for=\"fname\">\nFirst name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n<label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The readonly Attribute",
+            "paragraphs": [
+                "The input readonly attribute specifies that an input field is read-only.",
+                "A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).",
+                "The value of a read-only input field will be sent when submitting the form!"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\" readonly><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The disabled Attribute",
+            "paragraphs": [
+                "The input disabled attribute specifies that an input field should be disabled.",
+                "A disabled input field is unusable and un-clickable.",
+                "The value of a disabled input field will not be sent when submitting the form!",
+                "Example:\n<form>\n <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\" disabled><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n <label for=\"fname\">\nFirst name:</label>\n<br>\n <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\" disabled>\n<br>\n    <label for=\"lname\">Last name:</label>\n<br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The size Attribute",
+            "paragraphs": [
+                "The input size attribute specifies the visible width, in characters, of an input field.",
+                "The default value for size is 20.",
+                "Note: The size attribute works with the following input types: text, search, tel, url, email, and password.",
+                "Example:\n<form>\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" size=\"50\"><br>\n    <label for=\"pin\">PIN:</label><br>\n    <input type=\"text\" id=\"pin\" name=\"pin\" size=\"4\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" size=\"50\"><br>\n    <label for=\"pin\">PIN:</label><br>\n    <input type=\"text\" id=\"pin\" name=\"pin\" size=\"4\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The maxlength Attribute",
+            "paragraphs": [
+                "The input maxlength attribute specifies the maximum number of characters allowed in an input field.",
+                "Note: When a maxlength is set, the input field will not accept more than the specified number of characters.",
+                "Example:\n<form>\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" size=\"50\"><br>\n    <label for=\"pin\">PIN:</label><br>\n    <input type=\"text\" id=\"pin\" name=\"pin\" maxlength=\"4\" size=\"4\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" size=\"50\"><br>\n    <label for=\"pin\">PIN:</label><br>\n    <input type=\"text\" id=\"pin\" name=\"pin\" maxlength=\"4\" size=\"4\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The min and max Attributes",
+            "paragraphs": [
+                "The input min and max attributes specify the minimum and maximum values for an input field.",
+                "These attributes work with number, range, date, datetime-local, month, time, and week input types.",
+                "Example:\n<form>\n    <label for=\"datemax\">Enter a date before 1980-01-01:</label>\n    <input type=\"date\" id=\"datemax\" name=\"datemax\" max=\"1979-12-31\"><br><br>\n    <label for=\"datemin\">Enter a date after 2000-01-01:</label>\n    <input type=\"date\" id=\"datemin\" name=\"datemin\" min=\"2000-01-02\"><br><br>\n    <label for=\"quantity\">Quantity (between 1 and 5):</label>\n    <input type=\"number\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"5\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"datemax\">Enter a date before 1980-01-01:</label>\n    <input type=\"date\" id=\"datemax\" name=\"datemax\" max=\"1979-12-31\"><br><br>\n    <label for=\"datemin\">Enter a date after 2000-01-01:</label>\n    <input type=\"date\" id=\"datemin\" name=\"datemin\" min=\"2000-01-02\"><br><br>\n    <label for=\"quantity\">Quantity (between 1 and 5):</label>\n    <input type=\"number\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"5\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The multiple Attribute",
+            "paragraphs": [
+                "The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.",
+                "Example:\n<form>\n    <label for=\"files\">Select files:</label>\n    <input type=\"file\" id=\"files\" name=\"files\" multiple>\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"files\">Select files:</label>\n    <input type=\"file\" id=\"files\" name=\"files\" multiple>\n</form>"
+            ]
+        },
+        {
+            "heading": "The pattern Attribute",
+            "paragraphs": [
+                "The input pattern attribute specifies a regular expression that the input field's value is checked against when the form is submitted.",
+                "Example:\n<form>\n    <label for=\"country_code\">Country code:</label>\n    <input type=\"text\" id=\"country_code\" name=\"country_code\" pattern=\"[A-Za-z]{3}\" title=\"Three letter country code\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"country_code\">Country code:</label>\n    <input type=\"text\" id=\"country_code\" name=\"country_code\" pattern=\"[A-Za-z]{3}\" title=\"Three letter country code\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The placeholder Attribute",
+            "paragraphs": [
+                "The input placeholder attribute specifies a short hint that describes the expected value of an input field.",
+                "Example:\n<form>\n    <label for=\"phone\">Enter a phone number:</label>\n    <input type=\"tel\" id=\"phone\" name=\"phone\" placeholder=\"123-45-678\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"phone\">Enter a phone number:</label>\n    <input type=\"tel\" id=\"phone\" name=\"phone\" placeholder=\"123-45-678\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The required Attribute",
+            "paragraphs": [
+                "The input required attribute specifies that an input field must be filled out before submitting the form.",
+                "Example:\n<form>\n    <label for=\"username\">Username:</label>\n    <input type=\"text\" id=\"username\" name=\"username\" required>\n</form>"
+            ]
+        },
+        {
+            "heading": "The step Attribute",
+            "paragraphs": [
+                "The input step attribute specifies the legal number intervals for an input field.",
+                "Example:\n<form>\n    <label for=\"points\">Points:</label>\n    <input type=\"number\" id=\"points\" name=\"points\" step=\"3\">\n</form>",
+                "Note: Input restrictions are not foolproof, and JavaScript provides many ways to add illegal input."
+            ]
+        },
+        {
+            "heading": "The autofocus Attribute",
+            "paragraphs": [
+                "The input autofocus attribute specifies that an input field should automatically get focus when the page loads.",
+                "Example:\n<form>\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" autofocus><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" autofocus><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The height and width Attributes",
+            "paragraphs": [
+                "The input height and width attributes specify the height and width of an <input type=\"image\"> element.",
+                "Example:\n<form>\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br><br>\n    <label for=\"lname\">Last name:</label>\n    <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n    <input type=\"image\" src=\"img_submit.gif\" alt=\"Submit\" width=\"48\" height=\"48\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br><br>\n    <label for=\"lname\">Last name:</label>\n    <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n    <input type=\"image\" src=\"img_submit.gif\" alt=\"Submit\" width=\"48\" height=\"48\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The list Attribute",
+            "paragraphs": [
+                "The input list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.",
+                "Example:\n<form>\n    <input list=\"browsers\">\n    <datalist id=\"browsers\">\n        <option value=\"Edge\">\n        <option value=\"Firefox\">\n        <option value=\"Chrome\">\n        <option value=\"Opera\">\n        <option value=\"Safari\">\n    </datalist>\n</form>"
+            ]
+        },
+        {
+            "heading": "The autocomplete Attribute",
+            "paragraphs": [
+                "The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.",
+                "Example:\n<form action=\"/action_page.php\" autocomplete=\"on\">\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br><br>\n    <label for=\"lname\">Last name:</label>\n    <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n    <label for=\"email\">Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"off\"><br><br>\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\" autocomplete=\"on\">\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br><br>\n    <label for=\"lname\">Last name:</label>\n    <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n    <label for=\"email\">Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"off\"><br><br>\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        }
+    ]
+}

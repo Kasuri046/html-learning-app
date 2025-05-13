@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Forms & Inputs",
+  "questions": [
+    {
+      "question": "What does the <form> tag create?",
+      "options": ["List", "Image", "User input form", "Table"],
+      "correctAnswer": "User input form"
+    },
+    {
+      "question": "What is the <input> tag for?",
+      "options": ["Form submission", "Form validation", "Form fields", "Form styling"],
+      "correctAnswer": "Form fields"
+    },
+    {
+      "question": "What does the <label> tag do?",
+      "options": ["Hides inputs", "Styles forms", "Describes inputs", "Submits forms"],
+      "correctAnswer": "Describes inputs"
+    },
+    {
+      "question": "Which attribute sets form destination?",
+      "options": ["id", "name", "action", "method"],
+      "correctAnswer": "action"
+    },
+    {
+      "question": "What does the method attribute do?",
+      "options": ["Hides form", "Adds inputs", "Sets submission type", "Styles form"],
+      "correctAnswer": "Sets submission type"
+    },
+    {
+      "question": "What is a common input type?",
+      "options": ["table", "list", "text", "image"],
+      "correctAnswer": "text"
+    },
+    {
+      "question": "What does the placeholder attribute do?",
+      "options": ["Styles input", "Hides input", "Shows hint text", "Sets default value"],
+      "correctAnswer": "Shows hint text"
+    },
+    {
+      "question": "Which attribute links <label> to <input>?",
+      "options": ["class", "name", "for", "id"],
+      "correctAnswer": "for"
+    },
+    {
+      "question": "What is the GET method used for?",
+      "options": ["Delete data", "Update data", "Retrieve data", "Submit data"],
+      "correctAnswer": "Retrieve data"
+    },
+    {
+      "question": "What improves with <label>?",
+      "options": ["Security", "Page speed", "Accessibility", "File size"],
+      "correctAnswer": "Accessibility"
+    },
+    {
+      "question": "Which input type is for passwords?",
+      "options": ["number", "email", "password", "text"],
+      "correctAnswer": "password"
+    },
+    {
+      "question": "What does required attribute do?",
+      "options": ["Styles input", "Submits form", "Mandates input", "Hides input"],
+      "correctAnswer": "Mandates input"
+    },
+    {
+      "question": "What is the POST method for?",
+      "options": ["Retrieve data", "Delete data", "Submit data", "Style data"],
+      "correctAnswer": "Submit data"
+    },
+    {
+      "question": "Which tag contains inputs?",
+      "options": ["<div>", "<list>", "<form>", "<table>"],
+      "correctAnswer": "<form>"
+    },
+    {
+      "question": "Why use forms in HTML?",
+      "options": ["Scripting", "Navigation", "User interaction", "Styling"],
+      "correctAnswer": "User interaction"
+    }
+  ]
+}

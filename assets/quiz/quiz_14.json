@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Lists",
+  "questions": [
+    {
+      "question": "What does the <ul> tag create?",
+      "options": ["Description list", "Menu list", "Unordered list", "Ordered list"],
+      "correctAnswer": "Unordered list"
+    },
+    {
+      "question": "What is the <ol> tag for?",
+      "options": ["Link list", "Image list", "Ordered list", "Unordered list"],
+      "correctAnswer": "Ordered list"
+    },
+    {
+      "question": "What does the <li> tag define?",
+      "options": ["List style", "List footer", "List item", "List header"],
+      "correctAnswer": "List item"
+    },
+    {
+      "question": "What is the default <ul> marker?",
+      "options": ["Square", "Letter", "Bullet", "Number"],
+      "correctAnswer": "Bullet"
+    },
+    {
+      "question": "What is the default <ol> marker?",
+      "options": ["Circle", "Dash", "Number", "Bullet"],
+      "correctAnswer": "Number"
+    },
+    {
+      "question": "Can lists be nested?",
+      "options": ["No", "Only <ul>", "Yes", "Only <ol>"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "question": "Which tag is used in <ul>?",
+      "options": ["<dd>", "<p>", "<li>", "<dt>"],
+      "correctAnswer": "<li>"
+    },
+    {
+      "question": "What does type attribute do in <ol>?",
+      "options": ["Changes bullet", "Styles text", "Sets numbering style", "Hides list"],
+      "correctAnswer": "Sets numbering style"
+    },
+    {
+      "question": "What is a common <ul> use?",
+      "options": ["Scripts", "Images", "Navigation menus", "Paragraphs"],
+      "correctAnswer": "Navigation menus"
+    },
+    {
+      "question": "What does start attribute do in <ol>?",
+      "options": ["Styles text", "Hides list", "Sets starting number", "Changes bullet"],
+      "correctAnswer": "Sets starting number"
+    },
+    {
+      "question": "Which tag is semantic for lists?",
+      "options": ["<p>", "<span>", "<ul>", "<div>"],
+      "correctAnswer": "<ul>"
+    },
+    {
+      "question": "What improves with lists?",
+      "options": ["Security", "Page speed", "Content organization", "File size"],
+      "correctAnswer": "Content organization"
+    },
+    {
+      "question": "Which tag contains <li>?",
+      "options": ["<div>", "<span>", "<ul> or <ol>", "<p>"],
+      "correctAnswer": "<ul> or <ol>"
+    },
+    {
+      "question": "What does CSS list-style do?",
+      "options": ["Bolds text", "Adds links", "Changes markers", "Hides list"],
+      "correctAnswer": "Changes markers"
+    },
+    {
+      "question": "Why use <ol> over <ul>?",
+      "options": ["No markers", "Inline styling", "Sequential order", "Random order"],
+      "correctAnswer": "Sequential order"
+    }
+  ]
+}

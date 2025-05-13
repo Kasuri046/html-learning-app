@@ -1,0 +1,47 @@
+{
+    "title": "HTML <thead> Tag",
+    "content": [
+      {
+        "heading": "<thead> Tag",
+        "paragraphs": [
+          "The <thead> tag groups header content in an HTML table.",
+          "Example: <table>\n  <thead>\n    <tr>\n      <th>Month</th>\n      <th>Savings</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n    <tr>\n      <td>February</td>\n      <td>$80</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td>Sum</td>\n      <td>$180</td>\n    </tr>\n  </tfoot>\n</table>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used with <tbody> and <tfoot> to structure tables.",
+          "Enables independent scrolling and printing of header.",
+          "Must contain one or more <tr> tags.",
+          "Placed after <caption>, <colgroup>, and before <tbody>, <tfoot>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled: <html>\n<head>\n<style>\nthead { color: green; }\ntbody { color: blue; }\ntfoot { color: red; }\ntable, th, td { border: 1px solid black; }\n</style>\n</head>\n<body>\n<table>\n  <thead>\n    <tr>\n      <th>Month</th>\n      <th>Savings</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n    <tr>\n      <td>February</td>\n      <td>$80</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td>Sum</td>\n      <td>$180</td>\n    </tr>\n  </tfoot>\n</table>\n</body>\n</html>",
+          "Aligned: <table style=\"width:100%\">\n  <thead style=\"text-align:left\">\n    <tr>\n      <th>Month</th>\n      <th>Savings</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n    <tr>\n      <td>February</td>\n      <td>$80</td>\n    </tr>\n  </tbody>\n</table>",
+          "Vertical align: <table style=\"width:50%;\">\n  <thead style=\"vertical-align:bottom\">\n    <tr style=\"height:100px\">\n      <th>Month</th>\n      <th>Savings</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n    <tr>\n      <td>February</td>\n      <td>$80</td>\n    </tr>\n  </tbody>\n</table>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "thead { display: table-header-group; vertical-align: middle; border-color: inherit; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+{
+    "title": "HTML Colors",
+    "content": [
+        {
+            "heading": "HTML Colors",
+            "paragraphs": [
+                "HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values."
+            ]
+        },
+        {
+            "heading": "Color Names",
+            "paragraphs": [
+                "In HTML, a color can be specified by using a color name. HTML supports 140 standard color names."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Tomato, Orange, DodgerBlue, MediumSeaGreen, Gray, SlateBlue, Violet, LightGray"
+            ]
+        },
+        {
+            "heading": "Background Color",
+            "paragraphs": [
+                "You can set the background color for HTML elements."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"background-color:DodgerBlue;\n \">Hello World</h1>\n<p style=\"background-color:Tomato;\n\">Lorem ipsum...\n</p>"
+            ]
+        },
+        {
+            "heading": "Text Color",
+            "paragraphs": [
+                "You can set the color of text."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"color:Tomato;\n\">Hello World</h1>\n<p style=\"color:DodgerBlue;\n\">Lorem ipsum...</p>\n<p style=\"color:MediumSeaGreen;\n\">Ut wisi enim...</p>"
+            ]
+        },
+        {
+            "heading": "Border Color",
+            "paragraphs": [
+                "You can set the color of borders."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"border:2px solid Tomato;\n\">Hello World</h1>\n<h1 style=\"border:2px solid DodgerBlue;\n\">Hello World</h1>\n<h1 style=\"border:2px solid Violet;\n\">Hello World</h1>"
+            ]
+        },
+        {
+            "heading": "Color Values",
+            "paragraphs": [
+                "In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"background-color:rgb(255, 99, 71);\n\">...</h1><h1 style=\"background-color:#ff6347;\n\">...</h1>\n<h1 style=\"background-color:hsl(9, 100%, 64%);\">...</h1>\n<h1 style=\"background-color:rgba(255, 99, 71, 0.5);\n\">...</h1>\n<h1 style=\"background-color:hsla(9, 100%, 64%, 0.5);\n\">...</h1>"
+            ]
+        }
+    ]
+}

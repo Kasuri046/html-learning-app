@@ -1,0 +1,47 @@
+{
+  "title": "HTML Geolocation API",
+  "content": [
+    {
+      "heading": "Geolocation API",
+      "paragraphs": [
+        "The Geolocation API retrieves the user's location, requiring HTTPS and user permission."
+      ]
+    },
+    {
+      "heading": "Basic Usage",
+      "paragraphs": [
+        "Use navigator.geolocation.getCurrentPosition() to get location:",
+        "<script>\nconst x = document.getElementById('demo');\nfunction getLocation() {\n  if (navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(success, error);\n  } else {\n    x.innerHTML = 'Geolocation not supported.';\n  }\n}\nfunction success(position) {\n  x.innerHTML = 'Latitude: ' + position.coords.latitude + '<br>Longitude: ' + position.coords.longitude;\n}\nfunction error() {\n  alert('No position available.');\n}\n</script>"
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "paragraphs": [
+        "Handle errors with detailed messages:",
+        "<script>\nfunction error(error) {\n  switch(error.code) {\n    case error.PERMISSION_DENIED: x.innerHTML = 'User denied Geolocation.'; break;\n    case error.POSITION_UNAVAILABLE: x.innerHTML = 'Location unavailable.'; break;\n    case error.TIMEOUT: x.innerHTML = 'Request timed out.'; break;\n    case error.UNKNOWN_ERROR: x.innerHTML = 'Unknown error.'; break;\n  }\n}\n</script>"
+      ]
+    },
+    {
+      "heading": "Returned Data",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Property", "Description"],
+            "rows": [
+              ["coords.latitude", "Latitude (always returned)"],
+              ["coords.longitude", "Longitude (always returned)"],
+              ["coords.accuracy", "Position accuracy (always returned)"],
+              ["coords.altitude", "Altitude, if available"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Other Methods",
+      "paragraphs": [
+        "watchPosition() tracks location changes; clearWatch() stops tracking."
+      ]
+    }
+  ]
+}

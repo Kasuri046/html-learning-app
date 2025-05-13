@@ -1,0 +1,43 @@
+{
+    "title": "HTML <footer> Tag",
+    "content": [
+      {
+        "heading": "<footer> Tag",
+        "paragraphs": [
+          "The <footer> tag defines a footer for a document or section.",
+          "Example: <footer><p>Author: Hege Refsnes</p><p><a href=\"mailto:hege@example.com\">hege@example.com</a></p></footer>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains authorship, copyright, contact, sitemap, or related links.",
+          "Multiple <footer> elements allowed."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 5.0, Edge 9.0, Firefox 4.0, Safari 5.0, Opera 11.1."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled footer: <html><head><style>footer { text-align: center; padding: 3px; background-color: DarkSalmon; color: white; }</style></head><body><footer><p>Author: Hege Refsnes<br><a href=\"mailto:hege@example.com\">hege@example.com</a></p></footer></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "footer { display: block; }"
+        ]
+      }
+    ]
+  }

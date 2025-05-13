@@ -1,0 +1,60 @@
+{
+    "title": "HTTP Methods GET vs POST",
+    "content": [
+      {
+        "heading": "HTTP Overview",
+        "paragraphs": [
+          "HTTP enables client-server communication via request-response protocol."
+        ]
+      },
+      {
+        "heading": "Common HTTP Methods",
+        "paragraphs": [
+          "GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, CONNECT, TRACE"
+        ]
+      },
+      {
+        "heading": "GET Method",
+        "paragraphs": [
+          "Requests data, appending query in URL (e.g., /form?name=value):",
+          "- Cached, bookmarked, remains in history",
+          "- Limited length, ASCII-only, less secure",
+          "- Used for data retrieval only"
+        ]
+      },
+      {
+        "heading": "POST Method",
+        "paragraphs": [
+          "Sends data in request body to create/update resources:",
+          "- Not cached, not bookmarked, no history",
+          "- No length limit, supports binary data, more secure"
+        ]
+      },
+      {
+        "heading": "Other Methods",
+        "paragraphs": [
+          "- PUT: Idempotent create/update",
+          "- HEAD: Like GET, no response body",
+          "- DELETE: Removes resource",
+          "- PATCH: Partial resource update",
+          "- OPTIONS: Lists communication options"
+        ]
+      },
+      {
+        "heading": "GET vs POST",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Feature", "GET", "POST"],
+              "rows": [
+                ["Caching", "Can be cached", "Not cached"],
+                ["History", "Remains in history", "Not in history"],
+                ["Data Length", "Limited (2048 chars)", "No limit"],
+                ["Security", "Less secure (URL visible)", "More secure"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

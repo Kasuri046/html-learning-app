@@ -1,0 +1,48 @@
+{
+    "title": "HTML <h1> to <h6> Tags",
+    "content": [
+      {
+        "heading": "<h1> to <h6> Tags",
+        "paragraphs": [
+          "Define HTML headings, <h1> (most important) to <h6> (least).",
+          "Example: <h1>Heading 1</h1><h2>Heading 2</h2>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use one <h1> per page; follow with <h2>, etc., without skipping levels."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled heading: <h1 style=\"background-color:DodgerBlue;\">Hello World</h1>",
+          "Aligned heading: <h1 style=\"text-align:center\">Heading 1</h1>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "h1 { display: block; font-size: 2em; margin: 0.67em 0; font-weight: bold; }",
+          "h2 { display: block; font-size: 1.5em; margin: 0.83em 0; font-weight: bold; }",
+          "h3 { display: block; font-size: 1.17em; margin: 1em 0; font-weight: bold; }",
+          "h4 { display: block; font-size: 1em; margin: 1.33em 0; font-weight: bold; }",
+          "h5 { display: block; font-size: 0.83em; margin: 1.67em 0; font-weight: bold; }",
+          "h6 { display: block; font-size: 0.67em; margin: 2.33em 0; font-weight: bold; }"
+        ]
+      }
+    ]
+  }

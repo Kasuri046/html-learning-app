@@ -1,0 +1,51 @@
+{
+  "title": "HTML <select> Tag",
+  "content": [
+    {
+      "heading": "<select> Tag",
+      "paragraphs": [
+        "The <select> tag creates a drop-down list.",
+        "Example: <label for=\"cars\">Choose a car:</label>\n<select name=\"cars\" id=\"cars\">\n  <option value=\"volvo\">Volvo</option>\n  <option value=\"saab\">Saab</option>\n</select>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used in forms to collect user input.",
+        "Requires name attribute for form submission and id for label association.",
+        "Contains <option> tags for options."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["autofocus", "autofocus", "Focuses on page load"],
+              ["disabled", "disabled", "Disables the list"],
+              ["multiple", "multiple", "Allows multiple selections"],
+              ["name", "name", "Names the list"],
+              ["required", "required", "Requires selection"],
+              ["size", "number", "Visible options count"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "With optgroup: <select name=\"cars\" id=\"cars\">\n  <optgroup label=\"Swedish Cars\">\n    <option value=\"volvo\">Volvo</option>\n  </optgroup>\n</select>"
+      ]
+    }
+  ]
+}

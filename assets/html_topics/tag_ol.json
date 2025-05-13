@@ -1,0 +1,47 @@
+{
+  "title": "HTML <ol> Tag",
+  "content": [
+    {
+      "heading": "<ol> Tag",
+      "paragraphs": [
+        "The <ol> tag defines an ordered list.",
+        "Example: <ol>\n  <li>Coffee</li>\n  <li>Tea</li>\n</ol>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Items are numbered.",
+        "Use <ul> for unordered lists."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["reversed", "reversed", "Reverses order"],
+              ["start", "number", "Starting number"],
+              ["type", "1", "List style"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "ol { display: block; list-style-type: decimal; margin: 1em 0; padding-left: 40px; }"
+      ]
+    }
+  ]
+}

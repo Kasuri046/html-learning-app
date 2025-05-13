@@ -1,0 +1,38 @@
+{
+  "title": "HTML <sub> Tag",
+  "content": [
+    {
+      "heading": "<sub> Tag",
+      "paragraphs": [
+        "The <sub> tag defines subscript text.",
+        "Example: <p>This text contains <sub>subscript</sub> text.</p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Appears below normal line, often smaller.",
+        "Used for chemical formulas like H2O.",
+        "Use <sup> for superscript."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "sub { vertical-align: sub; font-size: smaller; }"
+      ]
+    }
+  ]
+}

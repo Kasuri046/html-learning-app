@@ -1,0 +1,45 @@
+{
+  "title": "HTML <menu> Tag",
+  "content": [
+    {
+      "heading": "<menu> Tag",
+      "paragraphs": [
+        "The <menu> tag defines a list of commands.",
+        "Example: <menu>\n  <li><button onclick=\"copy()\">Copy</button></li>\n  <li><button onclick=\"paste()\">Paste</button></li>\n</menu>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used for context menus or toolbars.",
+        "Contains <li> elements with commands."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Limited support; Firefox supports contextmenu."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["type", "context", "Menu type"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "menu { display: block; }"
+      ]
+    }
+  ]
+}

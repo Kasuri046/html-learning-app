@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Graphics & Canvas",
+  "questions": [
+    {
+      "question": "What does the <canvas> tag do?",
+      "options": ["Styles text", "Displays images", "Draws graphics", "Plays audio"],
+      "correctAnswer": "Draws graphics"
+    },
+    {
+      "question": "What is the <svg> tag for?",
+      "options": ["Form inputs", "Text styling", "Vector graphics", "Bitmap images"],
+      "correctAnswer": "Vector graphics"
+    },
+    {
+      "question": "What does <figure> tag represent?",
+      "options": ["Header", "Footer", "Self-contained content", "Navigation"],
+      "correctAnswer": "Self-contained content"
+    },
+    {
+      "question": "What is <figcaption> used for?",
+      "options": ["Style rule", "Link text", "Figure caption", "Image source"],
+      "correctAnswer": "Figure caption"
+    },
+    {
+      "question": "What does <canvas> require?",
+      "options": ["Meta tags", "HTML only", "JavaScript", "CSS"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "question": "What is SVG’s advantage?",
+      "options": ["Faster loading", "Smaller files", "Scalable graphics", "Fixed size"],
+      "correctAnswer": "Scalable graphics"
+    },
+    {
+      "question": "Where is <figcaption> placed?",
+      "options": ["In <div>", "In <canvas>", "In <figure>", "In <svg>"],
+      "correctAnswer": "In <figure>"
+    },
+    {
+      "question": "What does <canvas> draw?",
+      "options": ["Text only", "Links only", "Pixel graphics", "Vector graphics"],
+      "correctAnswer": "Pixel graphics"
+    },
+    {
+      "question": "Which tag is semantic?",
+      "options": ["<div>", "<svg>", "<canvas>", "<figure>"],
+      "correctAnswer": "<figure>"
+    },
+    {
+      "question": "What improves with <figure>?",
+      "options": ["Security", "Page speed", "Content clarity", "File size"],
+      "correctAnswer": "Content clarity"
+    },
+    {
+      "question": "What is a common <svg> use?",
+      "options": ["Scripts", "Forms", "Icons", "Text"],
+      "correctAnswer": "Icons"
+    },
+    {
+      "question": "What does <canvas> lack by default?",
+      "options": ["Tags", "Style", "Content", "Attributes"],
+      "correctAnswer": "Content"
+    },
+    {
+      "question": "Which tag aids accessibility?",
+      "options": ["<figure>", "<svg>", "<canvas>", "<figcaption>"],
+      "correctAnswer": "<figcaption>"
+    },
+    {
+      "question": "What is <canvas>’s output?",
+      "options": ["Vector", "Text", "Bitmap", "HTML"],
+      "correctAnswer": "Bitmap"
+    },
+    {
+      "question": "Why use <svg> over <canvas>?",
+      "options": ["Faster rendering", "Smaller size", "Scalability", "Pixel precision"],
+      "correctAnswer": "Scalability"
+    }
+  ]
+}

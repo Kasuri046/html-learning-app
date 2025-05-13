@@ -1,0 +1,31 @@
+{
+    "title": "HTML <bdi> Tag",
+    "content": [
+      {
+        "heading": "<bdi> Tag",
+        "paragraphs": [
+          "The <bdi> tag isolates text with different directionality.",
+          "Example: <ul><li>User <bdi>hrefs</bdi>: 60 points</li><li>User <bdi>jdoe</bdi>: 80 points</li><li>User <bdi>إيان</bdi>: 90 points</li></ul>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "BDI: Bi-Directional Isolation.",
+          "Useful for user-generated content with unknown text direction."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 16.0, Edge 79.0, Firefox 10.0, Opera 15.0. Not supported by Safari."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global attributes."
+        ]
+      }
+    ]
+  }

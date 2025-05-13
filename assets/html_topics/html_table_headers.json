@@ -1,0 +1,46 @@
+{
+  "title": "HTML Table Headers",
+  "content": [
+    {
+      "heading": "Table Headers",
+      "paragraphs": [
+        "The <th> element defines table header cells, typically bold and centered."
+      ]
+    },
+    {
+      "heading": "Horizontal Headers",
+      "paragraphs": [
+        "Use <th> for column headers:",
+        "<table>\n  <tr>\n    <th>Firstname</th>\n    <th>Lastname</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>Jill</td>\n    <td>Smith</td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <td>Eve</td>\n    <td>Jackson</td>\n    <td>94</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Vertical Headers",
+      "paragraphs": [
+        "Use <th> for row headers in the first column:",
+        "<table>\n  <tr>\n    <th>Firstname</th>\n    <td>Jill</td>\n    <td>Eve</td>\n  </tr>\n  <tr>\n    <th>Lastname</th>\n    <td>Smith</td>\n    <td>Jackson</td>\n  </tr>\n  <tr>\n    <th>Age</th>\n    <td>94</td>\n    <td>50</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Header Alignment",
+      "paragraphs": [
+        "Left-align headers with CSS:",
+        "th {\n  text-align: left;\n}"
+      ]
+    },
+    {
+      "heading": "Multi-Column Headers",
+      "paragraphs": [
+        "Use colspan for headers spanning multiple columns:",
+        "<table>\n  <tr>\n    <th colspan=\"2\">Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>Jill</td>\n    <td>Smith</td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <td>Eve</td>\n    <td>Jackson</td>\n    <td>94</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Table Caption",
+      "paragraphs": [
+        "Add a caption for the table with <caption>:",
+        "<table style=\"width:100%\">\n  <caption>Monthly savings</caption>\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$50</td>\n  </tr>\n</table>"
+      ]
+    }
+  ]
+}

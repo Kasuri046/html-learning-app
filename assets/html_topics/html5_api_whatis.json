@@ -1,0 +1,30 @@
+{
+    "title": "HTML What is a Web API",
+    "content": [
+      {
+        "heading": "Web API Overview",
+        "paragraphs": [
+          "A Web API (Application Programming Interface) simplifies complex functions and extends browser capabilities."
+        ]
+      },
+      {
+        "heading": "What is a Web API?",
+        "paragraphs": [
+          "APIs provide functions to access application or system features. Web APIs are designed for web applications."
+        ]
+      },
+      {
+        "heading": "HTML5 APIs",
+        "paragraphs": [
+          "Key HTML5 APIs include:",
+          "- Geolocation: Access user location",
+          "- Drag and Drop: Enable drag-and-drop features",
+          "- Web Storage: Store key/value pairs",
+          "- Web Workers: Run scripts in the background",
+          "- Server-Sent Events: Push server updates",
+          "- Canvas: Draw graphics via JavaScript",
+          "Always check browser support and implement robust error handling."
+        ]
+      }
+    ]
+  }

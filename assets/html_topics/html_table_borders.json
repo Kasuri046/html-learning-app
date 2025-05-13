@@ -1,0 +1,46 @@
+{
+  "title": "HTML Table Borders",
+  "content": [
+    {
+      "heading": "Table Borders",
+      "paragraphs": [
+        "CSS border properties style table borders."
+      ]
+    },
+    {
+      "heading": "Basic Borders",
+      "paragraphs": [
+        "Add borders to table, th, and td elements:",
+        "table, th, td {\n  border: 1px solid black;\n}"
+      ]
+    },
+    {
+      "heading": "Collapsed Borders",
+      "paragraphs": [
+        "Use border-collapse to merge borders into a single line:",
+        "table, th, td {\n  border: 1px solid black;\n  border-collapse: collapse;\n}"
+      ]
+    },
+    {
+      "heading": "Styled Borders",
+      "paragraphs": [
+        "Create an invisible border effect with white borders and colored cells:",
+        "table, th, td {\n  border: 1px solid white;\n  border-collapse: collapse;\n}\nth, td {\n  background-color: #96D4D4;\n}"
+      ]
+    },
+    {
+      "heading": "Rounded Borders",
+      "paragraphs": [
+        "Apply rounded corners with border-radius:",
+        "th, td {\n  border: 1px solid black;\n  border-radius: 10px;\n}"
+      ]
+    },
+    {
+      "heading": "Dotted Borders",
+      "paragraphs": [
+        "Use border-style for dotted borders (other styles: dashed, solid, double, etc.):",
+        "th, td {\n  border-style: dotted;\n}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "HTML <progress> Tag",
+  "content": [
+    {
+      "heading": "<progress> Tag",
+      "paragraphs": [
+        "The <progress> tag represents task completion progress.",
+        "Example: <label for=\"file\">Progress:</label>\n<progress id=\"file\" value=\"32\" max=\"100\">32%</progress>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Use with JavaScript; not for gauges (use <meter>).",
+        "Add <label> for accessibility."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 8, Edge 10, Firefox 16, Safari 6, Opera 11."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["value", "number", "Completed amount"],
+              ["max", "number", "Total amount"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "None"
+      ]
+    }
+  ]
+}

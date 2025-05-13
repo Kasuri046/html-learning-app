@@ -1,0 +1,47 @@
+{
+  "title": "HTML <meta> Tag",
+  "content": [
+    {
+      "heading": "<meta> Tag",
+      "paragraphs": [
+        "The <meta> tag defines metadata about an HTML document.",
+        "Example: <head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"description\" content=\"Free tutorials\">\n</head>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used for character sets, descriptions, or viewport settings.",
+        "Placed in <head>."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["charset", "character_set", "Character encoding"],
+              ["name", "application-name", "Metadata name"],
+              ["content", "text", "Metadata value"]
+            ]
+          }
+        },
+        "Supports global attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "None"
+      ]
+    }
+  ]
+}

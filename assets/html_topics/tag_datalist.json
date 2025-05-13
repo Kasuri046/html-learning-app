@@ -1,0 +1,37 @@
+{
+    "title": "HTML <datalist> Tag",
+    "content": [
+      {
+        "heading": "<datalist> Tag",
+        "paragraphs": [
+          "The <datalist> tag provides pre-defined options for an <input> element.",
+          "Example: <label for=\"browser\">Choose your browser:</label><input list=\"browsers\" name=\"browser\" id=\"browser\"><datalist id=\"browsers\"><option value=\"Edge\"><option value=\"Firefox\"><option value=\"Chrome\"></datalist>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Enables autocomplete with a drop-down list.",
+          "The <datalist> id must match the <input> list attribute."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 20.0, Edge 10.0, Firefox 4.0, Safari 12.1, Opera 9.5."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "datalist { display: none; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+  "title": "HTML <sup> Tag",
+  "content": [
+    {
+      "heading": "<sup> Tag",
+      "paragraphs": [
+        "The <sup> tag defines superscript text.",
+        "Example: <p>This text contains <sup>superscript</sup> text.</p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Appears above normal line, often smaller.",
+        "Used for footnotes like WWW[1].",
+        "Use <sub> for subscript."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "sup { vertical-align: super; font-size: smaller; }"
+      ]
+    }
+  ]
+}

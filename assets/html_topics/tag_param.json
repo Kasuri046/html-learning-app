@@ -1,0 +1,45 @@
+{
+  "title": "HTML <param> Tag",
+  "content": [
+    {
+      "heading": "<param> Tag",
+      "paragraphs": [
+        "The <param> tag defines parameters for an <object>.",
+        "Example: <object data=\"horse.wav\">\n  <param name=\"autoplay\" value=\"true\">\n</object>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Sets configuration for embedded objects."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers, but object file formats may vary."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["name", "name", "Parameter name"],
+              ["value", "value", "Parameter value"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "param { display: none; }"
+      ]
+    }
+  ]
+}

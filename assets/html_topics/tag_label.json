@@ -1,0 +1,46 @@
+{
+    "title": "HTML <label> Tag",
+    "content": [
+      {
+        "heading": "<label> Tag",
+        "paragraphs": [
+          "The <label> tag defines a label for form elements.",
+          "Example: <form><input type=\"radio\" id=\"html\" name=\"lang\" value=\"HTML\"><label for=\"html\">HTML</label><br><input type=\"submit\" value=\"Submit\"></form>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Improves accessibility for screen readers and click areas.",
+          "Bind with for attribute or by nesting."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["for", "element_id", "Binds to element’s id"],
+                ["form", "form_id", "Links to a form"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "label { cursor: default; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,43 @@
+{
+    "title": "HTML <hr> Tag",
+    "content": [
+      {
+        "heading": "<hr> Tag",
+        "paragraphs": [
+          "The <hr> tag defines a thematic break.",
+          "Example: <p>HTML content.</p><hr><p>CSS content.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Displayed as a horizontal rule to separate content."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled hr: <hr style=\"width:50%;text-align:left;margin-left:0\">",
+          "Noshaded hr: <hr style=\"height:2px;border-width:0;color:gray;background-color:gray\">"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "hr { display: block; margin: 0.5em auto; border-style: inset; border-width: 1px; }"
+        ]
+      }
+    ]
+  }

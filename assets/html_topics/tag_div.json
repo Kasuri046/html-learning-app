@@ -1,0 +1,38 @@
+{
+    "title": "HTML <div> Tag",
+    "content": [
+      {
+        "heading": "<div> Tag",
+        "paragraphs": [
+          "The <div> tag defines a section or container.",
+          "Example: <html><head><style>.myDiv { border: 5px outset red; background-color: lightblue; text-align: center;}</style></head><body><div class=\"myDiv\"><h2>Heading</h2><p>Text</p></div></body></html>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Styled via CSS or manipulated with JavaScript.",
+          "Can contain any content.",
+          "Default: line breaks before and after."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "div { display: block; }"
+        ]
+      }
+    ]
+  }

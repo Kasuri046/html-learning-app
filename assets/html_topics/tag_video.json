@@ -1,0 +1,56 @@
+{
+    "title": "HTML <video> Tag",
+    "content": [
+      {
+        "heading": "<video> Tag",
+        "paragraphs": [
+          "The <video> tag embeds video content.",
+          "Example: <video controls>\n  <source src=\"movie.mp4\" type=\"video/mp4\">\n  <source src=\"movie.webm\" type=\"video/webm\">\n</video>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Supports MP4, WebM, and Ogg formats.",
+          "Use <source> for multiple formats."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Browser", "MP4", "WebM", "Ogg"],
+              "rows": [
+                ["Edge", "YES", "YES", "YES"],
+                ["Chrome", "YES", "YES", "YES"],
+                ["Firefox", "YES", "YES", "YES"],
+                ["Safari", "YES", "YES", "NO"],
+                ["Opera", "YES", "YES", "YES"]
+              ]
+            }
+          },
+          "Supported since Chrome 4, Edge 9, Firefox 3.5, Safari 3.1, Opera 10.5."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["autoplay", "autoplay", "Plays video automatically"],
+                ["controls", "controls", "Displays video controls"],
+                ["loop", "loop", "Loops the video"],
+                ["muted", "muted", "Mutes audio"],
+                ["src", "URL", "Video file URL"],
+                ["width", "pixels", "Video width"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,51 @@
+{
+  "title": "HTML <li> Tag",
+  "content": [
+    {
+      "heading": "<li> Tag",
+      "paragraphs": [
+        "The <li> tag defines a list item.",
+        "Example: <ul>\n  <li>Coffee</li>\n  <li>Tea</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used in ordered (<ol>) or unordered (<ul>) lists."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["value", "number", "Sets the value of an ordered list item"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Ordered list: <ol>\n  <li>Coffee</li>\n  <li>Tea</li>\n</ol>",
+        "Styled: <ul style=\"list-style-type:square;\">\n  <li>Coffee</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "li { display: list-item; }"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "title": "HTML <basefont> Tag",
+    "content": [
+      {
+        "heading": "<basefont> Tag",
+        "paragraphs": [
+          "The <basefont> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use CSS for text color: <html><head><style>body { color: red;}</style></head><body><h1>Heading</h1><p>Paragraph</p></body></html>",
+          "Use CSS for font-family: <html><head><style>body { font-family: courier, serif;}</style></head><body><h1>Heading</h1><p>Paragraph</p></body></html>",
+          "Use CSS for font-size: <html><head><style>body { font-size: 50px;}</style></head><body><h1>Heading</h1><p>Paragraph</p></body></html>"
+        ]
+      }
+    ]
+  }

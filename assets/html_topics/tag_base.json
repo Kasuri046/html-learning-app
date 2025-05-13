@@ -1,0 +1,45 @@
+{
+    "title": "HTML <base> Tag",
+    "content": [
+      {
+        "heading": "<base> Tag",
+        "paragraphs": [
+          "The <base> tag sets a default URL or target for relative URLs.",
+          "Example: <head><base href=\"https://example.com/\" target=\"_blank\"></head><body><img src=\"images/stickman.gif\" width=\"24\" height=\"39\" alt=\"Stickman\"><a href=\"html/base\">HTML base Tag</a></body>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Requires href or target attribute.",
+          "Only one <base> tag allowed, inside <head>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["href", "URL", "Base URL for relative URLs"],
+                ["target", "_blank _parent _self _top", "Default target for links and forms"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global attributes."
+        ]
+      }
+    ]
+  }

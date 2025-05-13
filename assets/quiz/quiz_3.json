@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Advanced Text Elements",
+  "questions": [
+    {
+      "question": "What does the <mark> tag do?",
+      "options": ["Bolds text", "Italics text", "Highlights text", "Deletes text"],
+      "correctAnswer": "Highlights text"
+    },
+    {
+      "question": "What is the <del> tag used for?",
+      "options": ["Code text", "Quoted text", "Deleted text", "Inserted text"],
+      "correctAnswer": "Deleted text"
+    },
+    {
+      "question": "What does the <ins> tag indicate?",
+      "options": ["Small text", "Deleted text", "Inserted text", "Highlighted text"],
+      "correctAnswer": "Inserted text"
+    },
+    {
+      "question": "What is the <sub> tag for?",
+      "options": ["Bold text", "Strikethrough text", "Subscript text", "Superscript text"],
+      "correctAnswer": "Subscript text"
+    },
+    {
+      "question": "What does the <sup> tag do?",
+      "options": ["Underlined text", "Monospace text", "Superscript text", "Subscript text"],
+      "correctAnswer": "Superscript text"
+    },
+    {
+      "question": "What is the <tt> tag’s purpose?",
+      "options": ["Quoted text", "Bold text", "Teletype text", "Italic text"],
+      "correctAnswer": "Teletype text"
+    },
+    {
+      "question": "What does the <kbd> tag represent?",
+      "options": ["Code snippet", "Deleted text", "Keyboard input", "Highlighted text"],
+      "correctAnswer": "Keyboard input"
+    },
+    {
+      "question": "What is the <code> tag used for?",
+      "options": ["Quoted text", "Small text", "Computer code", "User input"],
+      "correctAnswer": "Computer code"
+    },
+    {
+      "question": "Which tag shows text as edited?",
+      "options": ["<kbd>", "<tt>", "<mark>", "<del>"],
+      "correctAnswer": "<del>"
+    },
+    {
+      "question": "Which tag is semantic for edits?",
+      "options": ["<mark>", "<tt>", "<code>", "<ins>"],
+      "correctAnswer": "<ins>"
+    },
+    {
+      "question": "What is the default <mark> style?",
+      "options": ["Red underline", "Blue text", "Yellow highlight", "Bold text"],
+      "correctAnswer": "Yellow highlight"
+    },
+    {
+      "question": "Which tag is used in formulas?",
+      "options": ["<kbd>", "<mark>", "<sup>", "<del>"],
+      "correctAnswer": "<sup>"
+    },
+    {
+      "question": "What is <tt> deprecated for?",
+      "options": ["JavaScript", "Inline styles", "CSS font-family", "HTML attributes"],
+      "correctAnswer": "CSS font-family"
+    },
+    {
+      "question": "Which tag aids accessibility?",
+      "options": ["<sub>", "<sup>", "<tt>", "<kbd>"],
+      "correctAnswer": "<kbd>"
+    },
+    {
+      "question": "Why use <code> for snippets?",
+      "options": ["Reduces file size", "Improves readability", "Increases speed", "Enhances security"],
+      "correctAnswer": "Improves readability"
+    }
+  ]
+}

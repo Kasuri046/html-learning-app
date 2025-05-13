@@ -1,0 +1,51 @@
+{
+    "title": "HTML <ins> Tag",
+    "content": [
+      {
+        "heading": "<ins> Tag",
+        "paragraphs": [
+          "The <ins> tag marks inserted text, typically underlined.",
+          "Example: <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use with <del> for text changes."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["cite", "URL", "Reason for insertion"],
+                ["datetime", "YYYY-MM-DDThh:mm:ssTZD", "Date and time of insertion"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled ins: <html><head><style>del {background-color: tomato;} ins {background-color: yellow;}</style></head><body><p>My favorite color is <del>blue</del> <ins>red</ins>!</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "ins { text-decoration: underline; }"
+        ]
+      }
+    ]
+  }

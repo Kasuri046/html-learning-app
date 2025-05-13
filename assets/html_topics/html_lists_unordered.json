@@ -1,0 +1,33 @@
+{
+  "title": "HTML Unordered Lists",
+  "content": [
+    {
+      "heading": "Unordered Lists",
+      "paragraphs": [
+        "Unordered lists use <ul> with <li> for items, marked by bullets by default."
+      ]
+    },
+    {
+      "heading": "List Item Markers",
+      "paragraphs": [
+        "The CSS list-style-type property sets marker styles: disc (default), circle, square, or none.",
+        "Example (circle):",
+        "<ul style=\"list-style-type:circle;\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Nested Lists",
+      "paragraphs": [
+        "Unordered lists can be nested within <li> for sub-lists:",
+        "<ul>\n  <li>Coffee</li>\n  <li>Tea\n    <ul>\n      <li>Black tea</li>\n      <li>Green tea</li>\n    </ul>\n  </li>\n  <li>Milk</li>\n</ul>"
+      ]
+    },
+    {
+      "heading": "Horizontal List",
+      "paragraphs": [
+        "Style unordered lists as horizontal navigation menus with CSS:",
+        "<ul style=\"list-style-type:none; margin:0; padding:0; overflow:hidden; background-color:#333333;\">\n  <li style=\"float:left;\"><a href=\"#home\" style=\"display:block; color:white; text-align:center; padding:16px; text-decoration:none;\">Home</a></li>\n  <li style=\"float:left;\"><a href=\"#news\" style=\"display:block; color:white; text-align:center; padding:16px; text-decoration:none;\">News</a></li>\n  <li style=\"float:left;\"><a href=\"#contact\" style=\"display:block; color:white; text-align:center; padding:16px; text-decoration:none;\">Contact</a></li>\n  <li style=\"float:left;\"><a href=\"#about\" style=\"display:block; color:white; text-align:center; padding:16px; text-decoration:none;\">About</a></li>\n</ul>"
+      ]
+    }
+  ]
+}

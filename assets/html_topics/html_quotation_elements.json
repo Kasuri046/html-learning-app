@@ -1,0 +1,53 @@
+{
+  "title": "HTML Quotation Elements",
+  "content": [
+    {
+      "heading": "Quotation and Citation Elements",
+      "paragraphs": [
+        "HTML provides elements for quotations, abbreviations, and contact information."
+      ]
+    },
+    {
+      "heading": "<blockquote> for Quotations",
+      "paragraphs": [
+        "The <blockquote> element defines a quoted section, often indented:",
+        "<p>Here is a quote from WWF's website:</p>\n<blockquote cite=\"http://www.worldwildlife.org/who/index.html\">\nFor 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries.\n</blockquote>"
+      ]
+    },
+    {
+      "heading": "<q> for Short Quotations",
+      "paragraphs": [
+        "The <q> tag marks short quotations with automatic quotation marks:",
+        "<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>"
+      ]
+    },
+    {
+      "heading": "<abbr> for Abbreviations",
+      "paragraphs": [
+        "The <abbr> tag defines abbreviations or acronyms, with a title attribute for hover text:",
+        "<p>The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>"
+      ]
+    },
+    {
+      "heading": "<address> for Contact Information",
+      "paragraphs": [
+        "The <address> tag provides contact details, typically in italics with line breaks:",
+        "<address>\nWritten by John Doe.<br>\nVisit us at:<br>\nExample.com<br>\nBox 564, Disneyland<br>\nUSA\n</address>"
+      ]
+    },
+    {
+      "heading": "<cite> for Work Titles",
+      "paragraphs": [
+        "The <cite> tag denotes creative work titles, usually in italics:",
+        "<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>"
+      ]
+    },
+    {
+      "heading": "<bdo> for Text Direction",
+      "paragraphs": [
+        "The <bdo> tag overrides text direction, e.g., right-to-left:",
+        "<bdo dir=\"rtl\">This text will be written from right to left</bdo>"
+      ]
+    }
+  ]
+}

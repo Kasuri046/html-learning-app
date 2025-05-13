@@ -1,0 +1,43 @@
+{
+    "title": "HTML <aside> Tag",
+    "content": [
+      {
+        "heading": "<aside> Tag",
+        "paragraphs": [
+          "The <aside> tag defines content indirectly related to the main content.",
+          "Example: <p>My family and I visited Epcot this summer. The weather was nice!</p><aside><h4>Epcot Center</h4><p>Epcot is a theme park at Walt Disney World with attractions and events.</p></aside>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Often used as a sidebar.",
+          "Style with CSS for visual distinction."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 6.0, Edge 9.0, Firefox 4.0, Safari 5.0, Opera 11.1."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled aside: <html><head><style>aside { width: 30%; padding-left: 15px; margin-left: 15px; float: right; font-style: italic; background-color: lightgray;}</style></head><body><h1>The aside element</h1><p>My family and I visited Epcot this summer.</p><aside><p>Epcot is a theme park at Walt Disney World.</p></aside></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "aside { display: block; }"
+        ]
+      }
+    ]
+  }

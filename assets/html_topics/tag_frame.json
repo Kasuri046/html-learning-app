@@ -1,0 +1,17 @@
+{
+    "title": "HTML <frame> Tag",
+    "content": [
+      {
+        "heading": "<frame> Tag",
+        "paragraphs": [
+          "The <frame> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use <iframe>: <iframe src=\"https://example.com\"></iframe>"
+        ]
+      }
+    ]
+  }

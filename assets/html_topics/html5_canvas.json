@@ -1,0 +1,40 @@
+{
+  "title": "HTML Canvas",
+  "content": [
+    {
+      "heading": "Canvas Overview",
+      "paragraphs": [
+        "The <canvas> element creates a drawing area for JavaScript-rendered graphics like shapes and images."
+      ]
+    },
+    {
+      "heading": "Basic Canvas",
+      "paragraphs": [
+        "<canvas id=\"myCanvas\" width=\"200\" height=\"100\" style=\"border:1px solid #000000;\"></canvas>"
+      ]
+    },
+    {
+      "heading": "Drawing Examples",
+      "paragraphs": [
+        "- Line: <script>var c = document.getElementById(\"myCanvas\"); var ctx = c.getContext(\"2d\"); ctx.moveTo(0, 0); ctx.lineTo(200, 100); ctx.stroke();</script>",
+        "- Circle: <script>var c = document.getElementById(\"myCanvas\"); var ctx = c.getContext(\"2d\"); ctx.beginPath(); ctx.arc(95, 50, 40, 0, 2 * Math.PI); ctx.stroke();</script>",
+        "- Text: <script>var c = document.getElementById(\"myCanvas\"); var ctx = c.getContext(\"2d\"); ctx.font = \"30px Arial\"; ctx.fillText(\"Hello World\", 10, 50);</script>",
+        "- Linear Gradient: <script>var c = document.getElementById(\"myCanvas\"); var ctx = c.getContext(\"2d\"); var grd = ctx.createLinearGradient(0, 0, 200, 0); grd.addColorStop(0, \"red\"); grd.addColorStop(1, \"white\"); ctx.fillStyle = grd; ctx.fillRect(10, 10, 150, 80);</script>"
+      ]
+    },
+    {
+      "heading": "Canvas vs SVG",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["SVG", "Canvas"],
+            "rows": [
+              ["Resolution independent, supports event handlers, good for text", "Resolution dependent, no event handlers, ideal for games"]
+            ]
+          }
+        },
+        "SVG uses XML and retains objects; Canvas draws pixels and forgets them."
+      ]
+    }
+  ]
+}

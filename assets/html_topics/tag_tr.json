@@ -1,0 +1,47 @@
+{
+    "title": "HTML <tr> Tag",
+    "content": [
+      {
+        "heading": "<tr> Tag",
+        "paragraphs": [
+          "The <tr> tag defines a row in an HTML table.",
+          "Example: <table>\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$80</td>\n  </tr>\n</table>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains one or more <th> or <td> elements."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Aligned: <table style=\"width:100%\">\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr style=\"text-align:right\">\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Background color: <table>\n  <tr style=\"background-color:#FF0000\">\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Vertical align: <table style=\"height:200px\">\n  <tr style=\"vertical-align:top\">\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr style=\"vertical-align:bottom\">\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Headers: <table>\n  <tr>\n    <th>Name</th>\n    <th>Email</th>\n    <th>Phone</th>\n  </tr>\n  <tr>\n    <td>John Doe</td>\n    <td>john.doe@example.com</td>\n    <td>123-45-678</td>\n  </tr>\n</table>",
+          "Caption: <table>\n  <caption>Monthly savings</caption>\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$80</td>\n  </tr>\n</table>",
+          "Spanning: <table>\n  <tr>\n    <th>Name</th>\n    <th>Email</th>\n    <th colspan=\"2\">Phone</th>\n  </tr>\n  <tr>\n    <td>John Doe</td>\n    <td>john.doe@example.com</td>\n    <td>123-45-678</td>\n    <td>212-00-546</td>\n  </tr>\n</table>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "tr { display: table-row; vertical-align: inherit; border-color: inherit; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,107 @@
+{
+    "title": "HTML Attributes",
+    "content": [
+        {
+            "heading": "HTML Attributes",
+            "paragraphs": [
+                "All HTML elements can have attributes.\n\nAttributes provide additional information about elements.\n\nAttributes are always specified in the start tag.\n\nAttributes usually come in name/value pairs like: name=\"value\"."
+            ]
+        },
+        {
+            "heading": "The src Attribute",
+            "paragraphs": [
+                "The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"path_to_image.jpg\" alt=\"Description of image\">"
+            ]
+        },
+        {
+            "heading": "The width and height Attributes",
+            "paragraphs": [
+                "The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"path_to_image.jpg\" width=\"500\" height=\"600\">"
+            ]
+        },
+        {
+            "heading": "The alt Attribute",
+            "paragraphs": [
+                "The required alt attribute for the <img> tag specifies an alternate text for an image, if the image cannot be displayed. This can be due to a slow connection or an error in the src attribute."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"non_existent_image.jpg\" alt=\"Description of image that cannot be displayed\">"
+            ]
+        },
+        {
+            "heading": "The style Attribute",
+            "paragraphs": [
+                "The style attribute is used to add styles to an element, such as color, font, size, and more."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p style=\"color:red;\">This is a red paragraph.\n</p>"
+            ]
+        },
+        {
+            "heading": "The lang Attribute",
+            "paragraphs": [
+                "You should always include the lang attribute inside the <html> tag, to declare the language of the Web page."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html lang=\"en\">\n<body>...</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "The title Attribute",
+            "paragraphs": [
+                "The title attribute defines some extra information about an element."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p title=\"I'm a tooltip\">\nThis is a paragraph.\n</p>"
+            ]
+        },
+        {
+            "heading": "We Suggest: Always Use Lowercase Attributes",
+            "paragraphs": [
+                "The HTML standard does not require lowercase attribute names. However, it is recommended to use lowercase attributes in HTML."
+            ]
+        },
+        {
+            "heading": "We Suggest: Always Quote Attribute Values",
+            "paragraphs": [
+                "The HTML standard does not require quotes around attribute values. However, it is recommended to use quotes in HTML."
+            ]
+        },
+        {
+            "heading": "Single or Double Quotes?",
+            "paragraphs": [
+                "Double quotes around attribute values are the most common in HTML, but single quotes can also be used."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p title='John \"ShotGun\" Nelson'>\n</p>"
+            ]
+        }
+    ]
+}

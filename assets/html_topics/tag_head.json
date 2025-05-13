@@ -1,0 +1,44 @@
+{
+    "title": "HTML <head> Tag",
+    "content": [
+      {
+        "heading": "<head> Tag",
+        "paragraphs": [
+          "The <head> tag contains metadata about the document.",
+          "Example: <!DOCTYPE html><html lang=\"en\"><head><title>Document</title></head><body><h1>Heading</h1><p>Paragraph</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Includes title, character set, styles, scripts.",
+          "Placed between <html> and <body>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Base tag: <html><head><base href=\"https://example.com\" target=\"_blank\"></head><body><img src=\"stickman.gif\" alt=\"Stickman\"></body></html>",
+          "Style tag: <html><head><style>h1 {color:red;} p {color:blue;}</style></head><body><h1>Heading</h1><p>Paragraph</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "head { display: none; }"
+        ]
+      }
+    ]
+  }

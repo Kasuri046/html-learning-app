@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Divs & Spans",
+  "questions": [
+    {
+      "question": "What is the <div> tag used for?",
+      "options": ["Add images", "Create links", "Group elements", "Style text"],
+      "correctAnswer": "Group elements"
+    },
+    {
+      "question": "What does the <span> tag do?",
+      "options": ["Create lists", "Add scripts", "Inline styling", "Block styling"],
+      "correctAnswer": "Inline styling"
+    },
+    {
+      "question": "Is <div> a block or inline element?",
+      "options": ["Inline", "Neither", "Block", "Both"],
+      "correctAnswer": "Block"
+    },
+    {
+      "question": "Is <span> a block or inline element?",
+      "options": ["Block", "Both", "Inline", "Neither"],
+      "correctAnswer": "Inline"
+    },
+    {
+      "question": "What is the class attribute for?",
+      "options": ["Inline script", "Meta data", "Group styling", "Unique ID"],
+      "correctAnswer": "Group styling"
+    },
+    {
+      "question": "What does the id attribute do?",
+      "options": ["Add links", "Hide content", "Unique identifier", "Group styling"],
+      "correctAnswer": "Unique identifier"
+    },
+    {
+      "question": "What is the <style> tag for?",
+      "options": ["JavaScript", "HTML structure", "CSS styling", "Metadata"],
+      "correctAnswer": "CSS styling"
+    },
+    {
+      "question": "Which tag is used for layout?",
+      "options": ["<style>", "<class>", "<div>", "<span>"],
+      "correctAnswer": "<div>"
+    },
+    {
+      "question": "Which tag styles small text portions?",
+      "options": ["<style>", "<id>", "<span>", "<div>"],
+      "correctAnswer": "<span>"
+    },
+    {
+      "question": "Can <div> contain other <div>s?",
+      "options": ["No", "Only inline", "Yes", "Only block"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "question": "What is a common <div> use?",
+      "options": ["Inline text", "Scripts", "Page sections", "Images"],
+      "correctAnswer": "Page sections"
+    },
+    {
+      "question": "Why use id over class?",
+      "options": ["Smaller size", "Faster rendering", "Unique elements", "Multiple elements"],
+      "correctAnswer": "Unique elements"
+    },
+    {
+      "question": "Where is <style> placed?",
+      "options": ["In <body>", "In <div>", "In <head>", "In <span>"],
+      "correctAnswer": "In <head>"
+    },
+    {
+      "question": "What does CSS target in <div>?",
+      "options": ["Content only", "Scripts", "Class or ID", "Tag name only"],
+      "correctAnswer": "Class or ID"
+    },
+    {
+      "question": "Why use <span> for text?",
+      "options": ["Block layout", "Navigation", "Inline styling", "Metadata"],
+      "correctAnswer": "Inline styling"
+    }
+  ]
+}

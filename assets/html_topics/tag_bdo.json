@@ -1,0 +1,49 @@
+{
+    "title": "HTML <bdo> Tag",
+    "content": [
+      {
+        "heading": "<bdo> Tag",
+        "paragraphs": [
+          "The <bdo> tag overrides text direction.",
+          "Example: <bdo dir=\"rtl\">This text will go right-to-left.</bdo>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "BDO: Bi-Directional Override."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["dir", "ltr rtl", "Text direction (required)"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "bdo { unicode-bidi: bidi-override; }"
+        ]
+      }
+    ]
+  }

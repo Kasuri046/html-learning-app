@@ -1,0 +1,31 @@
+{
+  "title": "HTML <ruby> Tag",
+  "content": [
+    {
+      "heading": "<ruby> Tag",
+      "paragraphs": [
+        "The <ruby> tag specifies a ruby annotation.",
+        "Example: <ruby>漢<rt>ㄏㄢˋ</rt></ruby>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used for pronunciation or meaning, common in Japanese.",
+        "Contains <rt> and optional <rp> for non-supporting browsers."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 5, Edge 5.5, Firefox 38, Safari 5, Opera 15."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global attributes."
+      ]
+    }
+  ]
+}

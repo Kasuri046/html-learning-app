@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Audio & Video",
+  "questions": [
+    {
+      "question": "What does the <audio> tag do?",
+      "options": ["Displays images", "Styles text", "Plays audio", "Adds links"],
+      "correctAnswer": "Plays audio"
+    },
+    {
+      "question": "What is the <video> tag for?",
+      "options": ["Displays images", "Plays video", "Creates forms", "Plays audio"],
+      "correctAnswer": "Plays video"
+    },
+    {
+      "question": "Which tag specifies media sources?",
+      "options": ["<audio>", "<video>", "<source>", "<track>"],
+      "correctAnswer": "<source>"
+    },
+    {
+      "question": "What does the <track> tag provide?",
+      "options": ["Video source", "Image source", "Subtitles", "Audio source"],
+      "correctAnswer": "Subtitles"
+    },
+    {
+      "question": "What attribute enables auto-play?",
+      "options": ["loop", "controls", "src", "autoplay"],
+      "correctAnswer": "autoplay"
+    },
+    {
+      "question": "What does the controls attribute do?",
+      "options": ["Hides player", "Mutes media", "Shows player controls", "Loops media"],
+      "correctAnswer": "Shows player controls"
+    },
+    {
+      "question": "Which is a common audio format?",
+      "options": ["PNG", "HTML", "MP3", "CSS"],
+      "correctAnswer": "MP3"
+    },
+    {
+      "question": "Which is a common video format?",
+      "options": ["JS", "XML", "MP4", "JPG"],
+      "correctAnswer": "MP4"
+    },
+    {
+      "question": "What does the loop attribute do?",
+      "options": ["Pauses media", "Hides controls", "Repeats media", "Mutes media"],
+      "correctAnswer": "Repeats media"
+    },
+    {
+      "question": "Where is <source> placed?",
+      "options": ["In <img>", "In <script>", "In <audio> or <video>", "In <div>"],
+      "correctAnswer": "In <audio> or <video>"
+    },
+    {
+      "question": "What improves with <track>?",
+      "options": ["Page speed", "Image quality", "Accessibility", "File size"],
+      "correctAnswer": "Accessibility"
+    },
+    {
+      "question": "What does muted attribute do?",
+      "options": ["Hides controls", "Loops media", "Mutes media", "Plays media"],
+      "correctAnswer": "Mutes media"
+    },
+    {
+      "question": "Why use multiple <source> tags?",
+      "options": ["Smaller size", "Faster loading", "Browser compatibility", "Single format"],
+      "correctAnswer": "Browser compatibility"
+    },
+    {
+      "question": "What is HTML media?",
+      "options": ["Images only", "Scripts only", "Audio and video", "Text only"],
+      "correctAnswer": "Audio and video"
+    },
+    {
+      "question": "Which tag lacks a closing tag?",
+      "options": ["<audio>", "<video>", "<track>", "<source>"],
+      "correctAnswer": "<source>"
+    }
+  ]
+}

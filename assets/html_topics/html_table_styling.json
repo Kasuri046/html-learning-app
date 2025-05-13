@@ -1,0 +1,46 @@
+{
+  "title": "HTML Table Styling",
+  "content": [
+    {
+      "heading": "Table Styling",
+      "paragraphs": [
+        "CSS enhances table appearance with patterns and effects."
+      ]
+    },
+    {
+      "heading": "Zebra Stripes",
+      "paragraphs": [
+        "Style alternate rows for a zebra effect:",
+        "tr:nth-child(even) {\n  background-color: #D6EEEE;\n}"
+      ]
+    },
+    {
+      "heading": "Vertical Zebra Stripes",
+      "paragraphs": [
+        "Style alternate columns:",
+        "td:nth-child(even), th:nth-child(even) {\n  background-color: #D6EEEE;\n}"
+      ]
+    },
+    {
+      "heading": "Combined Zebra Stripes",
+      "paragraphs": [
+        "Combine row and column stripes with transparent colors:",
+        "tr:nth-child(even) {\n  background-color: rgba(150, 212, 212, 0.4);\n}\nth:nth-child(even), td:nth-child(even) {\n  background-color: rgba(150, 212, 212, 0.4);\n}"
+      ]
+    },
+    {
+      "heading": "Horizontal Dividers",
+      "paragraphs": [
+        "Add bottom borders for horizontal dividers:",
+        "tr {\n  border-bottom: 1px solid #ddd;\n}"
+      ]
+    },
+    {
+      "heading": "Hover Effect",
+      "paragraphs": [
+        "Highlight rows on hover:",
+        "tr:hover {\n  background-color: #f5f5f5;\n}"
+      ]
+    }
+  ]
+}

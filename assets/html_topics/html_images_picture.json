@@ -1,0 +1,51 @@
+{
+    "title": "HTML Picture Element",
+    "content": [
+      {
+        "heading": "HTML <picture> Element",
+        "paragraphs": [
+          "The HTML <picture> element allows you to display different images based on the device or screen size."
+        ]
+      },
+      {
+        "heading": "Why Use <picture>?",
+        "paragraphs": [
+          "The <picture> element gives web developers more flexibility when specifying image sources. It can contain multiple <source> elements, each pointing to different images via the srcset attribute.",
+          "The browser chooses the image that best fits the current screen size or device based on the media attribute of each <source>."
+        ]
+      },
+      {
+        "heading": "Example: Responsive Image",
+        "paragraphs": [
+          "<picture>",
+          "  <source media=\"(min-width: 650px)\" srcset=\"img_food.jpg\">",
+          "  <source media=\"(min-width: 465px)\" srcset=\"img_car.jpg\">",
+          "  <img src=\"img_girl.jpg\" alt=\"Default image\">",
+          "</picture>"
+        ]
+      },
+      {
+        "heading": "Use Case: Bandwidth Optimization",
+        "paragraphs": [
+          "Using <picture> allows small devices to load smaller image files, saving bandwidth. The browser loads the first <source> that matches the current device conditions and skips the rest."
+        ]
+      },
+      {
+        "heading": "Use Case: Format Support",
+        "paragraphs": [
+          "Some devices or browsers may not support all image formats. The <picture> element allows you to specify multiple formats, and the browser will use the first supported format."
+        ]
+      },
+      {
+        "heading": "Example: Format Fallback",
+        "paragraphs": [
+          "<picture>",
+          "  <source srcset=\"img_avatar.png\">",
+          "  <source srcset=\"img_girl.jpg\">",
+          "  <img src=\"img_beatles.gif\" alt=\"Beatles\" style=\"width:auto;\">",
+          "</picture>"
+        ]
+      }
+    ]
+  }
+  

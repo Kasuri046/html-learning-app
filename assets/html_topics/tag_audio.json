@@ -1,0 +1,51 @@
+{
+    "title": "HTML <audio> Tag",
+    "content": [
+      {
+        "heading": "<audio> Tag",
+        "paragraphs": [
+          "The <audio> tag embeds sound content like music.",
+          "Example: <audio controls><source src=\"audio.mp3\" type=\"audio/mpeg\">Your browser does not support audio.</audio>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains <source> tags for multiple audio formats (MP3, WAV, OGG).",
+          "Text between <audio> tags displays if unsupported.",
+          "Supported formats: MP3, WAV, OGG."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 4.0, Edge 9.0, Firefox 3.5, Safari 4.0, Opera 11.5.",
+          "Format support: Chrome (MP3, WAV, OGG), Edge (MP3, WAV/Edge 79, OGG/Edge 79), Firefox (MP3, WAV, OGG), Safari (MP3, WAV), Opera (MP3, WAV, OGG)."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["autoplay", "autoplay", "Plays audio automatically"],
+                ["controls", "controls", "Shows play/pause controls"],
+                ["loop", "loop", "Restarts audio when finished"],
+                ["muted", "muted", "Mutes audio output"],
+                ["preload", "auto metadata none", "Controls audio loading"],
+                ["src", "URL", "Audio file URL"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

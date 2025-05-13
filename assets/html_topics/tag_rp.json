@@ -1,0 +1,30 @@
+{
+  "title": "HTML <rp> Tag",
+  "content": [
+    {
+      "heading": "<rp> Tag",
+      "paragraphs": [
+        "The <rp> tag provides parentheses for ruby text in non-supporting browsers.",
+        "Example: <ruby>漢<rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp></ruby>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used with <ruby> and <rt> for fallback in ruby annotations."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 5, Edge 5.5, Firefox 38, Safari 5, Opera 15."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    }
+  ]
+}

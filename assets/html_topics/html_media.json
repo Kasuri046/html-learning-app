@@ -1,0 +1,23 @@
+{
+    "title": "HTML Multimedia",
+    "content": [
+      {
+        "heading": "Multimedia Overview",
+        "paragraphs": [
+          "Web pages incorporate multimedia like images, audio, and video for enhanced user experience."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Early browsers supported only text; modern browsers handle colors, fonts, images, and multimedia."
+        ]
+      },
+      {
+        "heading": "Multimedia Formats",
+        "paragraphs": [
+          "Multimedia files use extensions like .wav, .mp3, .mp4, .mpg, .wmv, and .avi to indicate format."
+        ]
+      }
+    ]
+  }

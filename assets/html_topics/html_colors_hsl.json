@@ -1,0 +1,62 @@
+{
+    "title": "HTML HSL and HSLA Colors",
+    "content": [
+        {
+            "heading": "HTML HSL and HSLA Colors",
+            "paragraphs": [
+                "HSL stands for hue, saturation, and lightness. HSLA color values are an extension of HSL that includes an Alpha channel for opacity."
+            ]
+        },
+        {
+            "heading": "HSL Color Values",
+            "paragraphs": [
+                "In HTML, a color can be specified using HSL in the form: hsl(hue, saturation, lightness).",
+                "Hue is a degree on the color wheel from 0 to 360: 0 is red, 120 is green, and 240 is blue.",
+                "Saturation is a percentage; 0% means gray, and 100% is the full color.",
+                "Lightness is also a percentage; 0% is black, and 100% is white."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "hsl(0, 100%, 50%), hsl(240, 100%, 50%),\n hsl(147, 50%, 47%),\n hsl(300, 76%, 72%),\n hsl(39, 100%, 50%), \nhsl(248, 53%, 58%)"
+            ]
+        },
+        {
+            "heading": "Saturation",
+            "paragraphs": [
+                "Saturation describes the intensity of a color: 100% is pure color, 50% is half gray, and 0% is completely gray."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "hsl(0, 100%, 50%),\n hsl(0, 80%, 50%),\n hsl(0, 60%, 50%), \nhsl(0, 40%, 50%),\n hsl(0, 20%, 50%), \nhsl(0, 0%, 50%)"
+            ]
+        },
+        {
+            "heading": "Lightness",
+            "paragraphs": [
+                "Lightness indicates how much light to give the color: 0% is black, 50% is normal, and 100% is white."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "hsl(0, 100%, 0%),\n hsl(0, 100%, 25%), \nhsl(0, 100%, 50%), \nhsl(0, 100%, 75%), \nhsl(0, 100%, 90%), \nhsl(0, 100%, 100%)"
+            ]
+        },
+        {
+            "heading": "Shades of Gray",
+            "paragraphs": [
+                "Shades of gray are defined by setting hue and saturation to 0, adjusting lightness from 0% to 100%."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "hsl(0, 0%, 20%), -\nhsl(0, 0%, 30%), \nhsl(0, 0%, 40%), \nhsl(0, 0%, 60%), \nhsl(0, 0%, 70%), \nhsl(0, 0%, 90%)"
+            ]
+        }
+    ]
+}

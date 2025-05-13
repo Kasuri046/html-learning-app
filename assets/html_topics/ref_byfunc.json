@@ -1,0 +1,157 @@
+{
+    "title": "HTML Reference",
+    "content": [
+      {
+        "heading": "Basic HTML",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<!DOCTYPE>", "Defines document type"],
+                ["<html>", "Defines HTML document"],
+                ["<head>", "Contains metadata"],
+                ["<title>", "Sets document title"],
+                ["<body>", "Defines document body"],
+                ["<h1> to <h6>", "HTML headings"],
+                ["<p>", "Paragraph"],
+                ["<br>", "Line break"],
+                ["<hr>", "Thematic break"],
+                ["<!--...-->", "Comment"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Formatting",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<abbr>", "Abbreviation or acronym"],
+                ["<b>", "Bold text"],
+                ["<code>", "Computer code"],
+                ["<em>", "Emphasized text"],
+                ["<i>", "Italic text"],
+                ["<mark>", "Highlighted text"],
+                ["<strong>", "Important text"],
+                ["<sub>", "Subscript"],
+                ["<sup>", "Superscript"],
+                ["<small>", "Smaller text"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Forms and Input",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<form>", "HTML form"],
+                ["<input>", "Input control"],
+                ["<textarea>", "Multiline text area"],
+                ["<button>", "Clickable button"],
+                ["<select>", "Drop-down list"],
+                ["<label>", "Input label"],
+                ["<fieldset>", "Groups form elements"],
+                ["<datalist>", "Pre-defined input options"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Images",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<img>", "Image"],
+                ["<canvas>", "Script-drawn graphics"],
+                ["<figure>", "Self-contained content"],
+                ["<figcaption>", "Figure caption"],
+                ["<svg>", "SVG graphics container"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Links",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<a>", "Hyperlink"],
+                ["<link>", "Links external resource"],
+                ["<nav>", "Navigation links"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Lists",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<ul>", "Unordered list"],
+                ["<ol>", "Ordered list"],
+                ["<li>", "List item"],
+                ["<dl>", "Description list"],
+                ["<dt>", "Description term"],
+                ["<dd>", "Description details"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Tables",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<table>", "Table"],
+                ["<tr>", "Table row"],
+                ["<td>", "Table cell"],
+                ["<th>", "Table header"],
+                ["<thead>", "Table header group"],
+                ["<tbody>", "Table body group"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Semantics",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Tag", "Description"],
+              "rows": [
+                ["<header>", "Document/section header"],
+                ["<footer>", "Document/section footer"],
+                ["<main>", "Main content"],
+                ["<section>", "Document section"],
+                ["<article>", "Independent article"],
+                ["<aside>", "Sidebar content"],
+                ["<details>", "Collapsible details"],
+                ["<summary>", "Details heading"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

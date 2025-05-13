@@ -1,0 +1,18 @@
+{
+  "title": "HTML Responsive Web Design",
+  "content": [
+    {
+      "heading": "Responsive Web Design",
+      "paragraphs": [
+        "Responsive web design ensures web pages adapt to all devices and screen sizes."
+      ]
+    },
+    {
+      "heading": "Viewport Setting",
+      "paragraphs": [
+        "Add the <meta> viewport tag to control page scaling:",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+      ]
+    }
+  ]
+}

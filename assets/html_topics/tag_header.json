@@ -1,0 +1,43 @@
+{
+    "title": "HTML <header> Tag",
+    "content": [
+      {
+        "heading": "<header> Tag",
+        "paragraphs": [
+          "The <header> tag contains introductory or navigational content.",
+          "Example: <header><h1>Main heading</h1><p>Posted by John Doe</p></header>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Includes headings, logos, or authorship.",
+          "Cannot be inside <footer>, <address>, or another <header>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 5.0, Edge 9.0, Firefox 4.0, Safari 5.0, Opera 11.1."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Article header: <article><header><h1>Heading</h1><p>Posted by John Doe</p></header><p>Content...</p></article>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "header { display: block; }"
+        ]
+      }
+    ]
+  }

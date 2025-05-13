@@ -1,0 +1,62 @@
+{
+    "title": "HTML <a> Tag",
+    "content": [
+      {
+        "heading": "<a> Tag",
+        "paragraphs": [
+          "The <a> tag creates a hyperlink to another page or resource.",
+          "Example: <a href=\"https://example.com\">Visit Example</a>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "The href attribute specifies the link's destination.",
+          "Default link styles: unvisited (blue, underlined), visited (purple, underlined), active (red, underlined).",
+          "Without href, <a> acts as a placeholder.",
+          "Use CSS to style links."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["href", "URL", "Link destination"],
+                ["target", "_blank _parent _self _top", "Where to open the link"],
+                ["download", "filename", "Prompts download on click"],
+                ["rel", "nofollow noreferrer", "Relationship to linked document"],
+                ["hreflang", "language_code", "Language of linked document"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Image link: <a href=\"https://example.com\"><img src=\"logo.png\" alt=\"Logo\" width=\"100\" height=\"100\"></a>",
+          "New window: <a href=\"https://example.com\" target=\"_blank\">Open Example</a>",
+          "Email: <a href=\"mailto:info@example.com\">Email Us</a>",
+          "Phone: <a href=\"tel:+1234567890\">Call Us</a>",
+          "Section link: <a href=\"#section1\">Go to Section 1</a>",
+          "JavaScript: <a href=\"javascript:alert('Hello!');\">Run Script</a>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "a:link, a:visited { color: (internal); text-decoration: underline; cursor: auto; }",
+          "a:link:active, a:visited:active { color: (internal); }"
+        ]
+      }
+    ]
+  }

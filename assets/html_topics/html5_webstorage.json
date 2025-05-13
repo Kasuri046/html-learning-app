@@ -1,0 +1,38 @@
+{
+  "title": "HTML Web Storage API",
+  "content": [
+    {
+      "heading": "Web Storage Overview",
+      "paragraphs": [
+        "Web Storage API stores data locally, offering ≥5MB capacity and better security than cookies."
+      ]
+    },
+    {
+      "heading": "Storage Types",
+      "paragraphs": [
+        "- localStorage: Persistent data, no expiration",
+        "- sessionStorage: Data for one session, cleared on tab close"
+      ]
+    },
+    {
+      "heading": "Basic Usage",
+      "paragraphs": [
+        "Test support and store/retrieve data:",
+        "<script>\nconst x = document.getElementById(\"result\");\nif (typeof(Storage) !== \"undefined\") {\n  localStorage.setItem(\"lastname\", \"Smith\");\n  x.innerHTML = localStorage.getItem(\"lastname\");\n} else {\n  x.innerHTML = \"No Web Storage support.\";\n}\n</script>"
+      ]
+    },
+    {
+      "heading": "Click Counter Example",
+      "paragraphs": [
+        "Track clicks with localStorage:",
+        "<script>\nfunction clickCounter() {\n  const x = document.getElementById(\"result\");\n  if (typeof(Storage) !== \"undefined\") {\n    localStorage.clickcount = localStorage.clickcount ? Number(localStorage.clickcount) + 1 : 1;\n    x.innerHTML = \"Clicked \" + localStorage.clickcount + \" time(s)!\";\n  } else {\n    x.innerHTML = \"No Web Storage support.\";\n  }\n}\n</script>"
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by Chrome 4.0, IE 8.0, Firefox 3.5, Safari 4.0, Opera 11.5."
+      ]
+    }
+  ]
+}

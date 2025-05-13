@@ -1,0 +1,60 @@
+{
+    "title": "HTML Comments",
+    "content": [
+        {
+            "heading": "HTML Comments",
+            "paragraphs": [
+                "HTML comments are not displayed in the browser, but they can help document your HTML source code."
+            ]
+        },
+        {
+            "heading": "HTML Comment Tag",
+            "paragraphs": [
+                "You can add comments to your HTML source by using the following syntax: &lt;!-- Write your comments here --&gt;.",
+                "Notice that there is an exclamation point (!) in the start tag, but not in the end tag."
+            ]
+        },
+        {
+            "heading": "Add Comments",
+            "paragraphs": [
+                "With comments, you can place notifications and reminders in your HTML code:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!-- This is a comment -->\n<p>This is a paragraph.</p>\n<!-- Remember to add more information here -->"
+            ]
+        },
+        {
+            "heading": "Hide Content",
+            "paragraphs": [
+                "Comments can be used to hide content, which can be helpful if you need to temporarily remove it."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>This is a paragraph.</p>\n<!-- <p>This is another paragraph</p> -->\n<p>This is a paragraph too.</p>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>This is a paragraph.</p>\n<!--<p>Look at this cool image:</p>\n<img border=\"0\" src=\"pic_trulli.jpg\" alt=\"Trulli\">-->\n<p>This is a paragraph too.</p>"
+            ]
+        },
+        {
+            "heading": "Hide Inline Content",
+            "paragraphs": [
+                "Comments can also hide parts in the middle of the HTML code."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>This &lt;!-- great text --&gt; is a paragraph.</p>"
+            ]
+        }
+    ]
+}

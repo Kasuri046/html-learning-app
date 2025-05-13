@@ -1,0 +1,49 @@
+{
+  "title": "HTML Links - Hyperlinks",
+  "content": [
+    {
+      "heading": "HTML Links",
+      "paragraphs": [
+        "Hyperlinks enable navigation across web pages, appearing on most websites."
+      ]
+    },
+    {
+      "heading": "Link Syntax",
+      "paragraphs": [
+        "The <a> tag creates a hyperlink with the href attribute specifying the destination: <a href=\"https://example.com\">Visit Example!</a>",
+        "Links are blue (unvisited), purple (visited), or red (active) by default and underlined. CSS can customize their look."
+      ]
+    },
+    {
+      "heading": "Target Attribute",
+      "paragraphs": [
+        "The target attribute controls where the linked document opens:",
+        "_self - Same window (default).",
+        "_blank - New window or tab.",
+        "_parent - Parent frame.",
+        "_top - Full window body.",
+        "Example: <a href=\"https://example.com\" target=\"_blank\">Visit Example!</a>"
+      ]
+    },
+    {
+      "heading": "Absolute vs. Relative URLs",
+      "paragraphs": [
+        "Absolute URLs use full web addresses; relative URLs link within the same site:",
+        "<h2>Absolute URLs</h2>\n<p><a href=\"https://example.org\">Example Org</a></p>\n<p><a href=\"https://example.com\">Example</a></p>\n<h2>Relative URLs</h2>\n<p><a href=\"html_images.asp\">HTML Images</a></p>\n<p><a href=\"/css/default.asp\">CSS Tutorial</a></p>"
+      ]
+    },
+    {
+      "heading": "Special Links",
+      "paragraphs": [
+        "Links can trigger email clients, use images, or buttons:",
+        "<a href=\"mailto:someone@example.com\">Send email</a>\n<a href=\"default.asp\"><img src=\"smiley.gif\" alt=\"HTML tutorial\" style=\"width:42px;height:42px;\"></a>\n<button onclick=\"document.location='default.asp'\">HTML Tutorial</button>"
+      ]
+    },
+    {
+      "heading": "Link Titles",
+      "paragraphs": [
+        "The title attribute adds tooltip information: <a href=\"https://example.com/html/\" title=\"Go to HTML section\">Visit our HTML Tutorial</a>"
+      ]
+    }
+  ]
+}

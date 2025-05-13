@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Character Sets & Symbols",
+  "questions": [
+    {
+      "question": "What is a character set?",
+      "options": ["Color scheme", "Layout grid", "Encoding system", "Font style"],
+      "correctAnswer": "Encoding system"
+    },
+    {
+      "question": "What does UTF-8 support?",
+      "options": ["Numbers only", "Symbols only", "All characters", "Latin only"],
+      "correctAnswer": "All characters"
+    },
+    {
+      "question": "What are HTML entities?",
+      "options": ["JavaScript code", "CSS styles", "Special characters", "Regular text"],
+      "correctAnswer": "Special characters"
+    },
+    {
+      "question": "What does & represent?",
+      "options": ["Quote", "Greater than", "Ampersand", "Less than"],
+      "correctAnswer": "Ampersand"
+    },
+    {
+      "question": "What is the emoji encoding?",
+      "options": ["ISO", "ANSI", "Unicode", "ASCII"],
+      "correctAnswer": "Unicode"
+    },
+    {
+      "question": "What does <meta charset> do?",
+      "options": ["Hides content", "Adds links", "Sets encoding", "Styles text"],
+      "correctAnswer": "Sets encoding"
+    },
+    {
+      "question": "Which is a common charset?",
+      "options": ["JS-2", "CSS-3", "UTF-8", "HTML-5"],
+      "correctAnswer": "UTF-8"
+    },
+    {
+      "question": "What does < represent?",
+      "options": ["Quote", "Ampersand", "Less than", "Greater than"],
+      "correctAnswer": "Less than"
+    },
+    {
+      "question": "Why use HTML entities?",
+      "options": ["Run scripts", "Hide content", "Display special characters", "Style text"],
+      "correctAnswer": "Display special characters"
+    },
+    {
+      "question": "What does " represent?",
+      "options": ["Greater than", "Less than", "Quotation mark", "Ampersand"],
+      "correctAnswer": "Quotation mark"
+    },
+    {
+      "question": "What are emojis used for?",
+      "options": ["Navigation", "Form inputs", "Visual expression", "Text styling"],
+      "correctAnswer": "Visual expression"
+    },
+    {
+      "question": "What does > represent?",
+      "options": ["Quote", "Ampersand", "Greater than", "Less than"],
+      "correctAnswer": "Greater than"
+    },
+    {
+      "question": "Why specify charset in HTML?",
+      "options": ["More styles", "Smaller files", "Correct rendering", "Faster loading"],
+      "correctAnswer": "Correct rendering"
+    },
+    {
+      "question": "What does Unicode support?",
+      "options": ["Numbers only", "Symbols only", "Global characters", "Latin only"],
+      "correctAnswer": "Global characters"
+    },
+    {
+      "question": "What improves with entities?",
+      "options": ["Security", "Page speed", "Text clarity", "File size"],
+      "correctAnswer": "Text clarity"
+    }
+  ]
+}

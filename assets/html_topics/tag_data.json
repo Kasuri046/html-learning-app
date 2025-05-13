@@ -1,0 +1,38 @@
+{
+    "title": "HTML <data> Tag",
+    "content": [
+      {
+        "heading": "<data> Tag",
+        "paragraphs": [
+          "The <data> tag provides machine-readable content.",
+          "Example: <ul><li><data value=\"21053\">Cherry Tomato</data></li><li><data value=\"21054\">Beef Tomato</data></li></ul>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Offers human-readable and machine-readable values.",
+          "Use <time> for time/date content."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 62.0, Edge 13.0, Firefox 22.0, Opera 49.0. Not supported by Safari."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["value", "machine-readable format", "Machine-readable content translation"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

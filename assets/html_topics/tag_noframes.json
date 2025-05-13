@@ -1,0 +1,23 @@
+{
+    "title": "HTML <noframes> Tag",
+    "content": [
+      {
+        "heading": "<noframes> Tag",
+        "paragraphs": [
+          "Not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used in HTML4 as fallback for browsers not supporting frames."
+        ]
+      },
+      {
+        "heading": "Alternative",
+        "paragraphs": [
+          "Use <iframe>: <iframe src=\"https://example.com\"></iframe>"
+        ]
+      }
+    ]
+  }

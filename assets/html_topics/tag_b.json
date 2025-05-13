@@ -1,0 +1,43 @@
+{
+    "title": "HTML <b> Tag",
+    "content": [
+      {
+        "heading": "<b> Tag",
+        "paragraphs": [
+          "The <b> tag specifies bold text without extra importance.",
+          "Example: <p>This is normal text - <b>this is bold text</b>.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use as a last resort; prefer <h1>-<h6> for headings, <em> for emphasis, <strong> for importance, <mark> for highlights.",
+          "Alternative: CSS 'font-weight: bold;'."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "CSS bold: <p>This is normal text - <span style=\"font-weight:bold;\">this is bold text</span>.</p>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "b { font-weight: bold; }"
+        ]
+      }
+    ]
+  }

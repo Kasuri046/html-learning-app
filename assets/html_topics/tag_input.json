@@ -1,0 +1,42 @@
+{
+    "title": "HTML <input> Tag",
+    "content": [
+      {
+        "heading": "<input> Tag",
+        "paragraphs": [
+          "The <input> tag creates a user input field.",
+          "Example: <form><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></form>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Supports types like text, checkbox, radio, and submit.",
+          "Use <label> for accessibility."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["id", "text", "Input identifier"],
+                ["name", "text", "Input name"],
+                ["type", "text checkbox radio submit", "Input type"],
+                ["value", "text", "Input value"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

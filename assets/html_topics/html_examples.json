@@ -1,0 +1,192 @@
+{
+    "title": "HTML Examples",
+    "content": [
+        {
+            "heading": "HTML Basic",
+            "paragraphs": [
+                "HTML document structure includes headings, paragraphs, links, images, buttons, and lists."
+            ]
+        },
+        {
+            "heading": "HTML Attributes",
+            "paragraphs": [
+                "Common attributes include title, href, width, height, and alt.",
+                "Attributes can be included without quotes, but this may not work in all cases."
+            ]
+        },
+        {
+            "heading": "HTML Headings",
+            "paragraphs": [
+                "HTML headings range from <h1> to <h6>, with <h1> being the largest."
+            ]
+        },
+        {
+            "heading": "HTML Paragraphs",
+            "paragraphs": [
+                "Use <p> for paragraphs. Line breaks can be controlled with the <br> tag."
+            ]
+        },
+        {
+            "heading": "HTML Styles",
+            "paragraphs": [
+                "HTML allows for inline styles, background colors, text colors, fonts, and alignment."
+            ]
+        },
+        {
+            "heading": "HTML Text Formatting",
+            "paragraphs": [
+                "Use <strong> for strong emphasis, <em> for italics, and <u> for underlining."
+            ]
+        },
+        {
+            "heading": "HTML Quotations and Citations",
+            "paragraphs": [
+                "Use <blockquote> for long quotes and <cite> for works."
+            ]
+        },
+        {
+            "heading": "HTML Comments",
+            "paragraphs": [
+                "Comments can be added using <!-- comment here -->."
+            ]
+        },
+        {
+            "heading": "HTML CSS",
+            "paragraphs": [
+                "You can apply CSS inline, internally, or externally to style your HTML."
+            ]
+        },
+        {
+            "heading": "HTML Links",
+            "paragraphs": [
+                "Links are created with the <a> tag using the href attribute."
+            ]
+        },
+        {
+            "heading": "HTML Images",
+            "paragraphs": [
+                "Images are added with <img> tag using src and alt attributes."
+            ]
+        },
+        {
+            "heading": "HTML Tables",
+            "paragraphs": [
+                "Tables are created using <table>, <tr>, <td>, and <th> tags."
+            ]
+        },
+        {
+            "heading": "HTML Lists",
+            "paragraphs": [
+                "Use <ul> for unordered lists and <ol> for ordered lists."
+            ]
+        },
+        {
+            "heading": "HTML Block and Inline Elements",
+            "paragraphs": [
+                "Block elements start on a new line, while inline elements do not."
+            ]
+        },
+        {
+            "heading": "HTML Div Element",
+            "paragraphs": [
+                "The <div> element is used as a container for other elements."
+            ]
+        },
+        {
+            "heading": "HTML Classes",
+            "paragraphs": [
+                "Classes allow you to apply the same styles to multiple elements."
+            ]
+        },
+        {
+            "heading": "HTML Id",
+            "paragraphs": [
+                "The id attribute is unique to each element and can be styled or accessed with JavaScript."
+            ]
+        },
+        {
+            "heading": "HTML Layout",
+            "paragraphs": [
+                "Layout can be achieved using float, flexbox, and grid."
+            ]
+        },
+        {
+            "heading": "HTML IFrame",
+            "paragraphs": [
+                "IFrames allow you to embed another HTML page within your page."
+            ]
+        },
+        {
+            "heading": "HTML Head Elements",
+            "paragraphs": [
+                "Head elements define metadata, scripts, and styles for the document."
+            ]
+        },
+        {
+            "heading": "HTML Scripts",
+            "paragraphs": [
+                "Scripts can be inserted using the <script> tag."
+            ]
+        },
+        {
+            "heading": "HTML Computercode Elements",
+            "paragraphs": [
+                "Use <code> for code snippets and <pre> for preformatted text."
+            ]
+        },
+        {
+            "heading": "HTML Forms",
+            "paragraphs": [
+                "Forms are created using the <form> tag, and can include various input types."
+            ]
+        },
+        {
+            "heading": "HTML Form Elements",
+            "paragraphs": [
+                "Input types include text, radio, checkbox, and dropdown lists."
+            ]
+        },
+        {
+            "heading": "HTML Input Types",
+            "paragraphs": [
+                "Various input types allow for text, numbers, dates, and more."
+            ]
+        },
+        {
+            "heading": "HTML Input Attributes",
+            "paragraphs": [
+                "Attributes like placeholder, required, and min/max enhance input fields."
+            ]
+        },
+        {
+            "heading": "HTML Canvas Graphics",
+            "paragraphs": [
+                "Use <canvas> to draw graphics with JavaScript."
+            ]
+        },
+        {
+            "heading": "HTML SVG Graphics",
+            "paragraphs": [
+                "SVG is used for vector graphics in HTML."
+            ]
+        },
+        {
+            "heading": "HTML Media",
+            "paragraphs": [
+                "Media elements like <audio> and <video> allow you to embed sound and video."
+            ]
+        },
+        {
+            "heading": "HTML Geolocation",
+            "paragraphs": [
+                "JavaScript can be used to get the user's geolocation."
+            ]
+        },
+        {
+            "heading": "HTML Local Storage",
+            "paragraphs": [
+                "Local storage allows you to store data on the client's browser."
+            ]
+        }
+    ]
+}

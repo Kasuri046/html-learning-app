@@ -1,0 +1,65 @@
+{
+  "title": "HTML Semantic Elements",
+  "content": [
+    {
+      "heading": "Semantic Elements",
+      "paragraphs": [
+        "Semantic elements convey meaning to browsers and developers, unlike non-semantic <div> and <span>."
+      ]
+    },
+    {
+      "heading": "Common Semantic Elements",
+      "paragraphs": [
+        "Examples: <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>"
+      ]
+    },
+    {
+      "heading": "<section> Element",
+      "paragraphs": [
+        "Groups thematic content, often with a heading (e.g., chapters):",
+        "<section>\n  <h1>WWF</h1>\n  <p>The World Wide Fund for Nature...</p>\n</section>"
+      ]
+    },
+    {
+      "heading": "<article> Element",
+      "paragraphs": [
+        "Defines independent, distributable content (e.g., blog posts):",
+        "<article>\n  <h2>Google Chrome</h2>\n  <p>Google Chrome is a web browser...</p>\n</article>"
+      ]
+    },
+    {
+      "heading": "Nesting <article> and <section>",
+      "paragraphs": [
+        "Either can contain the other based on content structure."
+      ]
+    },
+    {
+      "heading": "<header> Element",
+      "paragraphs": [
+        "Holds introductory content or navigation:",
+        "<header>\n  <h1>WWF Mission</h1>\n  <p>Stop environmental degradation...</p>\n</header>"
+      ]
+    },
+    {
+      "heading": "<footer> Element",
+      "paragraphs": [
+        "Contains footer content (e.g., copyright):",
+        "<footer>\n  <p>Author: Hege Refsnes</p>\n  <a href=\"mailto:hege@example.com\">hege@example.com</a>\n</footer>"
+      ]
+    },
+    {
+      "heading": "<nav> Element",
+      "paragraphs": [
+        "Defines major navigation links:",
+        "<nav>\n  <a href=\"/html/\">HTML</a> | <a href=\"/css/\">CSS</a>\n</nav>"
+      ]
+    },
+    {
+      "heading": "<aside> Element",
+      "paragraphs": [
+        "Holds sidebar content:",
+        "<aside>\n  <h4>Epcot Center</h4>\n  <p>Epcot is a theme park...</p>\n</aside>"
+      ]
+    }
+  ]
+}

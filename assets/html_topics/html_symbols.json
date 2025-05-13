@@ -1,0 +1,39 @@
+{
+  "title": "HTML Symbols",
+  "content": [
+    {
+      "heading": "Symbols Overview",
+      "paragraphs": [
+        "HTML entities allow adding symbols not found on keyboards, like mathematical or currency symbols."
+      ]
+    },
+    {
+      "heading": "Symbol Entities",
+      "paragraphs": [
+        "Use entity names or numbers (decimal/hexadecimal) to display symbols, e.g., euro sign:",
+        "<p>I will display &euro;</p>"
+      ]
+    },
+    {
+      "heading": "Mathematical Symbols",
+      "paragraphs": [
+        "Common mathematical symbols include:",
+        "- ∀ (&forall;) - For all",
+        "- ∂ (&part;) - Partial differential",
+        "- ∃ (&exist;) - There exists",
+        "- ∅ (&empty;) - Empty sets",
+        "- ∇ (&nabla;) - Nabla"
+      ]
+    },
+    {
+      "heading": "Greek Letters",
+      "paragraphs": [
+        "Common Greek letters include:",
+        "- Α (&Alpha;) - Greek Alpha",
+        "- Β (&Beta;) - Greek Beta",
+        "- Γ (&Gamma;) - Greek Gamma",
+        "- Δ (&Delta;) - Greek Delta"
+      ]
+    }
+  ]
+}

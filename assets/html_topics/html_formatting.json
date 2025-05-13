@@ -1,0 +1,127 @@
+{
+    "title": "HTML Text Formatting",
+    "content": [
+        {
+            "heading": "HTML Text Formatting",
+            "paragraphs": [
+                "HTML contains several elements for defining text with special meanings."
+            ]
+        },
+        {
+            "heading": "HTML Formatting Elements",
+            "paragraphs": [
+                "Formatting elements display special types of text:",
+                "<b> - Bold text",
+                "<strong> - Important text",
+                "<i> - Italic text",
+                "<em> - Emphasized text",
+                "<mark> - Marked text",
+                "<small> - Smaller text",
+                "<del> - Deleted text",
+                "<ins> - Inserted text",
+                "<sub> - Subscript text",
+                "<sup> - Superscript text"
+            ]
+        },
+        {
+            "heading": "HTML <b> and <strong> Elements",
+            "paragraphs": [
+                "The <b> element defines bold text without extra importance.",
+                "The <strong> element defines strong importance, typically displayed in bold."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<b>This text is bold</b>",
+                "Example:\n<strong>This text is important!</strong>"
+
+
+            ]
+        },
+        {
+            "heading": "HTML <i> and <em> Elements",
+            "paragraphs": [
+                "The <i> element defines text in an alternate voice or mood, typically displayed in italic.",
+                "The <em> element defines emphasized text, typically displayed in italic."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<i>This text is italic\n</i>",
+                "Example:\n<em>This text is emphasized\n</em>"
+
+
+            ]
+        },
+        {
+            "heading": "HTML <small> Element",
+            "paragraphs": [
+                "The <small> element defines smaller text."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<small>\nThis is some smaller text.\n</small>"
+
+            ]
+        },
+        {
+            "heading": "HTML <mark> Element",
+            "paragraphs": [
+                "The <mark> element defines text that should be marked or highlighted."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<p>Do not forget to buy <mark>\nmilk</mark>\n today.</p>"
+
+            ]
+        },
+        {
+            "heading": "HTML <del> and <ins> Elements",
+            "paragraphs": [
+                "The <del> element defines text that has been deleted from a document, usually shown with a strikethrough.",
+                "The <ins> element defines text that has been inserted into a document, usually shown underlined."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<p>My favorite color is <del>\nblue</del>\n red.</p>",
+                "Example:\n<p>My favorite color is <del>\nblue</del>\n <ins>\nred</ins>.\n</p>"
+
+
+            ]
+        },
+        {
+            "heading": "HTML <sub> Element",
+            "paragraphs": [
+                "The <sub> element defines subscript text, used for chemical formulas."
+            ]
+        },
+        
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<p>This is <sub>\nsubscripted</sub> \ntext.</p>"
+
+            ]
+        },
+        {
+            "heading": "HTML <sup> Element",
+            "paragraphs": [
+                "The <sup> element defines superscript text, used for footnotes."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "Example:\n<p>This is <sup>\nsuperscripted</sup>\n text.\n</p>"
+            ]
+        }
+    ]
+}

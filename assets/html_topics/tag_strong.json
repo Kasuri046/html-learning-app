@@ -1,0 +1,37 @@
+{
+  "title": "HTML <strong> Tag",
+  "content": [
+    {
+      "heading": "<strong> Tag",
+      "paragraphs": [
+        "The <strong> tag defines important text.",
+        "Example: <strong>This text is important!</strong>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Displayed in bold.",
+        "Use <b> for bold without importance."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "strong { font-weight: bold; }"
+      ]
+    }
+  ]
+}

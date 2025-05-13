@@ -1,0 +1,39 @@
+{
+    "title": "HTML <title> Tag",
+    "content": [
+      {
+        "heading": "<title> Tag",
+        "paragraphs": [
+          "The <title> tag defines the document's title.",
+          "Example: <!DOCTYPE html>\n<html>\n<head>\n  <title>HTML Elements Reference</title>\n</head>\n<body>\n  <h1>This is a heading</h1>\n  <p>This is a paragraph.</p>\n</body>\n</html>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Required in HTML, shown in browser title bar or tab.",
+          "Critical for SEO, used by search engines for ranking.",
+          "Used in browser toolbar, favorites, and search results.",
+          "Tips: Use descriptive titles (50-60 characters), avoid keyword lists."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "title { display: none; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "title": "HTML HEX Colors",
+    "content": [
+        {
+            "heading": "HTML HEX Colors",
+            "paragraphs": [
+                "A hexadecimal color is specified with: #RRGGBB, where RR (red), GG (green), and BB (blue) are hexadecimal integers that define the color components."
+            ]
+        },
+        {
+            "heading": "HEX Color Values",
+            "paragraphs": [
+                "In HTML, a color can be specified using a hexadecimal value in the form #RRGGBB.",
+                "Here, RR, GG, and BB are hexadecimal values between 00 and FF (equivalent to decimal 0-255).",
+                "For example, #ff0000 is red, as red is set to its highest value (FF) and the others are set to 00.",
+                "Similarly, #00ff00 is green, with green at its highest value (FF) and the others at 00.",
+                "To display black, use #000000, and for white, use #ffffff."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "#ff0000, #00ff00, #0000ff, #3cb371, #ee82ee, #ffa500, #6a5acd"
+            ]
+        }
+    ]
+}

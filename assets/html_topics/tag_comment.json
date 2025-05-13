@@ -1,0 +1,32 @@
+{
+    "title": "HTML <!--...--> Tag",
+    "content": [
+      {
+        "heading": "<!--...--> Tag",
+        "paragraphs": [
+          "The comment tag inserts hidden notes in the source code.",
+          "Example: <!--This is a comment--> <p>This is a paragraph.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Not displayed in browsers.",
+          "Useful for code explanations.",
+          "Can hide scripts: <script type=\"text/javascript\"><!-- function displayMsg() { alert(\"Hello World!\"); } //--></script>"
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "No standard attributes."
+        ]
+      }
+    ]
+  }

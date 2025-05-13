@@ -1,0 +1,33 @@
+{
+  "title": "HTML JavaScript",
+  "content": [
+    {
+      "heading": "JavaScript Overview",
+      "paragraphs": [
+        "JavaScript adds interactivity to HTML pages."
+      ]
+    },
+    {
+      "heading": "<script> Tag",
+      "paragraphs": [
+        "The <script> tag defines client-side JavaScript, either inline or via an external file, used for tasks like form validation and content updates.",
+        "Example (updating content):",
+        "<script>\ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\n</script>"
+      ]
+    },
+    {
+      "heading": "JavaScript Capabilities",
+      "paragraphs": [
+        "JavaScript can modify content, styles, and attributes:",
+        "<script>\ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\ndocument.getElementById(\"demo\").style.fontSize = \"25px\";\ndocument.getElementById(\"demo\").style.color = \"red\";\ndocument.getElementById(\"image\").src = \"picture.gif\";\n</script>"
+      ]
+    },
+    {
+      "heading": "<noscript> Tag",
+      "paragraphs": [
+        "The <noscript> tag provides fallback content if JavaScript is disabled:",
+        "<script>\ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\n</script>\n<noscript>Sorry, your browser does not support JavaScript!</noscript>"
+      ]
+    }
+  ]
+}

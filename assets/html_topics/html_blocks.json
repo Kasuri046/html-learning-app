@@ -1,0 +1,65 @@
+{
+    "title": "HTML Block and Inline Elements",
+    "content": [
+        {
+            "heading": "HTML Block and Inline Elements",
+            "paragraphs": [
+                "Every HTML element has a default display value based on its type.\n\nThe two most common display values are block and inline."
+            ]
+        },
+        {
+            "heading": "Block-level Elements",
+            "paragraphs": [
+                "A block-level element starts on a new line and takes up the full width available.\n\nCommon block elements include <p> and <div>."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>Hello World</p>\n<div>Hello World</div>"
+            ]
+        },
+        {
+            "heading": "Inline Elements",
+            "paragraphs": [
+                "An inline element does not start on a new line and only takes up as much width as necessary.\n\nExample of an inline element:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<span>Hello World</span>"
+            ]
+        },
+        {
+            "heading": "The <div> Element",
+            "paragraphs": [
+                "The <div> element is used as a container for other HTML elements.\n\nIt has no required attributes but can use style, class, and id."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<div style=\"background-color:black;color:white;padding:20px;\">\n  <h2>London</h2>\n  <p>London is the capital city of England.</p>\n</div>"
+            ]
+        },
+        {
+            "heading": "The <span> Element",
+            "paragraphs": [
+                "The <span> element is an inline container used to mark up a part of text.\n\nIt can also use style, class, and id for styling."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>My mother has <span style=\"color:blue;font-weight:bold;\">blue</span> eyes and my father has <span style=\"color:darkolivegreen;font-weight:bold;\">dark green</span> eyes.</p>"
+            ]
+        },
+        {
+            "heading": "Chapter Summary",
+            "paragraphs": [
+                "Block-level elements start on a new line and take full width.\n\nInline elements do not start on a new line and take up only necessary width.\n\nThe <div> element is a block-level container, while the <span> element is an inline container."
+            ]
+        }
+    ]
+}

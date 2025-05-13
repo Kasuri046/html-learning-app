@@ -1,0 +1,25 @@
+{
+  "title": "HTML Page Title",
+  "content": [
+    {
+      "heading": "Page Title",
+      "paragraphs": [
+        "Every web page needs a <title> element to describe its purpose."
+      ]
+    },
+    {
+      "heading": "The <title> Element",
+      "paragraphs": [
+        "The <title> element sets the page title, displayed in the browser's title bar, favorites, and search engine results.",
+        "Example:",
+        "<!DOCTYPE html>\n<html>\n  <head>\n    <title>HTML Tutorial</title>\n  </head>\n  <body>\n    The content of the document...\n  </body>\n</html>"
+      ]
+    },
+    {
+      "heading": "Effective Titles",
+      "paragraphs": [
+        "A good title is accurate, meaningful, and enhances search engine optimization (SEO) by helping search engines rank the page."
+      ]
+    }
+  ]
+}

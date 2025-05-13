@@ -1,0 +1,43 @@
+{
+  "title": "HTML <pre> Tag",
+  "content": [
+    {
+      "heading": "<pre> Tag",
+      "paragraphs": [
+        "The <pre> tag defines preformatted text.",
+        "Example: <pre>Text    with spaces\nand line breaks</pre>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Displays text in a fixed-width font, preserving spaces and line breaks.",
+        "Related tags: <code>, <samp>, <kbd>, <var>."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Fixed width: <div style=\"width:200px;overflow:auto\">\n  <pre>Fixed width pre text</pre>\n</div>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "pre { display: block; font-family: monospace; white-space: pre; margin: 1em 0; }"
+      ]
+    }
+  ]
+}

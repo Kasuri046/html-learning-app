@@ -1,0 +1,151 @@
+{
+    "title": "HTML Styles - CSS",
+    "content": [
+        {
+            "heading": "HTML Styles - CSS",
+            "paragraphs": [
+                "CSS stands for Cascading Style Sheets.",
+                "CSS saves a lot of work. It can control the layout of multiple web pages all at once.",
+                "CSS = Styles and Colors, Manipulate Text, Colors, Boxes"
+            ]
+        },
+        {
+            "heading": "What is CSS?",
+            "paragraphs": [
+                "Cascading Style Sheets (CSS) is used to format the layout of a webpage.",
+                "With CSS, you can control the color, font, size of text, spacing between elements, positioning, background images or colors, and much more!",
+                "Tip: The word cascading means that a style applied to a parent element will also apply to all child elements within the parent."
+            ]
+        },
+        {
+            "heading": "Using CSS",
+            "paragraphs": [
+                "CSS can be added to HTML documents in 3 ways:",
+                "1. Inline - by using the style attribute inside HTML elements.",
+                "2. Internal - by using a <style> element in the <head> section.",
+                "3. External - by using a <link> element to link to an external CSS file."
+            ]
+        },
+        {
+            "heading": "Inline CSS",
+            "paragraphs": [
+                "An inline CSS is used to apply a unique style to a single HTML element.",
+                "Example:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"color:blue;\n\">A Blue Heading</h1>\n<p style=\"color:red;\n\">A red paragraph.\n</p>"
+            ]
+        },
+        {
+            "heading": "Internal CSS",
+            "paragraphs": [
+                "An internal CSS is used to define a style for a single HTML page."
+        
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<style> body {background-color: powderblue;\n}\n h1 {color: blue;} \np {color: red;} \n</style>\n</head>\n<body>\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "External CSS",
+            "paragraphs": [
+                "An external style sheet is used to define the style for many HTML pages."
+             
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "body { background-color: powderblue;}\n h1 { color: blue;} \np { color: red;}"
+            ]
+        },
+        {
+            "heading": "CSS Colors, Fonts and Sizes",
+            "paragraphs": [
+                "Here, we will demonstrate some commonly used CSS properties."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<style>h1 { color: blue; font-family: verdana; font-size: 300%;} \np { color: red; font-family: courier; font-size: 160%;}\n</style>\n</head>\n<body>\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "CSS Border",
+            "paragraphs": [
+                "The CSS border property defines a border around an HTML element.",
+                "Example:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "p { border: 2px solid powderblue; }"
+            ]
+        },
+        {
+            "heading": "CSS Padding",
+            "paragraphs": [
+                "The CSS padding property defines space between the text and the border.",
+                "Example:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "p { border: 2px solid powderblue; padding: 30px; }"
+            ]
+        },
+        {
+            "heading": "CSS Margin",
+            "paragraphs": [
+                "The CSS margin property defines space outside the border.",
+                "Example:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "p { border: 2px solid powderblue; margin: 50px; }"
+            ]
+        },
+        {
+            "heading": "Link to External CSS",
+            "paragraphs": [
+                "External style sheets can be referenced with a full URL or a path relative to the current web page.",
+                "Example:"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<link rel=\"stylesheet\" href=\"https://example.com/styles.css\">"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<link rel=\"stylesheet\" href=\"/html/styles.css\">"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<link rel=\"stylesheet\" href=\"styles.css\">"
+            ]
+        }
+    ]
+}

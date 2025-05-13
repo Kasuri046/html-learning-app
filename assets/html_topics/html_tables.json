@@ -1,0 +1,39 @@
+{
+  "title": "HTML Tables",
+  "content": [
+    {
+      "heading": "Tables Overview",
+      "paragraphs": [
+        "HTML tables organize data into rows and columns."
+      ]
+    },
+    {
+      "heading": "Basic Table",
+      "paragraphs": [
+        "A table uses <table>, <tr> for rows, <th> for headers, and <td> for data cells:",
+        "<table>\n  <tr>\n    <th>Company</th>\n    <th>Contact</th>\n    <th>Country</th>\n  </tr>\n  <tr>\n    <td>Alfreds Futterkiste</td>\n    <td>Maria Anders</td>\n    <td>Germany</td>\n  </tr>\n  <tr>\n    <td>Centro comercial Moctezuma</td>\n    <td>Francisco Chang</td>\n    <td>Mexico</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Table Cells",
+      "paragraphs": [
+        "Cells (<td>) hold content like text, images, or lists:",
+        "<table>\n  <tr>\n    <td>Emil</td>\n    <td>Tobias</td>\n    <td>Linus</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Table Rows",
+      "paragraphs": [
+        "Rows (<tr>) contain cells, with consistent cell counts per row:",
+        "<table>\n  <tr>\n    <td>Emil</td>\n    <td>Tobias</td>\n    <td>Linus</td>\n  </tr>\n  <tr>\n    <td>16</td>\n    <td>14</td>\n    <td>10</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Table Headers",
+      "paragraphs": [
+        "Headers (<th>) are bold and centered by default:",
+        "<table>\n  <tr>\n    <th>Person 1</th>\n    <th>Person 2</th>\n    <th>Person 3</th>\n  </tr>\n  <tr>\n    <td>Emil</td>\n    <td>Tobias</td>\n    <td>Linus</td>\n  </tr>\n</table>"
+      ]
+    }
+  ]
+}

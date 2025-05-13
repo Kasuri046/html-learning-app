@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: HTML5 APIs",
+  "questions": [
+    {
+      "question": "What is an HTML5 API?",
+      "options": ["Meta data", "CSS style", "JavaScript interface", "HTML tag"],
+      "correctAnswer": "JavaScript interface"
+    },
+    {
+      "question": "What does Geolocation API do?",
+      "options": ["Submits forms", "Styles text", "Gets user location", "Plays media"],
+      "correctAnswer": "Gets user location"
+    },
+    {
+      "question": "What is Drag and Drop API for?",
+      "options": ["Image rendering", "Element dragging", "Text styling", "Form submission"],
+      "correctAnswer": "Element dragging"
+    },
+    {
+      "question": "What does Web Storage API store?",
+      "options": ["CSS styles", "HTML tags", "Client-side data", "Server data"],
+      "correctAnswer": "Client-side data"
+    },
+    {
+      "question": "What is Web Workers API for?",
+      "options": ["Form validation", "Image processing", "Background tasks", "Text formatting"],
+      "correctAnswer": "Background tasks"
+    },
+    {
+      "question": "What does Server-Sent Events do?",
+      "options": ["Image loading", "Form submission", "Real-time updates", "Static content"],
+      "correctAnswer": "Real-time updates"
+    },
+    {
+      "question": "Which API uses localStorage?",
+      "options": ["Geolocation", "Web Workers", "Web Storage", "Drag and Drop"],
+      "correctAnswer": "Web Storage"
+    },
+    {
+      "question": "What requires user permission?",
+      "options": ["All of these", "Server-Sent Events", "Web Storage", "Geolocation"],
+      "correctAnswer": "Geolocation"
+    },
+    {
+      "question": "Which API improves performance?",
+      "options": ["Geolocation", "Drag and Drop", "Web Workers", "Web Storage"],
+      "correctAnswer": "Web Workers"
+    },
+    {
+      "question": "What does draggable attribute do?",
+      "options": ["Submits forms", "Hides elements", "Enables dragging", "Styles elements"],
+      "correctAnswer": "Enables dragging"
+    },
+    {
+      "question": "What is a common Web Storage use?",
+      "options": ["CSS styles", "HTML tags", "User preferences", "Server data"],
+      "correctAnswer": "User preferences"
+    },
+    {
+      "question": "Which API uses eventSource?",
+      "options": ["Web Storage", "Geolocation", "Server-Sent Events", "Web Workers"],
+      "correctAnswer": "Server-Sent Events"
+    },
+    {
+      "question": "What does HTML5 API enhance?",
+      "options": ["Security", "Page speed", "Interactivity", "File size"],
+      "correctAnswer": "Interactivity"
+    },
+    {
+      "question": "Which API is client-side?",
+      "options": ["Neither", "Both", "Server-Sent Events", "Web Storage"],
+      "correctAnswer": "Web Storage"
+    },
+    {
+      "question": "Why use HTML5 APIs?",
+      "options": ["Text styling", "Form design", "Dynamic features", "Static content"],
+      "correctAnswer": "Dynamic features"
+    }
+  ]
+}

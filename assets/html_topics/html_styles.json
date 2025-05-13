@@ -1,0 +1,52 @@
+{
+  "title": "HTML Styles",
+  "content": [
+    {
+      "heading": "Styles Overview",
+      "paragraphs": [
+        "The style attribute adds CSS styles like color, font, and size to HTML elements."
+      ]
+    },
+    {
+      "heading": "Style Attribute Syntax",
+      "paragraphs": [
+        "Use the style attribute with CSS properties: <tagname style=\"property:value;\">"
+      ]
+    },
+    {
+      "heading": "Background Color",
+      "paragraphs": [
+        "The background-color property sets an element's background:",
+        "<body style=\"background-color:powderblue;\">\n  <h1>This is a heading</h1>\n  <p>This is a paragraph.</p>\n</body>"
+      ]
+    },
+    {
+      "heading": "Text Color",
+      "paragraphs": [
+        "The color property sets text color:",
+        "<h1 style=\"color:blue;\">This is a heading</h1>\n<p style=\"color:red;\">This is a paragraph.</p>"
+      ]
+    },
+    {
+      "heading": "Fonts",
+      "paragraphs": [
+        "The font-family property sets the font:",
+        "<h1 style=\"font-family:verdana;\">This is a heading</h1>\n<p style=\"font-family:courier;\">This is a paragraph.</p>"
+      ]
+    },
+    {
+      "heading": "Text Size",
+      "paragraphs": [
+        "The font-size property sets text size:",
+        "<h1 style=\"font-size:300%;\">This is a heading</h1>\n<p style=\"font-size:160%;\">This is a paragraph.</p>"
+      ]
+    },
+    {
+      "heading": "Text Alignment",
+      "paragraphs": [
+        "The text-align property sets horizontal alignment:",
+        "<h1 style=\"text-align:center;\">Centered Heading</h1>\n<p style=\"text-align:center;\">Centered paragraph.</p>"
+      ]
+    }
+  ]
+}

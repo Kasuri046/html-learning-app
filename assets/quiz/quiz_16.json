@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Tables",
+  "questions": [
+    {
+      "question": "What does the <table> tag create?",
+      "options": ["Form", "List", "Data table", "Image"],
+      "correctAnswer": "Data table"
+    },
+    {
+      "question": "What is the <tr> tag for?",
+      "options": ["Table column", "Table cell", "Table row", "Table header"],
+      "correctAnswer": "Table row"
+    },
+    {
+      "question": "What does CSS table border do?",
+      "options": ["Styles text", "Hides table", "Adds borders", "Removes borders"],
+      "correctAnswer": "Adds borders"
+    },
+    {
+      "question": "What is colspan attribute?",
+      "options": ["Hides cells", "Styles cells", "Spans columns", "Spans rows"],
+      "correctAnswer": "Spans columns"
+    },
+    {
+      "question": "What does rowspan do?",
+      "options": ["Splits cells", "Merges cells", "Spans rows", "Spans columns"],
+      "correctAnswer": "Spans rows"
+    },
+    {
+      "question": "What is a table header?",
+      "options": ["Table footer", "Row data", "Column titles", "Cell content"],
+      "correctAnswer": "Column titles"
+    },
+    {
+      "question": "What does <colgroup> define?",
+      "options": ["Table borders", "Cell styles", "Column groups", "Row groups"],
+      "correctAnswer": "Column groups"
+    },
+    {
+      "question": "What improves table styling?",
+      "options": ["HTML tags", "Meta tags", "CSS", "JavaScript"],
+      "correctAnswer": "CSS"
+    },
+    {
+      "question": "Which attribute merges cells?",
+      "options": ["style", "id", "colspan", "border"],
+      "correctAnswer": "colspan"
+    },
+    {
+      "question": "What is a common table use?",
+      "options": ["Scripts", "Navigation", "Data display", "Images"],
+      "correctAnswer": "Data display"
+    },
+    {
+      "question": "Why use table headers?",
+      "options": ["Hiding cells", "Merging rows", "Data clarity", "Styling"],
+      "correctAnswer": "Data clarity"
+    },
+    {
+      "question": "What does CSS table-layout do?",
+      "options": ["Styles text", "Adds borders", "Controls width", "Hides table"],
+      "correctAnswer": "Controls width"
+    },
+    {
+      "question": "Which tag is required in <table>?",
+      "options": ["<colgroup>", "<td>", "<th>", "<tr>"],
+      "correctAnswer": "<tr>"
+    },
+    {
+      "question": "What does <table> lack by default?",
+      "options": ["Headers", "Cells", "Rows", "Borders"],
+      "correctAnswer": "Borders"
+    },
+    {
+      "question": "Why avoid tables for layout?",
+      "options": ["More styles", "Faster loading", "Accessibility issues", "Smaller size"],
+      "correctAnswer": "Accessibility issues"
+    }
+  ]
+}

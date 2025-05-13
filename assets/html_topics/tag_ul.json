@@ -1,0 +1,46 @@
+{
+    "title": "HTML <ul> Tag",
+    "content": [
+      {
+        "heading": "<ul> Tag",
+        "paragraphs": [
+          "The <ul> tag defines an unordered (bulleted) list.",
+          "Example: <ul>\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used with <li> tags to create lists.",
+          "Use <ol> for ordered lists."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "List styles: <ul style=\"list-style-type:circle\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>\n<ul style=\"list-style-type:disc\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>\n<ul style=\"list-style-type:square\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>",
+          "Line height: <ul style=\"line-height:180%\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>\n<ul style=\"line-height:80%\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ul>",
+          "Nested list: <ul>\n  <li>Coffee</li>\n  <li>Tea\n    <ul>\n      <li>Black tea</li>\n      <li>Green tea</li>\n    </ul>\n  </li>\n  <li>Milk</li>\n</ul>",
+          "Complex nested list: <ul>\n  <li>Coffee</li>\n  <li>Tea\n    <ul>\n      <li>Black tea</li>\n      <li>Green tea\n        <ul>\n          <li>China</li>\n          <li>Africa</li>\n        </ul>\n      </li>\n    </ul>\n  </li>\n  <li>Milk</li>\n</ul>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "ul { display: block; list-style-type: disc; margin: 1em 0; padding-left: 40px; }"
+        ]
+      }
+    ]
+  }

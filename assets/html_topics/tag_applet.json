@@ -1,0 +1,26 @@
+{
+    "title": "HTML <applet> Tag",
+    "content": [
+      {
+        "heading": "<applet> Tag",
+        "paragraphs": [
+          "The <applet> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Plug-ins",
+        "paragraphs": [
+          "Plug-ins extended browser functionality (e.g., Java applets, Flash).",
+          "Most browsers no longer support plug-ins or ActiveX."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Audio: <audio controls><source src=\"audio.mp3\" type=\"audio/mpeg\">Audio not supported.</audio>",
+          "Objects: <embed src=\"document.html\"> or <object data=\"document.html\"></object>",
+          "Images: Use <img> for pictures; <iframe> for documents."
+        ]
+      }
+    ]
+  }

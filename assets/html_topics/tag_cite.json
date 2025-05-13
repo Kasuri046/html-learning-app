@@ -1,0 +1,37 @@
+{
+    "title": "HTML <cite> Tag",
+    "content": [
+      {
+        "heading": "<cite> Tag",
+        "paragraphs": [
+          "The <cite> tag defines the title of a creative work.",
+          "Example: <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for titles (e.g., books, poems, movies), not names.",
+          "Renders in italic."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "cite { font-style: italic; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "title": "HTML Headings",
+    "content": [
+        {
+            "heading": "HTML Headings",
+            "paragraphs": [
+                "HTML headings are titles or subtitles displayed on a webpage."
+            ]
+        },
+        {
+            "heading": "HTML Headings Tags",
+            "paragraphs": [
+                "HTML headings are defined with the <h1> to <h6> tags. <h1> defines the most important heading, while <h6> defines the least important heading."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1> \n Heading 1</h1>\n <h2>Heading 2</h2> \n<h3>Heading 3</h3>\n<h4>Heading 4</h4>\n<h5>Heading 5</h5>\n<h6>Heading 6</h6>\n"
+            ]
+        },
+        {
+            "heading": "Importance of Headings",
+            "paragraphs": [
+                "Search engines use headings to index the structure and content of web pages. Users often skim a page by its headings, making it important to use headings to show document structure."
+            ]
+        },
+        {
+            "heading": "Bigger Headings",
+            "paragraphs": [
+                "Each HTML heading has a default size. You can specify the size for any heading using the style attribute with the CSS font-size property."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1 style=\"font-size:60px;\">\nHeading 1</h1>"
+            ]
+        }
+    ]
+}

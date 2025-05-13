@@ -1,0 +1,90 @@
+{
+    "title": "HTML Elements",
+    "content": [
+        {
+            "heading": "HTML Elements",
+            "paragraphs": [
+                "An HTML element is defined by a start tag, some content, and an end tag."
+            ]
+        },
+        {
+            "heading": "HTML Elements Structure",
+            "paragraphs": [
+                "The HTML element is everything from the start tag to the end tag:",
+                "<tagname>Content goes here...</tagname>",
+                "Examples of some HTML elements:",
+                "<h1>My First Heading</h1>",
+                "<p>My first paragraph.</p>"
+            ]
+        },
+        {
+            "heading": "Nested HTML Elements",
+            "paragraphs": [
+                "HTML elements can be nested (this means that elements can contain other elements).",
+                "All HTML documents consist of nested HTML elements.",
+                "The following example contains four HTML elements (<html>, <body>, <h1>, and <p>):"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Explaination",
+            "paragraphs": [
+                "The <html> element is the root element and defines the whole HTML document.",
+                "It has a start tag <html> and an end tag </html>.",
+                "Inside the <html> element, there is a <body> element:",
+                "<body><h1>My First Heading</h1><p>My first paragraph.</p></body>",
+                "The <body> element defines the document's body.",
+                "It has a start tag <body> and an end tag </body>."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1>My First Heading</h1>\n<p>My first paragraph.</p>"
+            ]
+        },
+        {
+            "heading": "Never Skip the End Tag",
+            "paragraphs": [
+                "Some HTML elements will display correctly, even if you forget the end tag. However, never rely on this! Unexpected results and errors may occur if you forget the end tag."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<html>\n<body>\n<p>This is a paragraph<p>\nThis is a paragraph\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Empty HTML Elements",
+            "paragraphs": [
+                "HTML elements with no content are called empty elements.",
+                "The <br> tag defines a line break and is an empty element without a closing tag."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>T\nhis is a <br>\n paragraph with a line break.\n</p>"
+            ]
+        },
+        {
+            "heading": "HTML is Not Case Sensitive",
+            "paragraphs": [
+                "HTML tags are not case sensitive: <P> means the same as <p>.",
+                "The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML."
+            ]
+        }
+    ]
+}

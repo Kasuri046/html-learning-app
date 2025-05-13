@@ -1,0 +1,47 @@
+{
+    "title": "HTML <body> Tag",
+    "content": [
+      {
+        "heading": "<body> Tag",
+        "paragraphs": [
+          "The <body> tag defines the document's main content.",
+          "Example: <html><head><title>Document</title></head><body><h1>Heading</h1><p>Paragraph</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains all content like headings, paragraphs, images, links.",
+          "Only one <body> tag per document."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Background image: <html><head><style>body { background-image: url('bg.png');}</style></head><body><h1>Hello!</h1><p><a href=\"https://example.com\">Visit Example</a></p></body></html>",
+          "Background color: <html><head><style>body { background-color: #E6E6FA;}</style></head><body><h1>Hello!</h1><p><a href=\"https://example.com\">Visit Example</a></p></body></html>",
+          "Text color: <html><head><style>body { color: green;}</style></head><body><h1>Hello!</h1><p>Text</p><p><a href=\"https://example.com\">Visit Example</a></p></body></html>",
+          "Link colors: <html><head><style>a:link { color: #0000FF;} a:active { color: #00FF00;} a:visited { color: #FF0000;}</style></head><body><p><a href=\"https://example.com\">Example</a></p></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "body { display: block; margin: 8px; }",
+          "body:focus { outline: none; }"
+        ]
+      }
+    ]
+  }

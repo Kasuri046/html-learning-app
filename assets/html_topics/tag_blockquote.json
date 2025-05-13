@@ -1,0 +1,52 @@
+{
+    "title": "HTML <blockquote> Tag",
+    "content": [
+        {
+            "heading": "<blockquote> Tag",
+            "paragraphs": [
+                "The <blockquote> tag specifies a section quoted from another source.",
+                "Example: <blockquote cite=\"http://www.worldwildlife.org/who/index.html\">\nFor 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.\n</blockquote>"
+            ]
+        },
+        {
+            "heading": "Definition and Usage",
+            "paragraphs": [
+                "Browsers typically indent <blockquote> elements.",
+                "Use CSS to remove indentation if needed (e.g., margin-left: 0;).",
+                "Use <q> for inline quotations."
+            ]
+        },
+        {
+            "heading": "Browser Support",
+            "paragraphs": [
+                "Supported by all major browsers."
+            ]
+        },
+        {
+            "heading": "Attributes",
+            "paragraphs": [
+                {
+                    "table": {
+                        "headers": ["Attribute", "Value", "Description"],
+                        "rows": [
+                            ["cite", "URL", "Specifies the source of the quotation"]
+                        ]
+                    }
+                },
+                "Supports global and event attributes."
+            ]
+        },
+        {
+            "heading": "Examples",
+            "paragraphs": [
+                "Remove indentation: <html>\n<head>\n<style>\nblockquote { margin-left: 0; }\n</style>\n</head>\n<body>\n<p>Here is a quote from WWF's website:</p>\n<blockquote cite=\"http://www.worldwildlife.org/who/index.html\">\nFor 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.\n</blockquote>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Default CSS",
+            "paragraphs": [
+                "blockquote { display: block; margin: 1em 40px; }"
+            ]
+        }
+    ]
+}

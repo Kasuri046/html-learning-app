@@ -1,0 +1,43 @@
+{
+    "title": "HTML <code> Tag",
+    "content": [
+      {
+        "heading": "<code> Tag",
+        "paragraphs": [
+          "The <code> tag defines computer code, displayed in monospace font.",
+          "Example: <p>The HTML <code>button</code> tag defines a clickable button.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use CSS for enhanced styling.",
+          "Related tags: <samp> (sample output), <kbd> (keyboard input), <var> (variable), <pre> (preformatted text)."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled code: <html><head><style>code { font-family: Consolas, \"courier new\"; color: crimson; background-color: #f1f1f1; padding: 2px; font-size: 105%;}</style></head><body><p>The HTML <code>button</code> tag defines a clickable button.</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "code { font-family: monospace; }"
+        ]
+      }
+    ]
+  }

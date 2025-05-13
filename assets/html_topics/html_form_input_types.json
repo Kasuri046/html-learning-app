@@ -1,0 +1,255 @@
+{
+    "title": "HTML Input Types",
+    "content": [
+        {
+            "heading": "HTML Input Types",
+            "paragraphs": [
+                "This chapter describes the different types for the HTML <input> element."
+            ]
+        },
+        {
+            "heading": "Available Input Types",
+            "paragraphs": [
+                "Here are the different input types you can use in HTML:",
+                "<input type=\"button\">",
+                "<input type=\"checkbox\">",
+                "<input type=\"color\">",
+                "<input type=\"date\">",
+                "<input type=\"datetime-local\">",
+                "<input type=\"email\">",
+                "<input type=\"file\">",
+                "<input type=\"hidden\">",
+                "<input type=\"image\">",
+                "<input type=\"month\">",
+                "<input type=\"number\">",
+                "<input type=\"password\">",
+                "<input type=\"radio\">",
+                "<input type=\"range\">",
+                "<input type=\"reset\">",
+                "<input type=\"search\">",
+                "<input type=\"submit\">",
+                "<input type=\"tel\">",
+                "<input type=\"text\">",
+                "<input type=\"time\">",
+                "<input type=\"url\">",
+                "<input type=\"week\">",
+                "Tip: The default value of the type attribute is \"text.\""
+            ]
+        },
+        {
+            "heading": "Input Type Text",
+            "paragraphs": [
+                "<input type=\"text\"> defines a single-line text input field."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"fname\">First name:</label>\n<br>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Password",
+            "paragraphs": [
+                "<input type=\"password\"> defines a password field."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"username\">Username:</label><br>\n    <input type=\"text\" id=\"username\" name=\"username\"><br>\n    <label for=\"pwd\">Password:</label><br>\n    <input type=\"password\" id=\"pwd\" name=\"pwd\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Submit",
+            "paragraphs": [
+                "<input type=\"submit\"> defines a button for submitting form data."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\">\n    <label for=\"fname\">First name:</label><br>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>\n    <label for=\"lname\">Last name:</label><br>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br><br>\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Reset",
+            "paragraphs": [
+                "<input type=\"reset\"> defines a reset button that will reset all form values to their default values."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\">\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>\n    <label for=\"lname\">Last name:</label>\n    <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br><br>\n    <input type=\"submit\" value=\"Submit\">\n    <input type=\"reset\" value=\"Reset\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Radio",
+            "paragraphs": [
+                "<input type=\"radio\"> defines a radio button, allowing only one selection from a set."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>Choose your favorite Web language:</p>\n<form>\n    <input type=\"radio\" id=\"html\" name=\"fav_language\" value=\"HTML\">\n    <label for=\"html\">HTML</label><br>\n    <input type=\"radio\" id=\"css\" name=\"fav_language\" value=\"CSS\">\n    <label for=\"css\">CSS</label><br>\n    <input type=\"radio\" id=\"javascript\" name=\"fav_language\" value=\"JavaScript\">\n    <label for=\"javascript\">JavaScript</label>\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Checkbox",
+            "paragraphs": [
+                "<input type=\"checkbox\"> defines a checkbox, allowing the user to select multiple options."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <input type=\"checkbox\" id=\"vehicle1\" name=\"vehicle1\" value=\"Bike\">\n    <label for=\"vehicle1\"> I have a bike</label><br>\n    <input type=\"checkbox\" id=\"vehicle2\" name=\"vehicle2\" value=\"Car\">\n    <label for=\"vehicle2\"> I have a car</label><br>\n    <input type=\"checkbox\" id=\"vehicle3\" name=\"vehicle3\" value=\"Boat\">\n    <label for=\"vehicle3\"> I have a boat</label>\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Color",
+            "paragraphs": [
+                "<input type=\"color\"> is used for input fields that should contain a color."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"favcolor\">Select your favorite color:</label>\n    <input type=\"color\" id=\"favcolor\" name=\"favcolor\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Date",
+            "paragraphs": [
+                "<input type=\"date\"> specifies an input field for a date."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"birthday\">Birthday:</label>\n    <input type=\"date\" id=\"birthday\" name=\"birthday\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Email",
+            "paragraphs": [
+                "<input type=\"email\"> is used for input fields that should contain an email address."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"email\">Enter your email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type File",
+            "paragraphs": [
+                "<input type=\"file\"> defines a file-select field for file uploads."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"myfile\">Select a file:</label>\n    <input type=\"file\" id=\"myfile\" name=\"myfile\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Hidden",
+            "paragraphs": [
+                "<input type=\"hidden\"> defines a hidden input field."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"fname\">First name:</label>\n    <input type=\"text\" id=\"fname\" name=\"fname\"><br>\n    <input type=\"hidden\" id=\"custId\" name=\"custId\" value=\"3487\">\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Number",
+            "paragraphs": [
+                "<input type=\"number\"> defines a numeric input field."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"quantity\">Quantity (between 1 and 5):</label>\n    <input type=\"number\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"5\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Range",
+            "paragraphs": [
+                "<input type=\"range\"> defines a control for entering a number (like a slider)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"vol\">Volume (between 0 and 50):</label>\n    <input type=\"range\" id=\"vol\" name=\"vol\" min=\"0\" max=\"50\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Search",
+            "paragraphs": [
+                "<input type=\"search\"> is used for search fields."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"gsearch\">Search Google:</label>\n    <input type=\"search\" id=\"gsearch\" name=\"gsearch\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Tel",
+            "paragraphs": [
+                "<input type=\"tel\"> is used for input fields that should contain a telephone number."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"phone\">Enter your phone number:</label>\n    <input type=\"tel\" id=\"phone\" name=\"phone\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Time",
+            "paragraphs": [
+                "<input type=\"time\"> allows the user to select a time."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"appt\">Select a time:</label>\n    <input type=\"time\" id=\"appt\" name=\"appt\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Url",
+            "paragraphs": [
+                "<input type=\"url\"> is used for input fields that should contain a URL address."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"homepage\">Add your homepage:</label>\n    <input type=\"url\" id=\"homepage\" name=\"homepage\">\n</form>"
+            ]
+        },
+        {
+            "heading": "Input Type Week",
+            "paragraphs": [
+                "<input type=\"week\"> allows the user to select a week and year."            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n    <label for=\"week\">Select a week:</label>\n    <input type=\"week\" id=\"week\" name=\"week\">\n</form>"
+            ]
+        }
+    ]
+}

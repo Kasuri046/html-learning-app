@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Navigation & Layout",
+  "questions": [
+    {
+      "question": "What does the <nav> tag define?",
+      "options": ["Header", "Footer", "Navigation links", "Main content"],
+      "correctAnswer": "Navigation links"
+    },
+    {
+      "question": "What is the <aside> tag for?",
+      "options": ["Metadata", "Main content", "Sidebar content", "Navigation"],
+      "correctAnswer": "Sidebar content"
+    },
+    {
+      "question": "What does the <main> tag contain?",
+      "options": ["Scripts", "Footer", "Primary content", "Navigation"],
+      "correctAnswer": "Primary content"
+    },
+    {
+      "question": "What is the <header> tag’s role?",
+      "options": ["Footer", "Sidebar", "Page header", "Main content"],
+      "correctAnswer": "Page header"
+    },
+    {
+      "question": "What does the <footer> tag define?",
+      "options": ["Main content", "Header", "Page footer", "Navigation"],
+      "correctAnswer": "Page footer"
+    },
+    {
+      "question": "What is HTML layout used for?",
+      "options": ["Running scripts", "Database access", "Structuring pages", "Styling text"],
+      "correctAnswer": "Structuring pages"
+    },
+    {
+      "question": "What does <hgroup> group?",
+      "options": ["Images", "Links", "Headings", "Paragraphs"],
+      "correctAnswer": "Headings"
+    },
+    {
+      "question": "Which tag is semantic for navigation?",
+      "options": ["<aside>", "<footer>", "<nav>", "<hgroup>"],
+      "correctAnswer": "<nav>"
+    },
+    {
+      "question": "Where is <header> typically placed?",
+      "options": ["Middle of page", "Bottom of page", "Top of page", "Sidebar"],
+      "correctAnswer": "Top of page"
+    },
+    {
+      "question": "What content goes in <aside>?",
+      "options": ["Scripts", "Navigation links", "Supplementary info", "Main article"],
+      "correctAnswer": "Supplementary info"
+    },
+    {
+      "question": "Which tag is unique per page?",
+      "options": ["<aside>", "<footer>", "<nav>", "<main>"],
+      "correctAnswer": "<main>"
+    },
+    {
+      "question": "What improves with semantic layout?",
+      "options": ["Security", "Page speed", "Accessibility", "File size"],
+      "correctAnswer": "Accessibility"
+    },
+    {
+      "question": "Which tag groups related headings?",
+      "options": ["<aside>", "<main>", "<hgroup>", "<nav>"],
+      "correctAnswer": "<hgroup>"
+    },
+    {
+      "question": "What is a common layout technique?",
+      "options": ["Inline styles", "JavaScript loops", "CSS Flexbox", "HTML attributes"],
+      "correctAnswer": "CSS Flexbox"
+    },
+    {
+      "question": "Why use <footer>?",
+      "options": ["Scripts", "Navigation", "Contact info", "Main content"],
+      "correctAnswer": "Contact info"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Text Formatting",
+  "questions": [
+    {
+      "question": "What does the <b> tag do?",
+      "options": ["Small text", "Bold text", "Italic text", "Underline text"],
+      "correctAnswer": "Bold text"
+    },
+    {
+      "question": "What is the purpose of the <i> tag?",
+      "options": ["Bold text", "Code text", "Italic text", "Strikethrough text"],
+      "correctAnswer": "Italic text"
+    },
+    {
+      "question": "What does the <u> tag represent?",
+      "options": ["URL link", "Unordered list", "Underlined text", "Uppercase text"],
+      "correctAnswer": "Underlined text"
+    },
+    {
+      "question": "What is the <strong> tag used for?",
+      "options": ["Inline code", "Small text", "Emphasized bold text", "Deleted text"],
+      "correctAnswer": "Emphasized bold text"
+    },
+    {
+      "question": "What does the <em> tag indicate?",
+      "options": ["Quoted text", "Bold text", "Superscript text", "Emphasized italic text"],
+      "correctAnswer": "Emphasized italic text"
+    },
+    {
+      "question": "What is the effect of the <small> tag?",
+      "options": ["Monospace text", "Smaller text", "Highlighted text", "Larger text"],
+      "correctAnswer": "Smaller text"
+    },
+    {
+      "question": "What does the <s> tag show?",
+      "options": ["Bold text", "Superscript text", "Strikethrough text", "Subscript text"],
+      "correctAnswer": "Strikethrough text"
+    },
+    {
+      "question": "Which tag is semantic for importance?",
+      "options": ["<u>", "<i>", "<b>", "<strong>"],
+      "correctAnswer": "<strong>"
+    },
+    {
+      "question": "Which tag is semantic for emphasis?",
+      "options": ["<small>", "<i>", "<em>", "<s>"],
+      "correctAnswer": "<em>"
+    },
+    {
+      "question": "What is a non-semantic formatting tag?",
+      "options": ["<strong>", "<em>", "<b>", "All of these"],
+      "correctAnswer": "<b>"
+    },
+    {
+      "question": "Which tag is rarely used due to CSS?",
+      "options": ["<em>", "<strong>", "<u>", "All of these"],
+      "correctAnswer": "<u>"
+    },
+    {
+      "question": "What does text formatting improve?",
+      "options": ["Security", "Page speed", "Database storage", "Readability"],
+      "correctAnswer": "Readability"
+    },
+    {
+      "question": "Which tag is deprecated for styling?",
+      "options": ["<strong>", "<em>", "<u>", "None of these"],
+      "correctAnswer": "<u>"
+    },
+    {
+      "question": "What replaces <b> for styling?",
+      "options": ["Inline scripts", "HTML attributes", "JavaScript", "CSS font-weight"],
+      "correctAnswer": "CSS font-weight"
+    },
+    {
+      "question": "Why use <strong> over <b>?",
+      "options": ["Smaller file size", "More colors", "Better semantics", "Faster rendering"],
+      "correctAnswer": "Better semantics"
+    }
+  ]
+}

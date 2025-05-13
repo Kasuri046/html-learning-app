@@ -1,0 +1,55 @@
+{
+    "title": "HTML <img> Tag",
+    "content": [
+      {
+        "heading": "<img> Tag",
+        "paragraphs": [
+          "The <img> tag embeds an image.",
+          "Example: <img src=\"img_girl.jpg\" alt=\"Girl in a jacket\" width=\"500\" height=\"600\">"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Requires src (path) and alt (alternate text).",
+          "Specify width and height to prevent flickering."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["alt", "text", "Alternate text"],
+                ["height", "pixels", "Image height"],
+                ["src", "URL", "Image path"],
+                ["width", "pixels", "Image width"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Aligned image: <img src=\"smiley.gif\" alt=\"Smiley\" style=\"float:right\">",
+          "Linked image: <a href=\"https://example.com\"><img src=\"logo.gif\" alt=\"Logo\"></a>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "img { display: inline-block; }"
+        ]
+      }
+    ]
+  }

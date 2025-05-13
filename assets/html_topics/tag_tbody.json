@@ -1,0 +1,43 @@
+{
+  "title": "HTML <tbody> Tag",
+  "content": [
+    {
+      "heading": "<tbody> Tag",
+      "paragraphs": [
+        "The <tbody> tag groups table body content.",
+        "Example: <table>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n  </tbody>\n</table>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used with <thead> and <tfoot>.",
+        "Enables independent scrolling and printing."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Styled: <style>\n  tbody {color:blue;}\n</style>\n<table>\n  <tbody>\n    <tr>\n      <td>January</td>\n      <td>$100</td>\n    </tr>\n  </tbody>\n</table>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "tbody { display: table-row-group; vertical-align: middle; border-color: inherit; }"
+      ]
+    }
+  ]
+}

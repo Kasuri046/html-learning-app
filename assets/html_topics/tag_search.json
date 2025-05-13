@@ -1,0 +1,37 @@
+{
+  "title": "HTML <search> Tag",
+  "content": [
+    {
+      "heading": "<search> Tag",
+      "paragraphs": [
+        "The <search> tag groups search-related elements.",
+        "Example: <search>\n  <form>\n    <input name=\"search\" placeholder=\"Search\">\n  </form>\n</search>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Typically contains form elements for search.",
+        "Style with CSS; no special rendering."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "search { display: block; }"
+      ]
+    }
+  ]
+}

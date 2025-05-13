@@ -1,0 +1,24 @@
+{
+  "title": "HTML <strike> Tag",
+  "content": [
+    {
+      "heading": "<strike> Tag",
+      "paragraphs": [
+        "The <strike> tag is not supported in HTML5."
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Defined strikethrough text in HTML4."
+      ]
+    },
+    {
+      "heading": "Alternatives",
+      "paragraphs": [
+        "Use <del>: <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>",
+        "Use <s>: <p><s>My car is blue.</s></p>"
+      ]
+    }
+  ]
+}

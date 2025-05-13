@@ -1,0 +1,89 @@
+{
+    "title": "HTML Basic",
+    "content": [
+        {
+            "heading": "HTML Basic Examples",
+            "paragraphs": [
+                "In this chapter, we will show some basic HTML examples.\n\nDon't worry if we use tags you have not learned about yet."
+            ]
+        },
+        {
+            "heading": "HTML Documents",
+            "paragraphs": [
+                "All HTML documents must start with a document type declaration: <!DOCTYPE html>.\n\nThe HTML document itself begins with <html> and ends with </html>.\n\nThe visible part of the HTML document is between <body> and </body>."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "The <!DOCTYPE> Declaration",
+            "paragraphs": [
+                "The <!DOCTYPE> declaration represents the document type and helps browsers display web pages correctly.\n\nIt must only appear once, at the top of the page (before any HTML tags)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>"
+            ]
+        },
+        {
+            "heading": "HTML Headings",
+            "paragraphs": [
+                "HTML headings are defined with the <h1> to <h6> tags. <h1> defines the most important heading, while <h6> defines the least important."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1>This is heading 1</h1>\n<h2>This is heading 2</h2>\n<h3>This is heading 3</h3>"
+            ]
+        },
+        {
+            "heading": "HTML Paragraphs",
+            "paragraphs": [
+                "HTML paragraphs are defined with the <p> tag."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>This is a paragraph.</p>\n<p>This is another paragraph.</p>"
+            ]
+        },
+        {
+            "heading": "HTML Links",
+            "paragraphs": [
+                "HTML links are defined with the <a> tag. The link's destination is specified in the href attribute."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<a href=\"https://example.com\">This is a link</a>"
+            ]
+        },
+        {
+            "heading": "HTML Images",
+            "paragraphs": [
+                "HTML images are defined with the <img> tag. The source file (src), alternative text (alt), width, and height are provided as attributes."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<img src=\"image.jpg\" alt=\"Description of image\" width=\"104\" height=\"142\">"
+            ]
+        },
+        {
+            "heading": "How to View HTML Source",
+            "paragraphs": [
+                "To see the HTML source code of a web page, click CTRL + U or right-click and select 'View Page Source'."
+            ]
+        }
+    ]
+}

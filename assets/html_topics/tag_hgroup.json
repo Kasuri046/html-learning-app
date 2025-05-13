@@ -1,0 +1,37 @@
+{
+    "title": "HTML <hgroup> Tag",
+    "content": [
+      {
+        "heading": "<hgroup> Tag",
+        "paragraphs": [
+          "The <hgroup> tag groups a heading and related paragraphs.",
+          "Example: <hgroup><h2>Norway</h2><p>The land with the midnight sun.</p></hgroup>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains <h1> to <h6> headings and <p> elements.",
+          "No special rendering; style with CSS."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "hgroup { display: block; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,36 @@
+{
+  "title": "HTML <main> Tag",
+  "content": [
+    {
+      "heading": "<main> Tag",
+      "paragraphs": [
+        "The <main> tag specifies the main content of a document.",
+        "Example: <main>\n  <h1>Welcome</h1>\n  <p>This is the main content.</p>\n</main>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Should be unique per page, excluding headers/footers."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 26, Edge 12, Firefox 21, Safari 7, Opera 16."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "main { display: block; }"
+      ]
+    }
+  ]
+}

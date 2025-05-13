@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Miscellaneous",
+  "questions": [
+    {
+      "question": "What does the <abbr> tag do?",
+      "options": ["Deletes text", "Italics text", "Shows abbreviations", "Bolds text"],
+      "correctAnswer": "Shows abbreviations"
+    },
+    {
+      "question": "What is the <acronym> tag for?",
+      "options": ["Code text", "Quoted text", "Pronounceable abbreviations", "Regular text"],
+      "correctAnswer": "Pronounceable abbreviations"
+    },
+    {
+      "question": "What does <data> tag provide?",
+      "options": ["Hidden text", "Styled text", "Machine-readable data", "Visible text"],
+      "correctAnswer": "Machine-readable data"
+    },
+    {
+      "question": "What is the <dialog> tag for?",
+      "options": ["Link target", "Image source", "Dialog box", "Form input"],
+      "correctAnswer": "Dialog box"
+    },
+    {
+      "question": "What does <hn> represent?",
+      "options": ["List", "Paragraph", "Generic heading", "Specific heading"],
+      "correctAnswer": "Generic heading"
+    },
+    {
+      "question": "What is the <meter> tag for?",
+      "options": ["Dropdown", "Button", "Measurement gauge", "Text input"],
+      "correctAnswer": "Measurement gauge"
+    },
+    {
+      "question": "What does <output> tag show?",
+      "options": ["Link target", "Image source", "Form calculation", "Form input"],
+      "correctAnswer": "Form calculation"
+    },
+    {
+      "question": "What is the <template> tag for?",
+      "options": ["Quoted content", "Styled content", "Reusable content", "Visible content"],
+      "correctAnswer": "Reusable content"
+    },
+    {
+      "question": "Which tag aids accessibility?",
+      "options": ["<meter>", "<dialog>", "<data>", "<abbr>"],
+      "correctAnswer": "<abbr>"
+    },
+    {
+      "question": "What does <dialog> require?",
+      "options": ["Meta tags", "HTML only", "JavaScript", "CSS"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "question": "What is a common <meter> use?",
+      "options": ["Link targets", "Image sources", "Progress bars", "Text inputs"],
+      "correctAnswer": "Progress bars"
+    },
+    {
+      "question": "Why use <template>?",
+      "options": ["Styled content", "Hidden content", "Dynamic content", "Static content"],
+      "correctAnswer": "Dynamic content"
+    },
+    {
+      "question": "What does <data> value attribute do?",
+      "options": ["Hidden text", "Styled text", "Machine-readable value", "Visible text"],
+      "correctAnswer": "Machine-readable value"
+    },
+    {
+      "question": "Which tag is deprecated?",
+      "options": ["<dialog>", "<data>", "<acronym>", "<abbr>"],
+      "correctAnswer": "<acronym>"
+    },
+    {
+      "question": "What improves with <output>?",
+      "options": ["Security", "Page speed", "Form clarity", "File size"],
+      "correctAnswer": "Form clarity"
+    }
+  ]
+}

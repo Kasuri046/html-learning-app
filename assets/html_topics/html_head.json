@@ -1,0 +1,92 @@
+{
+    "title": "HTML Head Elements",
+    "content": [
+        {
+            "heading": "HTML - The Head Element",
+            "paragraphs": [
+                "The HTML <head> element is a container for elements like <title>, <style>, <meta>, <link>, <script>, and <base>."
+            ]
+        },
+        {
+            "heading": "The HTML <head> Element",
+            "paragraphs": [
+                "The <head> element contains metadata about the HTML document. This metadata is not displayed on the page but is used by browsers and search engines."
+            ]
+        },
+        {
+            "heading": "The HTML <title> Element",
+            "paragraphs": [
+                "The <title> element defines the title of the document, which is shown in the browser's title bar or tab. It is a required element and important for search engine optimization (SEO)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html> \n<html>\n<head>\n <title>A Meaningful Page Title</title> \n</head>\n <body> The content of the document......\n </body>\n </html>"
+            ]
+        },
+        {
+            "heading": "The HTML <style> Element",
+            "paragraphs": [
+                "The <style> element is used to define style information for a single HTML page."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>\n body {background-color: powderblue;}\n h1 {color: red;}\n p {color: blue;} \n</style>"
+            ]
+        },
+        {
+            "heading": "The HTML <link> Element",
+            "paragraphs": [
+                "The <link> element defines the relationship between the current document and an external resource, most commonly used to link to external style sheets."
+            ]
+        },
+        {
+            "heading": "The HTML <meta> Element",
+            "paragraphs": [
+                "The <meta> element is used to specify the character set, page description, keywords, author, and viewport settings."
+            ]
+        },
+        {
+            "heading": "Examples",
+            "paragraphs": [
+                "Define the character set used: <meta charset=\"UTF-8\">",
+                "Define keywords for search engines: <meta name=\"keywords\" content=\"HTML, CSS, JavaScript\">",
+                "Define a description of your web page: <meta name=\"description\" content=\"Free Web tutorials\">",
+                "Define the author of a page: <meta name=\"author\" content=\"John Doe\">"
+            ]
+        },
+        {
+            "heading": "Setting The Viewport",
+            "paragraphs": [
+                "The viewport is the user's visible area of a web page. It varies with the device. You should include the following <meta> element in all your web pages: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">."
+            ]
+        },
+        {
+            "heading": "The HTML <script> Element",
+            "paragraphs": [
+                "The <script> element is used to define client-side JavaScripts."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<script>\nfunction myFunction() { \ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\n }\n</script>"
+            ]
+        },
+        {
+            "heading": "The HTML <base> Element",
+            "paragraphs": [
+                "The <base> element specifies the base URL and/or target for all relative URLs in a page. There can only be one <base> element in a document."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<head>\n<base href=\"https://www.html.com/\" target=\"_blank\">\n</head> <body>\n<img src=\"images/stickman.gif\" width=\"24\" height=\"39\" alt=\"Stickman\">\n<a href=\"tags/tag_base.asp\">\nHTML base Tag</a>\n</body>"
+            ]
+        }
+    ]
+}

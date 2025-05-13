@@ -1,0 +1,41 @@
+{
+    "title": "HTML Online Editor",
+    "content": [
+        {
+            "heading": "HTML Editor",
+            "paragraphs": [
+                "With our online HTML editor, you can edit HTML, CSS, and JavaScript code, and view the result in your browser."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<title>\nHTML Tutorial</title>\n<body>\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Publish Your Code",
+            "paragraphs": [
+                "If you want to save your HTML, CSS, and JavaScript code and create your own website, consider using a website-building tool."
+            ]
+        },
+        {
+            "heading": "Learn Faster",
+            "paragraphs": [
+                "Practice is key to mastering coding, and the best way to put your HTML knowledge into practice is by getting practical with code."
+            ]
+        },
+        {
+            "heading": "Build Powerful Websites",
+            "paragraphs": [
+                "You can use the code editor to build frontend or full-stack websites from scratch or use available templates to save time."
+            ]
+        },
+        {
+            "heading": "Share It With The World",
+            "paragraphs": [
+                "Host and publish your websites easily. An SSL certificate makes your website safe and secure."
+            ]
+        }
+    ]
+}

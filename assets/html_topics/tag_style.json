@@ -1,0 +1,52 @@
+{
+  "title": "HTML <style> Tag",
+  "content": [
+    {
+      "heading": "<style> Tag",
+      "paragraphs": [
+        "The <style> tag defines CSS for a document.",
+        "Example: <style>\n  h1 {color:red;}\n  p {color:blue;}\n</style>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Placed in <head>.",
+        "Last style sheet overrides earlier ones."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["media", "media_query", "Target media"],
+              ["type", "text/css", "Style sheet type"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Multiple styles: <style>\n  h1 {color:green;}\n  p {color:pink;}\n</style>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "style { display: none; }"
+      ]
+    }
+  ]
+}

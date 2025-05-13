@@ -1,0 +1,44 @@
+{
+    "title": "HTML <caption> Tag",
+    "content": [
+      {
+        "heading": "<caption> Tag",
+        "paragraphs": [
+          "The <caption> tag defines a table caption.",
+          "Example: <table><caption>Monthly savings</caption><tr><th>Month</th><th>Savings</th></tr><tr><td>January</td><td>$100</td></tr></table>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Must be placed immediately after <table>.",
+          "Default: center-aligned above table.",
+          "Use CSS text-align and caption-side to adjust."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled captions: <table><caption style=\"text-align:right\">My savings</caption><tr><th>Month</th><th>Savings</th></tr><tr><td>January</td><td>$100</td></tr></table><br><table><caption style=\"caption-side:bottom\">My savings</caption><tr><th>Month</th><th>Savings</th></tr><tr><td>January</td><td>$100</td></tr></table>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "caption { display: table-caption; text-align: center; }"
+        ]
+      }
+    ]
+  }

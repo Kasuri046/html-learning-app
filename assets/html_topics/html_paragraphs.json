@@ -1,0 +1,40 @@
+{
+  "title": "HTML Paragraphs",
+  "content": [
+    {
+      "heading": "Paragraphs",
+      "paragraphs": [
+        "The <p> element defines a paragraph, starting on a new line with automatic margins.",
+        "Example:",
+        "<p>This is a paragraph.</p>\n<p>This is another paragraph.</p>"
+      ]
+    },
+    {
+      "heading": "Display Behavior",
+      "paragraphs": [
+        "Browsers ignore extra spaces and lines in HTML code, and display varies across screen sizes."
+      ]
+    },
+    {
+      "heading": "Horizontal Rules",
+      "paragraphs": [
+        "The <hr> tag, an empty tag, creates a thematic break, often shown as a horizontal line:",
+        "<h1>This is heading 1</h1>\n<p>This is some text.</p>\n<hr>\n<h2>This is heading 2</h2>\n<p>This is some other text.</p>\n<hr>"
+      ]
+    },
+    {
+      "heading": "Line Breaks",
+      "paragraphs": [
+        "The <br> tag, an empty tag, adds a line break without starting a new paragraph:",
+        "<p>This is<br>a paragraph<br>with line breaks.</p>"
+      ]
+    },
+    {
+      "heading": "Preformatted Text",
+      "paragraphs": [
+        "The <pre> element preserves spaces and line breaks, using a fixed-width font:",
+        "<pre>\nMy Bonnie lies over the ocean.\nMy Bonnie lies over the sea.\nMy Bonnie lies over the ocean.\nOh, bring back my Bonnie to me.\n</pre>"
+      ]
+    }
+  ]
+}

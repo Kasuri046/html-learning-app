@@ -1,0 +1,37 @@
+{
+    "title": "HTML <dd> Tag",
+    "content": [
+      {
+        "heading": "<dd> Tag",
+        "paragraphs": [
+          "The <dd> tag describes a term in a description list.",
+          "Example: <dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used with <dl> (description list) and <dt> (term).",
+          "Can contain paragraphs, images, links, lists."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "dd { display: block; margin-left: 40px; }"
+        ]
+      }
+    ]
+  }

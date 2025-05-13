@@ -1,0 +1,35 @@
+{
+  "title": "HTML Link Colors",
+  "content": [
+    {
+      "heading": "HTML Link Colors",
+      "paragraphs": [
+        "Links change color based on state: unvisited, visited, hovered, or active."
+      ]
+    },
+    {
+      "heading": "Default Link Colors",
+      "paragraphs": [
+        "Browsers display links as:",
+        "- Unvisited: Blue, underlined.",
+        "- Visited: Purple, underlined.",
+        "- Active: Red, underlined.",
+        "- Hovered: Varies by browser."
+      ]
+    },
+    {
+      "heading": "Custom Link Colors",
+      "paragraphs": [
+        "Use CSS pseudo-classes to style link states:",
+        "<style>\n  a:link { color: green; text-decoration: none; }\n  a:visited { color: darkorange; text-decoration: none; }\n  a:hover { color: red; text-decoration: underline; }\n  a:active { color: gold; text-decoration: underline; }\n</style>"
+      ]
+    },
+    {
+      "heading": "Links as Buttons",
+      "paragraphs": [
+        "Style links as buttons with CSS:",
+        "<style>\n  a:link, a:visited {\n    background-color: #4CAF50;\n    color: white;\n    padding: 10px 20px;\n    text-align: center;\n    text-decoration: none;\n    display: inline-block;\n    border-radius: 5px;\n  }\n  a:hover, a:active {\n    background-color: #388E3C;\n  }\n</style>"
+      ]
+    }
+  ]
+}

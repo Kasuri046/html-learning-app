@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Technical References",
+  "questions": [
+    {
+      "question": "What are keyboard shortcuts?",
+      "options": ["Meta tags", "Script functions", "Quick commands", "Style rules"],
+      "correctAnswer": "Quick commands"
+    },
+    {
+      "question": "What does HTTP method GET do?",
+      "options": ["Update data", "Delete data", "Retrieve data", "Submit data"],
+      "correctAnswer": "Retrieve data"
+    },
+    {
+      "question": "What is the POST HTTP method for?",
+      "options": ["Style data", "Delete data", "Submit data", "Retrieve data"],
+      "correctAnswer": "Submit data"
+    },
+    {
+      "question": "What are HTTP messages?",
+      "options": ["Image files", "Script files", "Request/response data", "Style sheets"],
+      "correctAnswer": "Request/response data"
+    },
+    {
+      "question": "What does URL encoding ensure?",
+      "options": ["Scripted URLs", "Hidden URLs", "Safe URLs", "Styled URLs"],
+      "correctAnswer": "Safe URLs"
+    },
+    {
+      "question": "What is an event attribute?",
+      "options": ["Adds links", "Hides elements", "Triggers scripts", "Styles elements"],
+      "correctAnswer": "Triggers scripts"
+    },
+    {
+      "question": "What does onclick attribute do?",
+      "options": ["Links clicks", "Hides clicks", "Handles clicks", "Styles clicks"],
+      "correctAnswer": "Handles clicks"
+    },
+    {
+      "question": "What is a common HTML example use?",
+      "options": ["Running scripts", "Hiding content", "Learning", "Styling"],
+      "correctAnswer": "Learning"
+    },
+    {
+      "question": "What does ref_byfunc provide?",
+      "options": ["Image references", "Link references", "Function references", "Style references"],
+      "correctAnswer": "Function references"
+    },
+    {
+      "question": "What is a common keyboard shortcut?",
+      "options": ["Bold", "Center", "Ctrl+C", "Font-size"],
+      "correctAnswer": "Ctrl+C"
+    },
+    {
+      "question": "Which HTTP method updates data?",
+      "options": ["DELETE", "POST", "PUT", "GET"],
+      "correctAnswer": "PUT"
+    },
+    {
+      "question": "What does HTTP status 404 mean?",
+      "options": ["Forbidden", "Server Error", "Not Found", "OK"],
+      "correctAnswer": "Not Found"
+    },
+    {
+      "question": "Why use technical references?",
+      "options": ["Script execution", "File compression", "Developer guidance", "User styling"],
+      "correctAnswer": "Developer guidance"
+    },
+    {
+      "question": "What does onmouseover do?",
+      "options": ["Links hover", "Hides hover", "Handles hover", "Styles hover"],
+      "correctAnswer": "Handles hover"
+    },
+    {
+      "question": "What improves with references?",
+      "options": ["Security", "Page speed", "Development accuracy", "File size"],
+      "correctAnswer": "Development accuracy"
+    }
+  ]
+}

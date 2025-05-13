@@ -1,0 +1,68 @@
+{
+    "title": "HTML Editors",
+    "content": [
+        {
+            "heading": "HTML Editors",
+            "paragraphs": [
+                "A simple text editor is all you need to learn HTML."
+            ]
+        },
+        {
+            "heading": "Learn HTML Using Notepad or TextEdit",
+            "paragraphs": [
+                "Web pages can be created and modified using professional HTML editors.",
+                "However, for learning HTML, we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).",
+                "Using a simple text editor is a good way to learn HTML."
+            ]
+        },
+        {
+            "heading": "Step 1: Open Notepad (PC)",
+            "paragraphs": [
+                "Windows 8 or later: Open the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.",
+                "Windows 7 or earlier: Open Start > Programs > Accessories > Notepad."
+            ]
+        },
+        {
+            "heading": "Step 1: Open TextEdit (Mac)",
+            "paragraphs": [
+                "Open Finder > Applications > TextEdit.",
+                "Change preferences to save files correctly: In Preferences > Format, choose 'Plain Text'.",
+                "Under 'Open and Save', check the box that says 'Display HTML files as HTML code instead of formatted text'.",
+                "Then open a new document to place the code."
+            ]
+        },
+        {
+            "heading": "Step 2: Write Some HTML",
+            "paragraphs": [
+                "Write or copy the following HTML code into Notepad:",
+                "<!DOCTYPE html>\n<html>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>"
+            ]
+        },
+        {
+            "heading": "Step 3: Save the HTML Page",
+            "paragraphs": [
+                "Save the file on your computer. Select File > Save as in the Notepad menu.",
+                "Name the file 'index.htm' and set the encoding to UTF-8 (the preferred encoding for HTML files).",
+                "Tip: You can use either .htm or .html as the file extension."
+            ]
+        },
+        {
+            "heading": "Step 4: View the HTML Page in Your Browser",
+            "paragraphs": [
+                "Open the saved HTML file in your favorite browser (double click on the file or right-click and choose 'Open with')."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n</head>\n<body>\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n</body>\n</html>"
+            ]
+        }
+    ]
+}

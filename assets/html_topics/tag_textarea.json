@@ -1,0 +1,58 @@
+{
+    "title": "HTML <textarea> Tag",
+    "content": [
+      {
+        "heading": "<textarea> Tag",
+        "paragraphs": [
+          "The <textarea> tag defines a multi-line text input control.",
+          "Example: <label for=\"w3review\">Review of W3Schools:</label>\n<textarea id=\"w3review\" name=\"w3review\" rows=\"4\" cols=\"50\">\nAt w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.\n</textarea>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used in forms for inputs like comments or reviews.",
+          "Holds unlimited characters, rendered in a fixed-width font (usually Courier).",
+          "Size set by cols and rows attributes or CSS.",
+          "Requires name for form submission and id for label association."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["autofocus", "autofocus", "Focuses on page load"],
+                ["cols", "number", "Visible width"],
+                ["dirname", "textareaname.dir", "Submits text direction"],
+                ["disabled", "disabled", "Disables the textarea"],
+                ["form", "form_id", "Specifies form ownership"],
+                ["maxlength", "number", "Maximum characters"],
+                ["name", "text", "Names the textarea"],
+                ["placeholder", "text", "Hint for expected value"],
+                ["readonly", "readonly", "Makes textarea read-only"],
+                ["required", "required", "Requires input"],
+                ["rows", "number", "Visible lines"],
+                ["wrap", "hard soft", "Text wrapping behavior"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Disable resize: <html>\n<head>\n<style>\ntextarea { resize: none; }\n</style>\n</head>\n<body>\n<label for=\"w3review\">Review of W3Schools:</label>\n<textarea id=\"w3review\" name=\"w3review\" rows=\"4\" cols=\"50\">\nAt w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.\n</textarea>\n</body>\n</html>"
+        ]
+      }
+    ]
+  }

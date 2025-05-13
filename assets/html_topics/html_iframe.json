@@ -1,0 +1,71 @@
+{
+    "title": "HTML Iframes",
+    "content": [
+        {
+            "heading": "HTML Iframes",
+            "paragraphs": [
+                "An HTML iframe is used to display a web page within a web page."
+            ]
+        },
+        {
+            "heading": "HTML Iframe Syntax",
+            "paragraphs": [
+                "The HTML <iframe> tag specifies an inline frame used to embed another document within the current HTML document."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"url\" title=\"description\">\n</iframe>"
+            ]
+        },
+        {
+            "heading": "Iframe - Set Height and Width",
+            "paragraphs": [
+                "Use the height and width attributes to specify the size of the iframe. The height and width are specified in pixels by default."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"demo_iframe.htm\" \nheight=\"200\" width=\"300\" \ntitle=\"Iframe Example\">\n</iframe>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"demo_iframe.htm\" \nstyle=\"height:200px;width:300px;\" \ntitle=\"Iframe Example\">\n</iframe>"
+            ]
+        },
+        {
+            "heading": "Iframe - Remove the Border",
+            "paragraphs": [
+                "By default, an iframe has a border around it. To remove the border, add the style attribute and use the CSS border property."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"demo_iframe.htm\"\n style=\"border:none;\" \ntitle=\"Iframe Example\">\n</iframe>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"demo_iframe.htm\"\n style=\"border:2px solid red;\" \ntitle=\"Iframe Example\">\n</iframe>"
+            ]
+        },
+        {
+            "heading": "Iframe - Target for a Link",
+            "paragraphs": [
+                "An iframe can be used as the target frame for a link. The target attribute of the link must refer to the name attribute of the iframe."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<iframe src=\"demo_iframe.htm\" name=\"iframe_a\"\n title=\"Iframe Example\">\n</iframe> \n<p>\n<a href=\"https://www.bitlogicx.com\" \ntarget=\"iframe_a\">bitlogicx.com</a></p>"
+            ]
+        }
+    ]
+}

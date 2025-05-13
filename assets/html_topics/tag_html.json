@@ -1,0 +1,46 @@
+{
+    "title": "HTML <html> Tag",
+    "content": [
+      {
+        "heading": "<html> Tag",
+        "paragraphs": [
+          "The <html> tag is the root of an HTML document.",
+          "Example: <!DOCTYPE html><html lang=\"en\"><head><title>Document</title></head><body><p>Content</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains all HTML elements except <!DOCTYPE>.",
+          "Use lang attribute to declare language."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["xmlns", "http://www.w3.org/1999/xhtml", "XML namespace for XHTML"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "html { display: block; }",
+          "html:focus { outline: none; }"
+        ]
+      }
+    ]
+  }

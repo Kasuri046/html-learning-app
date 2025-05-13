@@ -1,0 +1,33 @@
+{
+  "title": "HTML Ordered Lists",
+  "content": [
+    {
+      "heading": "Ordered Lists",
+      "paragraphs": [
+        "Ordered lists use <ol> with <li> for items, numbered or lettered automatically."
+      ]
+    },
+    {
+      "heading": "Type Attribute",
+      "paragraphs": [
+        "The type attribute changes item markers: '1' (numbers), 'A' (uppercase letters), 'a' (lowercase letters), 'I' (uppercase Roman numerals), 'i' (lowercase Roman numerals).",
+        "Example (uppercase letters):",
+        "<ol type=\"A\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ol>"
+      ]
+    },
+    {
+      "heading": "Start Attribute",
+      "paragraphs": [
+        "The start attribute sets the starting number, e.g., start=\"50\":",
+        "<ol start=\"50\">\n  <li>Coffee</li>\n  <li>Tea</li>\n  <li>Milk</li>\n</ol>"
+      ]
+    },
+    {
+      "heading": "Nested Lists",
+      "paragraphs": [
+        "Nest ordered lists within <li> for sub-lists:",
+        "<ol>\n  <li>Coffee</li>\n  <li>Tea\n    <ol>\n      <li>Black tea</li>\n      <li>Green tea</li>\n    </ol>\n  </li>\n  <li>Milk</li>\n</ol>"
+      ]
+    }
+  ]
+}

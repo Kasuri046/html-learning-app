@@ -1,0 +1,38 @@
+{
+    "title": "HTML <br> Tag",
+    "content": [
+      {
+        "heading": "<br> Tag",
+        "paragraphs": [
+          "The <br> tag inserts a single line break.",
+          "Example: <p>To force<br>line breaks<br>in text,<br>use br.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Useful for addresses or poems.",
+          "Empty tag with no closing tag.",
+          "Use for line breaks, not paragraph spacing."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Poem: <p>Be not afraid of greatness.<br>Some are born great,<br>some achieve greatness,<br>and others have greatness thrust upon them.</p><p><em>-William Shakespeare</em></p>"
+        ]
+      }
+    ]
+  }

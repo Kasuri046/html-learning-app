@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Web Standards & XHTML",
+  "questions": [
+    {
+      "question": "What is XHTML?",
+      "options": ["Meta tag", "JavaScript", "Stricter HTML", "CSS version"],
+      "correctAnswer": "Stricter HTML"
+    },
+    {
+      "question": "What does XHTML enforce?",
+      "options": ["HTML tags", "Script functions", "XML syntax", "CSS styles"],
+      "correctAnswer": "XML syntax"
+    },
+    {
+      "question": "What is a web standard?",
+      "options": ["Image formats", "Script libraries", "Best practices", "Style rules"],
+      "correctAnswer": "Best practices"
+    },
+    {
+      "question": "What is an HTML editor used for?",
+      "options": ["Debugging scripts", "Hosting sites", "Coding HTML", "Styling pages"],
+      "correctAnswer": "Coding HTML"
+    },
+    {
+      "question": "What is a common HTML editor?",
+      "options": ["PowerPoint", "Excel", "VS Code", "Photoshop"],
+      "correctAnswer": "VS Code"
+    },
+    {
+      "question": "What does XHTML require?",
+      "options": ["No attributes", "Inline styles", "Closed tags", "Open tags"],
+      "correctAnswer": "Closed tags"
+    },
+    {
+      "question": "What is W3C?",
+      "options": ["Image editor", "Script library", "Standards organization", "Style framework"],
+      "correctAnswer": "Standards organization"
+    },
+    {
+      "question": "Why use web standards?",
+      "options": ["Page speed", "Security", "Consistency", "File size"],
+      "correctAnswer": "Consistency"
+    },
+    {
+      "question": "What does XHTML improve?",
+      "options": ["File compression", "Script execution", "Code structure", "Visual design"],
+      "correctAnswer": "Code structure"
+    },
+    {
+      "question": "Which is an XHTML rule?",
+      "options": ["No nesting", "No attributes", "Lowercase tags", "Uppercase tags"],
+      "correctAnswer": "Lowercase tags"
+    },
+    {
+      "question": "What does default.json likely contain?",
+      "options": ["Script functions", "Image data", "Sample code", "Style rules"],
+      "correctAnswer": "Sample code"
+    },
+    {
+      "question": "What is a benefit of standards?",
+      "options": ["More styles", "Smaller files", "Cross-browser support", "Faster rendering"],
+      "correctAnswer": "Cross-browser support"
+    },
+    {
+      "question": "What does XHTML validate?",
+      "options": ["HTML tags", "Script functions", "XML compliance", "CSS styles"],
+      "correctAnswer": "XML compliance"
+    },
+    {
+      "question": "What does an editor like VS Code aid?",
+      "options": ["Debugging", "Hosting", "Development", "Styling"],
+      "correctAnswer": "Development"
+    },
+    {
+      "question": "Why use XHTML over HTML?",
+      "options": ["Smaller files", "Faster loading", "Stricter syntax", "More tags"],
+      "correctAnswer": "Stricter syntax"
+    }
+  ]
+}

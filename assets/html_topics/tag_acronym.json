@@ -1,0 +1,18 @@
+{
+    "title": "HTML <acronym> Tag",
+    "content": [
+      {
+        "heading": "<acronym> Tag",
+        "paragraphs": [
+          "The <acronym> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternative",
+        "paragraphs": [
+          "Use <abbr> for acronyms or abbreviations.",
+          "Example: The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948."
+        ]
+      }
+    ]
+  }

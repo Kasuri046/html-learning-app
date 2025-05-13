@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Legacy & Deprecated Tags",
+  "questions": [
+    {
+      "question": "What is a deprecated tag?",
+      "options": ["Style tag", "Semantic tag", "Obsolete tag", "New tag"],
+      "correctAnswer": "Obsolete tag"
+    },
+    {
+      "question": "What did <applet> tag do?",
+      "options": ["Played audio", "Created forms", "Embedded Java", "Styled text"],
+      "correctAnswer": "Embedded Java"
+    },
+    {
+      "question": "What was <basefont> for?",
+      "options": ["Form input", "Link target", "Default font", "Image source"],
+      "correctAnswer": "Default font"
+    },
+    {
+      "question": "What did <center> tag do?",
+      "options": ["Deleted text", "Quoted text", "Centered content", "Bolded text"],
+      "correctAnswer": "Centered content"
+    },
+    {
+      "question": "What was the <dir> tag for?",
+      "options": ["Menu list", "Description list", "Directory list", "Ordered list"],
+      "correctAnswer": "Directory list"
+    },
+    {
+      "question": "What did <font> tag define?",
+      "options": ["Form styling", "Link styling", "Text styling", "Image styling"],
+      "correctAnswer": "Text styling"
+    },
+    {
+      "question": "What was <strike> used for?",
+      "options": ["Quoted text", "Italic text", "Strikethrough text", "Bold text"],
+      "correctAnswer": "Strikethrough text"
+    },
+    {
+      "question": "What replaced <font> tag?",
+      "options": ["Meta tags", "HTML5", "CSS", "JavaScript"],
+      "correctAnswer": "CSS"
+    },
+    {
+      "question": "Why are tags deprecated?",
+      "options": ["Faster loading", "Smaller files", "Better alternatives", "More tags"],
+      "correctAnswer": "Better alternatives"
+    },
+    {
+      "question": "What replaced <center>?",
+      "options": ["Meta tags", "HTML5", "CSS text-align", "JavaScript"],
+      "correctAnswer": "CSS text-align"
+    },
+    {
+      "question": "What was <tt> used for?",
+      "options": ["Quoted text", "Italic text", "Teletype text", "Bold text"],
+      "correctAnswer": "Teletype text"
+    },
+    {
+      "question": "Which tag is outdated?",
+      "options": ["<p>", "<span>", "<applet>", "<div>"],
+      "correctAnswer": "<applet>"
+    },
+    {
+      "question": "What does deprecation affect?",
+      "options": ["Security", "Page speed", "Browser support", "File size"],
+      "correctAnswer": "Browser support"
+    },
+    {
+      "question": "What replaced <strike>?",
+      "options": ["<u>", "<i>", "<s>", "<b>"],
+      "correctAnswer": "<s>"
+    },
+    {
+      "question": "Why avoid deprecated tags?",
+      "options": ["Smaller files", "Faster rendering", "Incompatibility", "More styles"],
+      "correctAnswer": "Incompatibility"
+    }
+  ]
+}

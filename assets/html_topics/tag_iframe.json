@@ -1,0 +1,55 @@
+{
+    "title": "HTML <iframe> Tag",
+    "content": [
+      {
+        "heading": "<iframe> Tag",
+        "paragraphs": [
+          "The <iframe> tag embeds another document.",
+          "Example: <iframe src=\"https://example.com\" title=\"Tutorials\"></iframe>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use title attribute for accessibility.",
+          "Style with CSS."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["height", "pixels", "Iframe height"],
+                ["src", "URL", "Document address"],
+                ["title", "text", "Iframe description"],
+                ["width", "pixels", "Iframe width"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled iframe: <iframe src=\"https://example.com\" width=\"100%\" height=\"300\" style=\"border:1px solid black;\"></iframe>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "iframe:focus { outline: none; }",
+          "iframe[seamless] { display: block; }"
+        ]
+      }
+    ]
+  }

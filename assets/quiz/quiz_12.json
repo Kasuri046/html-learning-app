@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Embedded Content",
+  "questions": [
+    {
+      "question": "What does the <iframe> tag do?",
+      "options": ["Plays audio", "Styles text", "Embeds pages", "Displays images"],
+      "correctAnswer": "Embeds pages"
+    },
+    {
+      "question": "What is the <embed> tag for?",
+      "options": ["Internal scripts", "External content", "Page styling", "Metadata"],
+      "correctAnswer": "External content"
+    },
+    {
+      "question": "What does the <object> tag embed?",
+      "options": ["Text only", "Links only", "Multimedia", "Scripts only"],
+      "correctAnswer": "Multimedia"
+    },
+    {
+      "question": "What is the <param> tag used for?",
+      "options": ["Link target", "Style rules", "Object parameters", "Image source"],
+      "correctAnswer": "Object parameters"
+    },
+    {
+      "question": "What does the favicon represent?",
+      "options": ["Main content", "Navigation", "Browser icon", "Page title"],
+      "correctAnswer": "Browser icon"
+    },
+    {
+      "question": "Which attribute sets <iframe> source?",
+      "options": ["href", "alt", "src", "title"],
+      "correctAnswer": "src"
+    },
+    {
+      "question": "What does <iframe> sandbox do?",
+      "options": ["Hides frame", "Styles frame", "Restricts content", "Plays media"],
+      "correctAnswer": "Restricts content"
+    },
+    {
+      "question": "Where is <param> placed?",
+      "options": ["In <embed>", "In <iframe>", "In <object>", "In <div>"],
+      "correctAnswer": "In <object>"
+    },
+    {
+      "question": "What is a common <embed> type?",
+      "options": ["CSS", "JS", "PDF", "HTML"],
+      "correctAnswer": "PDF"
+    },
+    {
+      "question": "How is favicon linked?",
+      "options": ["<iframe>", "<embed>", "<link> tag", "<object>"],
+      "correctAnswer": "<link> tag"
+    },
+    {
+      "question": "What improves with <iframe>?",
+      "options": ["Security", "File size", "Content integration", "Page speed"],
+      "correctAnswer": "Content integration"
+    },
+    {
+      "question": "Which tag is outdated?",
+      "options": ["<object>", "<param>", "<embed>", "<iframe>"],
+      "correctAnswer": "<embed>"
+    },
+    {
+      "question": "What does <object> support?",
+      "options": ["Text only", "Links only", "Plugins", "Scripts only"],
+      "correctAnswer": "Plugins"
+    },
+    {
+      "question": "Why use favicon?",
+      "options": ["Scripting", "Navigation", "Branding", "Styling"],
+      "correctAnswer": "Branding"
+    },
+    {
+      "question": "Which tag lacks content?",
+      "options": ["<object>", "<embed>", "<param>", "<iframe>"],
+      "correctAnswer": "<param>"
+    }
+  ]
+}

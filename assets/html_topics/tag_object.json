@@ -1,0 +1,41 @@
+{
+  "title": "HTML <object> Tag",
+  "content": [
+    {
+      "heading": "<object> Tag",
+      "paragraphs": [
+        "The <object> tag embeds external resources.",
+        "Example: <object data=\"movie.mp4\" width=\"400\" height=\"300\">\n  <param name=\"autoplay\" value=\"true\">\n</object>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Supports multimedia or plugins.",
+        "Use <param> for parameters."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers, but format support varies."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["data", "URL", "Resource URL"],
+              ["type", "MIME_type", "Resource type"],
+              ["width", "pixels", "Object width"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    }
+  ]
+}

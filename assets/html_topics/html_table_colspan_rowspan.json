@@ -1,0 +1,25 @@
+{
+  "title": "HTML Table Colspan & Rowspan",
+  "content": [
+    {
+      "heading": "Colspan & Rowspan",
+      "paragraphs": [
+        "Table cells can span multiple columns or rows using colspan and rowspan attributes."
+      ]
+    },
+    {
+      "heading": "Colspan",
+      "paragraphs": [
+        "The colspan attribute makes a cell span multiple columns:",
+        "<table>\n  <tr>\n    <th colspan=\"2\">Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>Jill</td>\n    <td>Smith</td>\n    <td>43</td>\n  </tr>\n  <tr>\n    <td>Eve</td>\n    <td>Jackson</td>\n    <td>57</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Rowspan",
+      "paragraphs": [
+        "The rowspan attribute makes a cell span multiple rows:",
+        "<table>\n  <tr>\n    <th>Name</th>\n    <td>Jill</td>\n  </tr>\n  <tr>\n    <th rowspan=\"2\">Phone</th>\n    <td>555-1234</td>\n  </tr>\n  <tr>\n    <td>555-8745</td>\n  </tr>\n</table>"
+      ]
+    }
+  ]
+}

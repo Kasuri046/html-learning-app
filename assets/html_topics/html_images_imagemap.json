@@ -1,0 +1,114 @@
+{
+    "title": "HTML Image Maps",
+    "content": [
+      {
+        "heading": "HTML Image Maps",
+        "paragraphs": [
+          "HTML image maps allow you to create clickable regions on an image, directing users to different destinations based on the area clicked."
+        ]
+      },
+      {
+        "heading": "Image Maps",
+        "paragraphs": [
+          "The <map> element defines an image map, and the clickable areas within it are specified using one or more <area> elements."
+        ]
+      },
+      {
+        "heading": "How It Works",
+        "paragraphs": [
+          "To use an image map, you need an image with a 'usemap' attribute and a <map> element containing clickable <area> regions. The coordinates of each <area> define its clickable space."
+        ]
+      },
+      {
+        "heading": "The Image",
+        "paragraphs": [
+          "Insert the image with the <img> tag and connect it to a map using the 'usemap' attribute."
+        ]
+      },
+      {
+        "heading": "Creating the Map",
+        "paragraphs": [
+          "Use the <map> element and give it a name that matches the 'usemap' reference in the image."
+        ]
+      },
+      {
+        "heading": "Clickable Areas",
+        "paragraphs": [
+          "Each clickable region is defined using the <area> element. You must specify the shape and coordinates of the region."
+        ]
+      },
+      {
+        "heading": "Supported Shapes",
+        "paragraphs": [
+          "rect - rectangular area",
+          "circle - circular area",
+          "poly - polygonal area",
+          "default - the whole image"
+        ]
+      },
+      {
+        "heading": "Example: Rectangular Area",
+        "paragraphs": [
+          "Defines a rectangular clickable region."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<area shape=\"rect\" \ncoords=\"34,44,270,350\"\n href=\"computer.html\">"
+        ]
+      },
+      {
+        "heading": "Example: Circular Area",
+        "paragraphs": [
+          "Defines a circular clickable region using the center point and radius."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<area shape=\"circle\" \ncoords=\"337,300,44\" \nhref=\"coffee.html\">"
+        ]
+      },
+      {
+        "heading": "Example: Polygon Area",
+        "paragraphs": [
+          "Defines a polygonal clickable region with a list of x,y coordinate pairs."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<area shape=\"poly\" \ncoords=\"140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147\"\n href=\"croissant.html\">"
+        ]
+      },
+      {
+        "heading": "Using JavaScript with Maps",
+        "paragraphs": [
+          "You can add interactivity to image maps by attaching JavaScript functions to area elements using the onclick attribute."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<map name=\"workmap\">",
+          "  <area shape=\"circle\" coords=\"337,300,44\" href=\"coffee.html\" onclick=\"myFunction()\">",
+          "</map>",
+          "<script>",
+          "  function myFunction() {",
+          "    alert(\"You clicked the coffee cup!\");",
+          "  }",
+          "</script>"
+        ]
+      },
+      {
+        "heading": "Summary",
+        "paragraphs": [
+          "Use <img> with the 'usemap' attribute to reference a map.",
+          "Define the map using <map> and assign it a name.",
+          "Specify clickable regions inside the map with <area> and provide shape and coordinates."
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Images & Media",
+  "questions": [
+    {
+      "question": "What does the <img> tag do?",
+      "options": ["Plays videos", "Styles text", "Displays images", "Adds links"],
+      "correctAnswer": "Displays images"
+    },
+    {
+      "question": "Which attribute sets the image source?",
+      "options": ["href", "alt", "src", "title"],
+      "correctAnswer": "src"
+    },
+    {
+      "question": "What is the <picture> tag for?",
+      "options": ["Video playback", "Text styling", "Responsive images", "Single image"],
+      "correctAnswer": "Responsive images"
+    },
+    {
+      "question": "What does the alt attribute do?",
+      "options": ["Image size", "Image style", "Image description", "Image source"],
+      "correctAnswer": "Image description"
+    },
+    {
+      "question": "What is an image map?",
+      "options": ["Image resize", "Image gallery", "Image filter", "Clickable image regions"],
+      "correctAnswer": "Clickable image regions"
+    },
+    {
+      "question": "Which tag defines an image map?",
+      "options": ["<area>", "<picture>", "<map>", "<img>"],
+      "correctAnswer": "<map>"
+    },
+    {
+      "question": "What does the <area> tag specify?",
+      "options": ["Image border", "Image size", "Clickable areas", "Image source"],
+      "correctAnswer": "Clickable areas"
+    },
+    {
+      "question": "What is background-image in CSS?",
+      "options": ["Text style", "Image filter", "Element background", "Image source"],
+      "correctAnswer": "Element background"
+    },
+    {
+      "question": "Why use <picture> over <img>?",
+      "options": ["Single source", "Faster loading", "Multiple sources", "Smaller size"],
+      "correctAnswer": "Multiple sources"
+    },
+    {
+      "question": "What improves with alt text?",
+      "options": ["Page speed", "Image quality", "Accessibility", "File size"],
+      "correctAnswer": "Accessibility"
+    },
+    {
+      "question": "Which attribute links <map> to <img>?",
+      "options": ["href", "alt", "usemap", "src"],
+      "correctAnswer": "usemap"
+    },
+    {
+      "question": "What does <area> require?",
+      "options": ["style attribute", "alt attribute", "shape attribute", "src attribute"],
+      "correctAnswer": "shape attribute"
+    },
+    {
+      "question": "What is a common image format?",
+      "options": ["JS", "CSS", "PNG", "HTML"],
+      "correctAnswer": "PNG"
+    },
+    {
+      "question": "Why use responsive images?",
+      "options": ["Scripted images", "Fixed sizes", "Device adaptability", "Inline styles"],
+      "correctAnswer": "Device adaptability"
+    },
+    {
+      "question": "What does <img> lack?",
+      "options": ["Style", "Content", "Closing tag", "Attributes"],
+      "correctAnswer": "Closing tag"
+    }
+  ]
+}

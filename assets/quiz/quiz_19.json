@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Form Elements",
+  "questions": [
+    {
+      "question": "What does the <select> tag create?",
+      "options": ["Button", "Checkbox", "Dropdown menu", "Text input"],
+      "correctAnswer": "Dropdown menu"
+    },
+    {
+      "question": "What is the <option> tag for?",
+      "options": ["Form submission", "Input fields", "Dropdown items", "Labels"],
+      "correctAnswer": "Dropdown items"
+    },
+    {
+      "question": "What does <optgroup> do?",
+      "options": ["Hides options", "Submits form", "Groups options", "Styles options"],
+      "correctAnswer": "Groups options"
+    },
+    {
+      "question": "What is the <textarea> tag for?",
+      "options": ["Button", "Dropdown", "Multi-line text", "Single-line text"],
+      "correctAnswer": "Multi-line text"
+    },
+    {
+      "question": "What does the <button> tag create?",
+      "options": ["Text input", "Dropdown", "Clickable button", "Label"],
+      "correctAnswer": "Clickable button"
+    },
+    {
+      "question": "What is the <fieldset> tag for?",
+      "options": ["Hides form", "Styles form", "Groups form elements", "Submits form"],
+      "correctAnswer": "Groups form elements"
+    },
+    {
+      "question": "What does <legend> provide?",
+      "options": ["Option text", "Input label", "Fieldset title", "Button text"],
+      "correctAnswer": "Fieldset title"
+    },
+    {
+      "question": "What is the <datalist> tag for?",
+      "options": ["Button", "Text area", "Autocomplete suggestions", "Dropdown menu"],
+      "correctAnswer": "Autocomplete suggestions"
+    },
+    {
+      "question": "Which tag is used in <select>?",
+      "options": ["<button>", "<label>", "<option>", "<input>"],
+      "correctAnswer": "<option>"
+    },
+    {
+      "question": "What improves with <fieldset>?",
+      "options": ["Security", "Page speed", "Form organization", "File size"],
+      "correctAnswer": "Form organization"
+    },
+    {
+      "question": "Which attribute sets <button> type?",
+      "options": ["id", "name", "type", "value"],
+      "correctAnswer": "type"
+    },
+    {
+      "question": "What does <textarea> allow?",
+      "options": ["No text", "Single line", "Resizable text", "Fixed text"],
+      "correctAnswer": "Resizable text"
+    },
+    {
+      "question": "Which tag aids accessibility?",
+      "options": ["<datalist>", "<option>", "<legend>", "<button>"],
+      "correctAnswer": "<legend>"
+    },
+    {
+      "question": "What does <datalist> require?",
+      "options": ["<label> tags", "<button> tags", "<option> tags", "<input> tags"],
+      "correctAnswer": "<option> tags"
+    },
+    {
+      "question": "Why use <optgroup>?",
+      "options": ["Submit form", "Hide options", "Organize options", "Style options"],
+      "correctAnswer": "Organize options"
+    }
+  ]
+}

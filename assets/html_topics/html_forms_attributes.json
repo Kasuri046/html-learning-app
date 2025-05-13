@@ -1,0 +1,71 @@
+{
+    "title": "HTML Form Attributes",
+    "content": [
+        {
+            "heading": "HTML Form Attributes",
+            "paragraphs": [
+                "This chapter describes the different attributes for the HTML <form> element."
+            ]
+        },
+        {
+            "heading": "The Action Attribute",
+            "paragraphs": [
+                "The action attribute defines the action to be performed when the form is submitted. Usually, the form data is sent to a file on the server when the user clicks the submit button."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\">\n <label for=\"fname\">First name:</label>\n<br> \n<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br> \n<label for=\"lname\">Last name:</label><br>\n <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br><br>\n<input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The Target Attribute",
+            "paragraphs": [
+                "The target attribute specifies where to display the response received after submitting the form. The target attribute can have one of several values."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\" target=\"_blank\">\n <label for=\"fname\">First name:\n</label><br>\n  <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br> \n<label for=\"lname\">Last name:</label>\n<br> <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br><br> <input type=\"submit\" value=\"Submit\"></form>"
+            ]
+        },
+        {
+            "heading": "The Method Attribute",
+            "paragraphs": [
+                "The method attribute specifies the HTTP method to be used when submitting the form data. The form-data can be sent as URL variables (with method=\"get\") or as an HTTP POST transaction (with method=\"post\")."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\" method=\"get\"> \n<label for=\"fname\">First name:</label>\n<br>\n <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\">\n<br> <label for=\"lname\">Last name:\n</label><br>\n <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br>\n<br> <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The Autocomplete Attribute",
+            "paragraphs": [
+                "The autocomplete attribute specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically completes values based on previously entered data."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\" autocomplete=\"on\">\n <label for=\"fname\">First name:</label>\n<br> <input type=\"text\" id=\"fname\" name=\"fname\">\n<br> <label for=\"lname\">Last name:</label>\n<br> <input type=\"text\" id=\"lname\" name=\"lname\"><br>\n<br> <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The Novalidate Attribute",
+            "paragraphs": [
+                "The novalidate attribute is a boolean attribute that specifies that the form data should not be validated when submitted."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\" novalidate> \n <label for=\"fname\">\nFirst name:\n</label><br> \n<input type=\"text\" id=\"fname\" name=\"fname\"><br> \n<label for=\"lname\">Last name:\n</label><br>\n <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        }
+    ]
+}

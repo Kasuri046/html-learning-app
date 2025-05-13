@@ -1,0 +1,38 @@
+{
+    "title": "HTML <dialog> Tag",
+    "content": [
+      {
+        "heading": "<dialog> Tag",
+        "paragraphs": [
+          "The <dialog> tag defines a dialog box or modal.",
+          "Example: <dialog open>This is an open dialog window</dialog>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for popup dialogs or subwindows."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 37.0, Edge 79.0, Firefox 98.0, Safari 15.4, Opera 24.0."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["open", "open", "Dialog is active and interactive"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

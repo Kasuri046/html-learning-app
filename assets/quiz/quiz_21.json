@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Semantic HTML",
+  "questions": [
+    {
+      "question": "What is semantic HTML?",
+      "options": ["Styled tags", "Scripted tags", "Meaningful tags", "Hidden tags"],
+      "correctAnswer": "Meaningful tags"
+    },
+    {
+      "question": "What does <blockquote> do?",
+      "options": ["Italics text", "Deletes text", "Quotes text", "Bolds text"],
+      "correctAnswer": "Quotes text"
+    },
+    {
+      "question": "What is the <q> tag for?",
+      "options": ["Deleted text", "Code text", "Short quotes", "Long quotes"],
+      "correctAnswer": "Short quotes"
+    },
+    {
+      "question": "What does <address> define?",
+      "options": ["Main content", "Navigation", "Contact info", "Page title"],
+      "correctAnswer": "Contact info"
+    },
+    {
+      "question": "What is the <cite> tag for?",
+      "options": ["Deleted text", "Code text", "Work reference", "Quoted text"],
+      "correctAnswer": "Work reference"
+    },
+    {
+      "question": "What does <summary> provide?",
+      "options": ["Form label", "Image caption", "Details summary", "Table caption"],
+      "correctAnswer": "Details summary"
+    },
+    {
+      "question": "What is the <details> tag for?",
+      "options": ["Styled content", "Quoted content", "Collapsible content", "Fixed content"],
+      "correctAnswer": "Collapsible content"
+    },
+    {
+      "question": "Which tag is semantic for quotes?",
+      "options": ["<p>", "<span>", "<blockquote>", "<div>"],
+      "correctAnswer": "<blockquote>"
+    },
+    {
+      "question": "What improves with semantic HTML?",
+      "options": ["Security", "Page speed", "Accessibility", "File size"],
+      "correctAnswer": "Accessibility"
+    },
+    {
+      "question": "Where is <summary> placed?",
+      "options": ["In <cite>", "In <address>", "In <details>", "In <blockquote>"],
+      "correctAnswer": "In <details>"
+    },
+    {
+      "question": "What does <q> add by default?",
+      "options": ["Underline", "Italic text", "Quotation marks", "Bold text"],
+      "correctAnswer": "Quotation marks"
+    },
+    {
+      "question": "Which tag is for citations?",
+      "options": ["<address>", "<details>", "<cite>", "<q>"],
+      "correctAnswer": "<cite>"
+    },
+    {
+      "question": "What is a common <address> use?",
+      "options": ["Sidebar", "Main content", "Footer contact", "Header title"],
+      "correctAnswer": "Footer contact"
+    },
+    {
+      "question": "Why use <details>?",
+      "options": ["Styled content", "Hidden content", "Interactive content", "Static content"],
+      "correctAnswer": "Interactive content"
+    },
+    {
+      "question": "What does semantic HTML aid?",
+      "options": ["Image rendering", "Script execution", "Search engines", "File compression"],
+      "correctAnswer": "Search engines"
+    }
+  ]
+}

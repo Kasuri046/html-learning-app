@@ -1,0 +1,47 @@
+{
+    "title": "HTML URL Encoding",
+    "content": [
+      {
+        "heading": "URL Encoding",
+        "paragraphs": [
+          "URL encoding converts non-ASCII characters into a format safe for internet transmission, using '%' followed by hexadecimal digits. Spaces become '+' or '%20'."
+        ]
+      },
+      {
+        "heading": "URL Structure",
+        "paragraphs": [
+          "A URL follows the syntax: scheme://prefix.domain:port/path/filename",
+          "- scheme: e.g., http, https",
+          "- prefix: usually 'www'",
+          "- domain: e.g., example.com",
+          "- port: default 80 for http",
+          "- path: server location",
+          "- filename: resource name"
+        ]
+      },
+      {
+        "heading": "Common URL Schemes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Scheme", "Short for", "Used for"],
+              "rows": [
+                ["http", "HyperText Transfer Protocol", "Common web pages. Not encrypted"],
+                ["https", "Secure HTTP", "Secure web pages. Encrypted"],
+                ["ftp", "File Transfer Protocol", "File transfers"],
+                ["file", "", "Local files"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Encoding Example",
+        "paragraphs": [
+          "Spaces encode as '%20', special characters as '%XX' (hex value):",
+          "http://example.com/hello world → http://example.com/hello%20world",
+          "'Hello World!' → Hello%20World%21"
+        ]
+      }
+    ]
+  }

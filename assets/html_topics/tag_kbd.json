@@ -1,0 +1,43 @@
+{
+    "title": "HTML <kbd> Tag",
+    "content": [
+      {
+        "heading": "<kbd> Tag",
+        "paragraphs": [
+          "The <kbd> tag defines keyboard input, displayed in monospace.",
+          "Example: <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Use CSS for enhanced styling.",
+          "Related tags: <code>, <samp>, <var>, <pre>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled kbd: <html><head><style>kbd { border-radius: 2px; padding: 2px; border: 1px solid black;}</style></head><body><p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "kbd { font-family: monospace; }"
+        ]
+      }
+    ]
+  }

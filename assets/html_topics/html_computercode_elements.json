@@ -1,0 +1,87 @@
+{
+    "title": "HTML Computer Code Elements",
+    "content": [
+        {
+            "heading": "HTML Computer Code Elements",
+            "paragraphs": [
+                "HTML contains several elements for defining user input and computer code."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<code>\nx = 5; \ny = 6; \nz = x + y;\n</code>"
+            ]
+        },
+        {
+            "heading": "HTML <kbd> For Keyboard Input",
+            "paragraphs": [
+                "The HTML <kbd> element is used to define keyboard input. The content inside is displayed in the browser's default monospace font."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>Save the document by pressing <kbd>\nCtrl + S</kbd>\n</p>"
+            ]
+        },
+        {
+            "heading": "HTML <samp> For Program Output",
+            "paragraphs": [
+                "The HTML <samp> element is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>Message from my computer:</p>\n<p>\n<samp>File not found.\n<br>Press F1 to continue</samp>\n</p>"
+            ]
+        },
+        {
+            "heading": "HTML <code> For Computer Code",
+            "paragraphs": [
+                "The HTML <code> element is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<code>\nx = 5;\n y = 6; \nz = x + y;\n</code>\nx = 5; \ny = 6;\n z = x + y;"
+            ]
+        },
+        {
+            "heading": "Preserve Line-Breaks",
+            "paragraphs": [
+                "Notice that the <code> element does NOT preserve extra whitespace and line-breaks. To preserve extra whitespace and line-breaks, you can put the <code> element inside a <pre> element."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<pre>\n<code>\nx = 5;\n y = 6;\n z = x + y;\n</code>\n</pre>\nx = 5;\ny = 6;\nz = x + y;"
+            ]
+        },
+        {
+            "heading": "HTML <var> For Variables",
+            "paragraphs": [
+                "The HTML <var> element is used to define a variable in programming or in a mathematical expression. The content inside is typically displayed in italic."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>\nThe area of a triangle is: 1/2 x \n<var>b</var>\n x <var>h</var>,\n where <var>b</var>\n is the base, and <var>h</var>\n is the vertical height.</p>"
+            ]
+        },
+        {
+            "heading": "Chapter Summary",
+            "paragraphs": [
+                "The <kbd> element defines keyboard input.",
+                "The <samp> element defines sample output from a computer program.",
+                "The <code> element defines a piece of computer code.",
+                "The <var> element defines a variable in programming or in a mathematical expression.",
+                "The <pre> element defines preformatted text."
+            ]
+        }
+    ]
+}

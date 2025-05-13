@@ -1,0 +1,17 @@
+{
+    "title": "HTML <center> Tag",
+    "content": [
+      {
+        "heading": "<center> Tag",
+        "paragraphs": [
+          "The <center> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Center-align with CSS: <html><head><style>h1, p, div { text-align: center;}</style></head><body><h1>Heading</h1><p>Paragraph</p><div>Div</div></body></html>"
+        ]
+      }
+    ]
+  }

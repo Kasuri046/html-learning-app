@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Colors & Formatting",
+  "questions": [
+    {
+      "question": "How are colors defined in HTML?",
+      "options": ["Meta tags", "JavaScript", "CSS properties", "HTML tags"],
+      "correctAnswer": "CSS properties"
+    },
+    {
+      "question": "What is RGB color format?",
+      "options": ["Random Gradient Blend", "Root Graphic Base", "Red, Green, Blue", "Red, Gray, Black"],
+      "correctAnswer": "Red, Green, Blue"
+    },
+    {
+      "question": "What does HEX color use?",
+      "options": ["Named colors", "HSL values", "#RRGGBB format", "RGB values"],
+      "correctAnswer": "#RRGGBB format"
+    },
+    {
+      "question": "What is HSL color format?",
+      "options": ["High, Soft, Low", "Hex, Style, Level", "Hue, Saturation, Lightness", "Height, Shade, Luminary"],
+      "correctAnswer": "Hue, Saturation, Lightness"
+    },
+    {
+      "question": "What is a named color?",
+      "options": ["HSL value", "Hex code", "Predefined color", "Custom RGB"],
+      "correctAnswer": "Predefined color"
+    },
+    {
+      "question": "Which is a valid color value?",
+      "options": ["bold", "href", "red", "font-size"],
+      "correctAnswer": "red"
+    },
+    {
+      "question": "What does <pre> tag do?",
+      "options": ["Bolds text", "Italics text", "Preserves formatting", "Adds links"],
+      "correctAnswer": "Preserves formatting"
+    },
+    {
+      "question": "What is used for code formatting?",
+      "options": ["<p>", "<span>", "<div>", "<pre>"],
+      "correctAnswer": "<pre>"
+    },
+    {
+      "question": "How is RGB written in CSS?",
+      "options": ["hsl(0, 100%, 50%)", "#FF0000", "red", "rgb(255, 0, 0)"],
+      "correctAnswer": "rgb(255, 0, 0)"
+    },
+    {
+      "question": "What does HSL adjust easily?",
+      "options": ["Page layout", "Font size", "Image size", "Color tone"],
+      "correctAnswer": "Color tone"
+    },
+    {
+      "question": "Which color format uses 6 digits?",
+      "options": ["Named", "RGB", "HEX", "HSL"],
+      "correctAnswer": "HEX"
+    },
+    {
+      "question": "What is a common named color?",
+      "options": ["large", "center", "bold", "blue"],
+      "correctAnswer": "blue"
+    },
+    {
+      "question": "Why use <pre> for code?",
+      "options": ["Hides content", "Bolds text", "Keeps spacing", "Adds links"],
+      "correctAnswer": "Keeps spacing"
+    },
+    {
+      "question": "What does color enhance?",
+      "options": ["Security", "Speed", "Visual appeal", "File size"],
+      "correctAnswer": "Visual appeal"
+    },
+    {
+      "question": "Which CSS property sets color?",
+      "options": ["margin", "padding", "color", "font-size"],
+      "correctAnswer": "color"
+    }
+  ]
+}

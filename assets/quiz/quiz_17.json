@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Advanced Table Elements",
+  "questions": [
+    {
+      "question": "What does the <th> tag define?",
+      "options": ["Table row", "Table column", "Table header", "Table cell"],
+      "correctAnswer": "Table header"
+    },
+    {
+      "question": "What is the <td> tag for?",
+      "options": ["Table row", "Table column", "Table cell", "Table header"],
+      "correctAnswer": "Table cell"
+    },
+    {
+      "question": "What does <thead> group?",
+      "options": ["All rows", "Footer rows", "Header rows", "Body rows"],
+      "correctAnswer": "Header rows"
+    },
+    {
+      "question": "What is the <tbody> tag for?",
+      "options": ["Footer content", "Column content", "Main table content", "Header content"],
+      "correctAnswer": "Main table content"
+    },
+    {
+      "question": "What does <tfoot> define?",
+      "options": ["Table column", "Table body", "Table footer", "Table header"],
+      "correctAnswer": "Table footer"
+    },
+    {
+      "question": "What is the <col> tag used for?",
+      "options": ["Cell content", "Header content", "Column styling", "Row styling"],
+      "correctAnswer": "Column styling"
+    },
+    {
+      "question": "What does <caption> provide?",
+      "options": ["Row style", "Column style", "Table title", "Cell content"],
+      "correctAnswer": "Table title"
+    },
+    {
+      "question": "Where is <caption> placed?",
+      "options": ["In <tbody>", "In <tfoot>", "Top of <table>", "In <thead>"],
+      "correctAnswer": "Top of <table>"
+    },
+    {
+      "question": "Which tag is semantic for headers?",
+      "options": ["<caption>", "<col>", "<td>", "<th>"],
+      "correctAnswer": "<th>"
+    },
+    {
+      "question": "What improves with <thead>?",
+      "options": ["Security", "Page speed", "Table structure", "File size"],
+      "correctAnswer": "Table structure"
+    },
+    {
+      "question": "Which tag groups columns?",
+      "options": ["<tbody>", "<tfoot>", "<colgroup>", "<thead>"],
+      "correctAnswer": "<colgroup>"
+    },
+    {
+      "question": "What does <col> require?",
+      "options": ["href attribute", "alt attribute", "span attribute", "src attribute"],
+      "correctAnswer": "span attribute"
+    },
+    {
+      "question": "Why use <tfoot>?",
+      "options": ["Column data", "Body data", "Summary data", "Header data"],
+      "correctAnswer": "Summary data"
+    },
+    {
+      "question": "Which tag aids accessibility?",
+      "options": ["<tr>", "<td>", "<col>", "<caption>"],
+      "correctAnswer": "<caption>"
+    },
+    {
+      "question": "What does <th> default style include?",
+      "options": ["Underlined text", "Small text", "Bold text", "Italic text"],
+      "correctAnswer": "Bold text"
+    }
+  ]
+}

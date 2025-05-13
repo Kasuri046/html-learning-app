@@ -1,0 +1,49 @@
+{
+  "title": "HTML Audio",
+  "content": [
+    {
+      "heading": "Audio Element",
+      "paragraphs": [
+        "The <audio> element plays audio files, using <source> for multiple formats."
+      ]
+    },
+    {
+      "heading": "Basic Audio",
+      "paragraphs": [
+        "Use controls for play, pause, and volume:",
+        "<audio controls>\n  <source src=\"sound.mp3\" type=\"audio/mpeg\">\n  <source src=\"sound.ogg\" type=\"audio/ogg\">\n  Your browser does not support audio.\n</audio>"
+      ]
+    },
+    {
+      "heading": "Autoplay",
+      "paragraphs": [
+        "Add autoplay (often requires muted):",
+        "<audio controls autoplay muted>\n  <source src=\"intro.mp3\" type=\"audio/mpeg\">\n  <source src=\"intro.ogg\" type=\"audio/ogg\">\n  Your browser does not support audio.\n</audio>"
+      ]
+    },
+    {
+      "heading": "Audio Formats",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Browser", "MP3", "WAV", "OGG"],
+            "rows": [
+              ["Chrome", "Yes", "Yes", "Yes"],
+              ["Firefox", "Yes", "Yes", "Yes"],
+              ["Safari", "Yes", "Yes", "No"],
+              ["Edge", "Yes", "Yes*", "Yes*"],
+              ["Opera", "Yes", "Yes", "Yes"]
+            ]
+          }
+        },
+        "Media types: MP3 (audio/mpeg), OGG (audio/ogg), WAV (audio/wav)"
+      ]
+    },
+    {
+      "heading": "JavaScript Control",
+      "paragraphs": [
+        "Use DOM methods (play(), pause()), properties (currentTime, volume), and events (onplay, onpause) for audio control."
+      ]
+    }
+  ]
+}

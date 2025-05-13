@@ -1,0 +1,32 @@
+{
+  "title": "HTML Drag and Drop API",
+  "content": [
+    {
+      "heading": "Drag and Drop API",
+      "paragraphs": [
+        "The Drag and Drop API allows elements to be dragged and dropped on a web page."
+      ]
+    },
+    {
+      "heading": "Basic Example",
+      "paragraphs": [
+        "<div id=\"div1\" ondrop=\"dropHandler(event)\" ondragover=\"dragoverHandler(event)\"></div>\n<img id=\"img1\" src=\"logo.png\" draggable=\"true\" ondragstart=\"dragstartHandler(event)\">",
+        "<script>\nfunction dragstartHandler(ev) { ev.dataTransfer.setData('text', ev.target.id); }\nfunction dragoverHandler(ev) { ev.preventDefault(); }\nfunction dropHandler(ev) { ev.preventDefault(); const data = ev.dataTransfer.getData('text'); ev.target.appendChild(document.getElementById(data)); }\n</script>"
+      ]
+    },
+    {
+      "heading": "Making Elements Draggable",
+      "paragraphs": [
+        "Set draggable=\"true\" on elements like <img> or <p>."
+      ]
+    },
+    {
+      "heading": "Drag and Drop Events",
+      "paragraphs": [
+        "- ondragstart: Sets data to drag (setData())",
+        "- ondragover: Allows dropping (preventDefault())",
+        "- ondrop: Handles drop action (appendChild())"
+      ]
+    }
+  ]
+}

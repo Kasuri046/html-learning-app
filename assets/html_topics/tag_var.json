@@ -1,0 +1,38 @@
+{
+    "title": "HTML <var> Tag",
+    "content": [
+      {
+        "heading": "<var> Tag",
+        "paragraphs": [
+          "The <var> tag defines a variable in programming or math.",
+          "Example: <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Displayed in italic by default.",
+          "CSS can be used for richer effects.",
+          "Related tags: <code>, <samp>, <kbd>, <pre>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "var { font-style: italic; }"
+        ]
+      }
+    ]
+  }

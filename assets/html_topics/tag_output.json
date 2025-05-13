@@ -1,0 +1,46 @@
+{
+  "title": "HTML <output> Tag",
+  "content": [
+    {
+      "heading": "<output> Tag",
+      "paragraphs": [
+        "The <output> tag displays the result of a calculation.",
+        "Example: <form oninput=\"x.value=parseInt(a.value)+parseInt(b.value)\">\n  <input type=\"number\" id=\"a\" value=\"50\">+\n  <input type=\"number\" id=\"b\" value=\"25\">=\n  <output name=\"x\" for=\"a b\"></output>\n</form>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Typically used for script-generated results."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 10, Edge 13, Firefox 4, Safari 5.1, Opera 11."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["for", "element_id", "Links to input elements"],
+              ["name", "name", "Names the output"],
+              ["form", "form_id", "Associates with a form"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "output { display: inline; }"
+      ]
+    }
+  ]
+}

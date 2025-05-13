@@ -1,0 +1,31 @@
+{
+    "title": "HTML <wbr> Tag",
+    "content": [
+      {
+        "heading": "<wbr> Tag",
+        "paragraphs": [
+          "The <wbr> tag specifies a word break opportunity.",
+          "Example: <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Indicates where a line break is acceptable in long words.",
+          "Prevents browsers from breaking text at inappropriate places."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported since Chrome 1, Edge 12, Firefox 3, Safari 4, Opera 11.7."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global attributes."
+        ]
+      }
+    ]
+  }

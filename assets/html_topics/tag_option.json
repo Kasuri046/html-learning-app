@@ -1,0 +1,55 @@
+{
+  "title": "HTML <option> Tag",
+  "content": [
+    {
+      "heading": "<option> Tag",
+      "paragraphs": [
+        "The <option> tag defines an option in a select list.",
+        "Example: <select id=\"cars\">\n  <option value=\"volvo\">Volvo</option>\n  <option value=\"saab\">Saab</option>\n</select>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used inside <select>, <optgroup>, or <datalist>.",
+        "The value attribute specifies data sent on form submission.",
+        "Group options with <optgroup> for long lists."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["value", "text", "Data sent to server"],
+              ["selected", "selected", "Pre-selects option"],
+              ["disabled", "disabled", "Disables option"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "In datalist: <input list=\"browsers\">\n<datalist id=\"browsers\">\n  <option value=\"Chrome\">\n  <option value=\"Firefox\">\n</datalist>",
+        "With optgroup: <select>\n  <optgroup label=\"Swedish Cars\">\n    <option value=\"volvo\">Volvo</option>\n  </optgroup>\n</select>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "None"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "title": "HTML <area> Tag",
+    "content": [
+      {
+        "heading": "<area> Tag",
+        "paragraphs": [
+          "The <area> tag defines clickable areas in an image map.",
+          "Example: <img src=\"workplace.jpg\" alt=\"Workplace\" usemap=\"#workmap\"><map name=\"workmap\"><area shape=\"rect\" coords=\"34,44,270,350\" alt=\"Computer\" href=\"computer.html\"></map>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Nested inside <map>, linked to <img> via usemap attribute.",
+          "Shapes: rect, circle, poly."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["href", "URL", "Link target"],
+                ["alt", "text", "Alternate text for area"],
+                ["coords", "coordinates", "Area coordinates"],
+                ["shape", "rect circle poly", "Area shape"],
+                ["target", "_blank _self", "Where to open link"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

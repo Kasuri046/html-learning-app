@@ -1,0 +1,54 @@
+{
+    "title": "HTML <form> Tag",
+    "content": [
+      {
+        "heading": "<form> Tag",
+        "paragraphs": [
+          "The <form> tag creates a user input form.",
+          "Example: <form><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></form>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains input elements like text fields, checkboxes, or radio buttons."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["action", "URL", "Form submission destination"],
+                ["method", "get post", "HTTP method for submission"],
+                ["name", "text", "Form name"],
+                ["target", "_blank _self _parent _top", "Response display location"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Checkboxes: <form><input type=\"checkbox\" name=\"vehicle1\" value=\"Bike\"><label for=\"vehicle1\">Bike</label><br><input type=\"submit\" value=\"Submit\"></form>",
+          "Radio buttons: <form><input type=\"radio\" id=\"html\" name=\"fav_language\" value=\"HTML\"><label for=\"html\">HTML</label><br><input type=\"submit\" value=\"Submit\"></form>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "form { display: block; margin-top: 0em; }"
+        ]
+      }
+    ]
+  }

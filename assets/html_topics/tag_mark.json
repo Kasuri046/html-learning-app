@@ -1,0 +1,36 @@
+{
+  "title": "HTML <mark> Tag",
+  "content": [
+    {
+      "heading": "<mark> Tag",
+      "paragraphs": [
+        "The <mark> tag highlights text.",
+        "Example: <p>Do not forget to buy <mark>milk</mark> today.</p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Marks relevant or emphasized text."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 6, Edge 9, Firefox 4, Safari 5, Opera 11.1."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "mark { background-color: yellow; color: black; }"
+      ]
+    }
+  ]
+}

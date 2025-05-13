@@ -1,0 +1,51 @@
+{
+  "title": "HTML <q> Tag",
+  "content": [
+    {
+      "heading": "<q> Tag",
+      "paragraphs": [
+        "The <q> tag defines a short quotation.",
+        "Example: <p>WWF's goal: <q>Live in harmony with nature.</q></p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Browsers add quotation marks.",
+        "Use <blockquote> for long quotes."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["cite", "URL", "Source URL of quote"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Styled: <q style=\"color:gray;font-style:italic;\">Live in harmony with nature.</q>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "q { display: inline; }\nq:before { content: open-quote; }\nq:after { content: close-quote; }"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "title": "HTML <article> Tag",
+    "content": [
+      {
+        "heading": "<article> Tag",
+        "paragraphs": [
+          "The <article> tag defines independent, self-contained content.",
+          "Example: <article><h2>Browser</h2><p>This is a web browser.</p></article>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Suitable for forum posts, blog posts, or news stories.",
+          "Content should be distributable independently.",
+          "Style with CSS for visual distinction."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 6.0, Edge 9.0, Firefox 4.0, Safari 5.0, Opera 11.1."
+        ]
+      },
+      {
+        "heading": "Example",
+        "paragraphs": [
+          "<style>.browser { margin: 10px; padding: 5px; background: white; }</style><article><h2>Browser</h2><p>This is a web browser.</p></article>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "article { display: block; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,43 @@
+{
+    "title": "HTML <figure> Tag",
+    "content": [
+      {
+        "heading": "<figure> Tag",
+        "paragraphs": [
+          "The <figure> tag specifies self-contained content like images or code.",
+          "Example: <figure><img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"><figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption></figure>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Content is independent of main flow.",
+          "Use <figcaption> for captions."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 8.0, Edge 9.0, Firefox 4.0, Safari 5.1, Opera 11.0."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled figure: <html><head><style>figure { border: 1px #cccccc solid; padding: 4px; margin: auto; } figcaption { background-color: black; color: white; font-style: italic; padding: 2px; text-align: center; }</style></head><body><figure><img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"><figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption></figure></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "figure { display: block; margin: 1em 40px; }"
+        ]
+      }
+    ]
+  }

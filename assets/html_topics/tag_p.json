@@ -1,0 +1,45 @@
+{
+  "title": "HTML <p> Tag",
+  "content": [
+    {
+      "heading": "<p> Tag",
+      "paragraphs": [
+        "The <p> tag defines a paragraph.",
+        "Example: <p>This is a paragraph.</p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Browsers add blank lines before and after paragraphs.",
+        "Style with CSS."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Aligned: <p style=\"text-align:right\">This is a paragraph.</p>",
+        "Styled: <p style=\"color:navy;text-indent:30px;\">This is a paragraph.</p>",
+        "Line breaks ignored: <p>This paragraph\ncontains many lines\nbut displays as one.</p>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "p { display: block; margin: 1em 0; }"
+      ]
+    }
+  ]
+}

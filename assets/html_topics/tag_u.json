@@ -1,0 +1,43 @@
+{
+    "title": "HTML <u> Tag",
+    "content": [
+      {
+        "heading": "<u> Tag",
+        "paragraphs": [
+          "The <u> tag defines text styled differently, often underlined.",
+          "Example: <p>This is some <u>mispeled</u> text.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for misspelled words or proper names in Chinese text.",
+          "Avoid where it may be confused with hyperlinks."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled: <html>\n<head>\n<style>\n.spelling-error { text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red; }\n</style>\n</head>\n<body>\n<p>This is some <u class=\"spelling-error\">mispeled</u> text.</p>\n</body>\n</html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "u { text-decoration: underline; }"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+  "title": "HTML Server-Sent Events API",
+  "content": [
+    {
+      "heading": "Server-Sent Events",
+      "paragraphs": [
+        "The Server-Sent Events (SSE) API pushes updates from a server to a web page automatically."
+      ]
+    },
+    {
+      "heading": "Receiving Events",
+      "paragraphs": [
+        "Use EventSource to receive updates:",
+        "<script>\nconst x = document.getElementById('result');\nif (typeof(EventSource) !== 'undefined') {\n  var source = new EventSource('demo_sse.php');\n  source.onmessage = function(event) {\n    x.innerHTML += event.data + '<br>';\n  };\n} else {\n  x.innerHTML = 'No SSE support.';\n}\n</script>"
+      ]
+    },
+    {
+      "heading": "Server-Side Code",
+      "paragraphs": [
+        "Server must set 'Content-Type: text/event-stream' and send data starting with 'data:':",
+        "<?php\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n$time = date('r');\necho \"data: The server time is: {$time}\\n\\n\";\nflush();\n?>"
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["API", "Chrome", "Firefox", "Safari"],
+            "rows": [
+              ["SSE", "6.0", "6.0", "5.0"]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "HTML Accessibility",
+    "content": [
+        {
+            "heading": "HTML Accessibility",
+            "paragraphs": [
+                "Always write HTML code with accessibility in mind!\n\nProvide the user a good way to navigate and interact with your site. Make your HTML code as semantic as possible."
+            ]
+        },
+        {
+            "heading": "Semantic HTML",
+            "paragraphs": [
+                "Semantic HTML means using correct HTML elements for their correct purpose as much as possible.\n\nSemantic elements are elements with a meaning; if you need a button, use the <button> element (and not a <div> element).\nSemantic HTML gives context to screen readers, which read the contents of a page out loud.\n\nWith the button example in mind: buttons have more suitable styling by default,\n\na screen reader identifies it as a button,\n\nfocusable,\n\nclickable.\n\nA button is also accessible for people relying on keyboard-only navigation; it can be clickable with both mouse and keys, and it can be tabbed between (using the tab key on the keyboard).\n\nExamples of non-semantic elements: <div> and <span> - Tells nothing about its content.\n\nExamples of semantic elements: <form>, <table>, and <article> - Clearly defines its content."
+            ]
+        },
+        {
+            "heading": "Headings Are Important",
+            "paragraphs": [
+                "Headings are defined with the <h1> to <h6> tags:\n\nExample\n\n<h1>Heading 1</h1>\n<h2>Heading 2</h2>\n<h3>Heading 3</h3>\n<h4>Heading 4</h4>\n<h5>Heading 5</h5>\n<h6>Heading 6</h6>\n\nSearch engines use the headings to index the structure and content of your web pages.\n\nUsers skim your pages by its headings. It is important to use headings to show the document structure and the relationships between different sections.\n\nScreen readers also use headings as a navigational tool. The different types of heading specify the outline of the page. <h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<h1>Heading 1</h1>\n<h2>Heading 2</h2>\n<h3>Heading 3</h3>\n<h4>Heading 4</h4>\n<h5>Heading 5</h5>\n<h6>Heading 6</h6>"
+            ]
+        },
+        {
+            "heading": "Alternative Text",
+            "paragraphs": [
+                "The alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).\n\nThe value of the alt attribute should describe the image:\n\nExample\n\n<img src=\"img_chania.jpg\" alt=\"A narrow city street with flowers in Chania\">\n\nIf a browser cannot find an image, it will display the value of the alt attribute:\n\nExample\n\n<img src=\"wrongname.gif\" alt=\"A narrow city street with flowers in Chania\">"
+            ]
+        },
+        {
+            "heading": "Declare the Language",
+            "paragraphs": [
+                "You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.\n\nThe following example specifies English as the language:\n\n<!DOCTYPE html><html lang=\"en\"><body>\n ...</body></html>"
+            ]
+        },
+        {
+            "heading": "Use Clear Language",
+            "paragraphs": [
+                "Always use a clear language that is easy to understand. Also try to avoid characters that cannot be read clearly by a screen reader. For example:\n\nKeep sentences as short as possible.\n\nAvoid dashes. Instead of writing 1-3, write 1 to 3.\n\nAvoid abbreviations. Instead of writing Feb, write February.\n\nAvoid slang words."
+            ]
+        }
+    ]
+}

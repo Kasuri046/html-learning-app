@@ -1,0 +1,42 @@
+{
+    "title": "HTML <figcaption> Tag",
+    "content": [
+      {
+        "heading": "<figcaption> Tag",
+        "paragraphs": [
+          "The <figcaption> tag defines a caption for a <figure> element.",
+          "Example: <figure><img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"><figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption></figure>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Placed as first or last child of <figure>."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by Chrome 8.0, Edge 9.0, Firefox 4.0, Safari 5.1, Opera 11.0."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled figcaption: <html><head><style>figure { border: 1px #cccccc solid; padding: 4px; margin: auto; } figcaption { background-color: black; color: white; font-style: italic; padding: 2px; text-align: center; }</style></head><body><figure><img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"><figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption></figure></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "figcaption { display: block; }"
+        ]
+      }
+    ]
+  }

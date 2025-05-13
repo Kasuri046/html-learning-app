@@ -1,0 +1,53 @@
+{
+    "title": "HTML <fieldset> Tag",
+    "content": [
+      {
+        "heading": "<fieldset> Tag",
+        "paragraphs": [
+          "The <fieldset> tag groups related form elements.",
+          "Example: <form><fieldset><legend>Personalia:</legend><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><label for=\"email\">Email:</label><input type=\"email\" id=\"email\" name=\"email\"><br><input type=\"submit\" value=\"Submit\"></fieldset></form>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Draws a box around elements.",
+          "Use <legend> for a caption."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["disabled", "disabled", "Disables the fieldset"],
+                ["form", "form_id", "Links to a form"],
+                ["name", "text", "Name of the fieldset"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled fieldset: <html><head><style>fieldset { background-color: #eeeeee; } legend { background-color: gray; color: white; padding: 5px 10px; } input { margin: 5px; }</style></head><body><form><fieldset><legend>Personalia:</legend><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></fieldset></form></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "fieldset { display: block; margin: 0 2px; padding: 0.35em 0.75em 0.625em; border: 2px groove; }"
+        ]
+      }
+    ]
+  }

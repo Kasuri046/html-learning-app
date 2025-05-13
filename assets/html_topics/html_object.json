@@ -1,0 +1,26 @@
+{
+  "title": "HTML Plug-Ins",
+  "content": [
+    {
+      "heading": "Plug-Ins",
+      "paragraphs": [
+        "Plug-ins extend browser functionality but are largely unsupported in modern browsers.",
+        "They were used for Java applets, ActiveX controls, Flash, maps, virus scans, and bank ID verification."
+      ]
+    },
+    {
+      "heading": "<object> Element",
+      "paragraphs": [
+        "The <object> element embeds objects like HTML or images in web pages:",
+        "<object width=\"100%\" height=\"500px\" data=\"snippet.html\"></object>\n<object data=\"audi.jpeg\"></object>"
+      ]
+    },
+    {
+      "heading": "<embed> Element",
+      "paragraphs": [
+        "The <embed> element embeds objects without a closing tag, supported since HTML5:",
+        "<embed width=\"100%\" height=\"500px\" src=\"snippet.html\">\n<embed src=\"audi.jpeg\">"
+      ]
+    }
+  ]
+}

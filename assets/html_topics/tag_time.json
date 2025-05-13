@@ -1,0 +1,39 @@
+{
+    "title": "HTML <time> Tag",
+    "content": [
+      {
+        "heading": "<time> Tag",
+        "paragraphs": [
+          "The <time> tag defines a specific time or datetime.",
+          "Example: <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>\n<p>I have a date on <time datetime=\"2008-02-14 20:00\">Valentines day</time>.</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "The datetime attribute provides a machine-readable format.",
+          "Enables calendar reminders and smarter search results."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported since Chrome 62, Edge 18, Firefox 22, Safari 7, Opera 49."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["datetime", "datetime", "Machine-readable time format"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      }
+    ]
+  }

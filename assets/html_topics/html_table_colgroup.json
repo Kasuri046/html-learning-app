@@ -1,0 +1,39 @@
+{
+  "title": "HTML Table Colgroup",
+  "content": [
+    {
+      "heading": "Colgroup Overview",
+      "paragraphs": [
+        "The <colgroup> element styles specific table columns using <col> elements."
+      ]
+    },
+    {
+      "heading": "Basic Colgroup",
+      "paragraphs": [
+        "Style columns with <col> and span attribute:",
+        "<table>\n  <colgroup>\n    <col span=\"2\" style=\"background-color: #D6EEEE\">\n  </colgroup>\n  <tr>\n    <th>MON</th>\n    <th>TUE</th>\n    <th>WED</th>\n    <th>THU</th>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Multiple Col Styles",
+      "paragraphs": [
+        "Apply different styles to multiple columns:",
+        "<table>\n  <colgroup>\n    <col span=\"2\" style=\"background-color: #D6EEEE\">\n    <col span=\"3\" style=\"background-color: pink\">\n  </colgroup>\n  <tr>\n    <th>MON</th>\n    <th>TUE</th>\n    <th>WED</th>\n    <th>THU</th>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Empty Colgroup",
+      "paragraphs": [
+        "Use empty <col> for unstyled columns before styled ones:",
+        "<table>\n  <colgroup>\n    <col span=\"3\">\n    <col span=\"2\" style=\"background-color: pink\">\n  </colgroup>\n  <tr>\n    <th>MON</th>\n    <th>TUE</th>\n    <th>WED</th>\n    <th>THU</th>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Hide Columns",
+      "paragraphs": [
+        "Hide columns with visibility: collapse:",
+        "<table>\n  <colgroup>\n    <col span=\"2\">\n    <col span=\"3\" style=\"visibility: collapse\">\n  </colgroup>\n  <tr>\n    <th>MON</th>\n    <th>TUE</th>\n    <th>WED</th>\n    <th>THU</th>\n  </tr>\n</table>"
+      ]
+    }
+  ]
+}

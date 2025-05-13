@@ -1,0 +1,43 @@
+{
+    "title": "HTML <legend> Tag",
+    "content": [
+      {
+        "heading": "<legend> Tag",
+        "paragraphs": [
+          "The <legend> tag defines a caption for a <fieldset>.",
+          "Example: <form><fieldset><legend>Personalia:</legend><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></fieldset></form>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used within <fieldset> for form captions."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Styled legend: <form><fieldset><legend style=\"float:right\">Personalia:</legend><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></fieldset></form>",
+          "Styled fieldset: <html><head><style>fieldset { background-color: #eeeeee; } legend { background-color: gray; color: white; padding: 5px 10px; } input { margin: 5px; }</style></head><body><form><fieldset><legend>Personalia:</legend><label for=\"fname\">First name:</label><input type=\"text\" id=\"fname\" name=\"fname\"><br><input type=\"submit\" value=\"Submit\"></fieldset></form></body></html>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "legend { display: block; padding: 0 2px; border: none; }"
+        ]
+      }
+    ]
+  }

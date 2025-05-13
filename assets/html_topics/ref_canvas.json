@@ -1,0 +1,71 @@
+{
+    "title": "HTML Canvas Reference",
+    "content": [
+      {
+        "heading": "Canvas Overview",
+        "paragraphs": [
+          "The <canvas> element provides a bitmap area for JavaScript-drawn graphics via the Canvas API."
+        ]
+      },
+      {
+        "heading": "Basic Setup",
+        "paragraphs": [
+          "<canvas id=\"myCanvas\" width=\"300\" height=\"150\"></canvas>\n<script>\nconst canvas = document.getElementById(\"myCanvas\");\nconst ctx = canvas.getContext(\"2d\");\n</script>"
+        ]
+      },
+      {
+        "heading": "Drawing Examples",
+        "paragraphs": [
+          "- Rectangle: <script>ctx.fillStyle = \"red\"; ctx.fillRect(20, 20, 150, 100);</script>",
+          "- Path: <script>ctx.beginPath(); ctx.moveTo(20, 20); ctx.lineTo(20, 100); ctx.lineTo(70, 100); ctx.stroke();</script>"
+        ]
+      },
+      {
+        "heading": "Drawing Methods",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Method", "Description"],
+              "rows": [
+                ["fillRect()", "Draws filled rectangle"],
+                ["strokeRect()", "Draws rectangle outline"],
+                ["clearRect()", "Clears rectangle area"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Text Methods",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Method/Property", "Description"],
+              "rows": [
+                ["fillText()", "Draws filled text"],
+                ["strokeText()", "Draws text outline"],
+                ["font", "Sets text font"],
+                ["textAlign", "Sets text alignment"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Styles and Colors",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Method/Property", "Description"],
+              "rows": [
+                ["fillStyle", "Sets fill color/gradient"],
+                ["strokeStyle", "Sets stroke color/gradient"],
+                ["createLinearGradient()", "Creates linear gradient"],
+                ["shadowColor", "Sets shadow color"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

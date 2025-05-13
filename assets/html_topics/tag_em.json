@@ -1,0 +1,36 @@
+{
+    "title": "HTML <em> Tag",
+    "content": [
+      {
+        "heading": "<em> Tag",
+        "paragraphs": [
+          "The <em> tag defines emphasized text, typically italicized.",
+          "Example: <p>You <em>have</em> to hurry up!</p>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Screen readers emphasize <em> content verbally."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "em { font-style: italic; }"
+        ]
+      }
+    ]
+  }

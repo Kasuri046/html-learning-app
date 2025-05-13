@@ -1,0 +1,74 @@
+{
+    "title": "HTTP Messages",
+    "content": [
+      {
+        "heading": "HTTP Status Messages",
+        "paragraphs": [
+          "Servers return HTTP status messages for every request, e.g., 200 OK or 404 Not Found."
+        ]
+      },
+      {
+        "heading": "1xx: Information",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Message", "Description"],
+              "rows": [
+                ["100 Continue", "Client should send request body"],
+                ["101 Switching Protocols", "Server switches protocols"],
+                ["103 Early Hints", "Allows preloading resources"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "2xx: Successful",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Message", "Description"],
+              "rows": [
+                ["200 OK", "Request successful"],
+                ["201 Created", "New resource created"],
+                ["204 No Content", "Request processed, no content returned"],
+                ["206 Partial Content", "Partial resource delivered"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "3xx: Redirection",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Message", "Description"],
+              "rows": [
+                ["301 Moved Permanently", "Page moved to new URL"],
+                ["302 Found", "Page temporarily moved"],
+                ["304 Not Modified", "Page unchanged since last request"],
+                ["308 Permanent Redirect", "Permanent redirect to new URL"]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "4xx: Client Error",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Message", "Description"],
+              "rows": [
+                ["400 Bad Request", "Invalid request syntax"],
+                ["401 Unauthorized", "Authentication failed"],
+                ["403 Forbidden", "Server refuses request"],
+                ["404 Not Found", "Resource not found"]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

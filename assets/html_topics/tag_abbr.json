@@ -1,0 +1,37 @@
+{
+    "title": "HTML <abbr> Tag",
+    "content": [
+      {
+        "heading": "<abbr> Tag",
+        "paragraphs": [
+          "The <abbr> tag defines abbreviations or acronyms.",
+          "Example: The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948."
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Used for terms like 'HTML,' 'CSS,' 'Dr.,' 'ASAP.'",
+          "The title attribute shows the full description on hover."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "With <dfn>: <p><dfn><abbr title=\"Cascading Style Sheets\">CSS</abbr></dfn> styles HTML documents.</p>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "abbr { display: inline; }"
+        ]
+      }
+    ]
+  }

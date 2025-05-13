@@ -1,0 +1,32 @@
+{
+  "title": "HTML Table Padding & Spacing",
+  "content": [
+    {
+      "heading": "Padding & Spacing",
+      "paragraphs": [
+        "CSS adjusts padding inside table cells and spacing between cells."
+      ]
+    },
+    {
+      "heading": "Cell Padding",
+      "paragraphs": [
+        "Padding sets space between cell edges and content:",
+        "th, td {\n  padding: 15px;\n}"
+      ]
+    },
+    {
+      "heading": "Specific Padding",
+      "paragraphs": [
+        "Apply padding to specific sides:",
+        "th, td {\n  padding-top: 10px;\n  padding-bottom: 20px;\n  padding-left: 30px;\n  padding-right: 40px;\n}"
+      ]
+    },
+    {
+      "heading": "Cell Spacing",
+      "paragraphs": [
+        "Border-spacing sets space between cells (default: 2px):",
+        "table {\n  border-spacing: 30px;\n}"
+      ]
+    }
+  ]
+}

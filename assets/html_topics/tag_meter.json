@@ -1,0 +1,40 @@
+{
+  "title": "HTML <meter> Tag",
+  "content": [
+    {
+      "heading": "<meter> Tag",
+      "paragraphs": [
+        "The <meter> tag represents a scalar measurement.",
+        "Example: <label for=\"disk_c\">Disk usage:</label>\n<meter id=\"disk_c\" value=\"2\" min=\"0\" max=\"10\">2 out of 10</meter>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Used for known-range measurements, not progress (use <progress>)."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 8, Edge 13, Firefox 16, Safari 6, Opera 11."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["value", "number", "Current value"],
+              ["min", "number", "Minimum value"],
+              ["max", "number", "Maximum value"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    }
+  ]
+}

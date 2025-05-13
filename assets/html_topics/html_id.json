@@ -1,0 +1,53 @@
+{
+    "title": "HTML - The id Attribute",
+    "content": [
+        {
+            "heading": "HTML id Attribute",
+            "paragraphs": [
+                "The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document."
+            ]
+        },
+        {
+            "heading": "The id Attribute",
+            "paragraphs": [
+                "The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<style>\n#myHeader { background-color: lightblue; color: black; padding: 40px; text-align: center;\n}\n </style>\n</head>\n<body>\n<h1 id=\"myHeader\">My Header</h1>\n</body></html>"
+            ]
+        },
+        {
+            "heading": "Difference Between Class and ID",
+            "paragraphs": [
+                "A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<style>\n/* Style the element with the id \"myHeader\" */\n #myHeader { background-color: lightblue; \ncolor: black;\n padding: 40px;\n text-align: center;\n} \n/* Style all elements with the class name \"city\" */\n .city { background-color: tomato; \ncolor: white;\n padding: 10px;\n}\n </style> \n<h1 id=\"myHeader\">My Cities</h1>\n<h2 class=\"city\">London</h2>\n<p>London is the capital of England.</p> \n<h2 class=\"city\">Paris</h2>\n<p>Paris is the capital of France.</p> \n<h2 class=\"city\">Tokyo</h2>\n<p>Tokyo is the capital of Japan.</p>"
+            ]
+        },
+        {
+            "heading": "HTML Bookmarks with ID and Links",
+            "paragraphs": [
+                "HTML bookmarks allow readers to jump to specific parts of a webpage. They can be useful if your page is very long."
+            ]
+        },
+        {
+            "heading": "Using the id Attribute in JavaScript",
+            "paragraphs": [
+                "The id attribute can be used by JavaScript to perform tasks for that specific element. JavaScript can access an element with a specific id using the getElementById() method."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<script>\nfunction displayResult() {\n document.getElementById(\"myHeader\").innerHTML = \"Have a nice day!\";\n}\n</script>"
+            ]
+        }
+    ]
+}

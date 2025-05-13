@@ -1,0 +1,45 @@
+{
+    "title": "HTML <colgroup> Tag",
+    "content": [
+      {
+        "heading": "<colgroup> Tag",
+        "paragraphs": [
+          "The <colgroup> tag groups columns in a table for formatting.",
+          "Example: <table><colgroup><col span=\"2\" style=\"background-color:red\"><col style=\"background-color:yellow\"></colgroup><tr><th>ISBN</th><th>Title</th><th>Price</th></tr><tr><td>3476896</td><td>My first HTML</td><td>$53</td></tr></table>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Must be a child of <table>, after <caption>, before <thead>, <tbody>, <tfoot>, <tr>.",
+          "Use <col> to define column properties."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["span", "number", "Number of columns to span"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "colgroup { display: table-column-group; }"
+        ]
+      }
+    ]
+  }

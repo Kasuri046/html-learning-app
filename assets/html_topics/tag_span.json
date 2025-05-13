@@ -1,0 +1,36 @@
+{
+  "title": "HTML <noscript> Tag",
+  "content": [
+    {
+      "heading": "<noscript> Tag",
+      "paragraphs": [
+        "The <noscript> tag provides fallback content when scripts are disabled.",
+        "Example: <script>\n  document.write(\"JavaScript is enabled!\");\n</script>\n<noscript>Your browser does not support JavaScript!</noscript>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Displays content if JavaScript is disabled or unsupported."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "None"
+      ]
+    }
+  ]
+}

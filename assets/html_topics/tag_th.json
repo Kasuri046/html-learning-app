@@ -1,0 +1,63 @@
+{
+    "title": "HTML <th> Tag",
+    "content": [
+      {
+        "heading": "<th> Tag",
+        "paragraphs": [
+          "The <th> tag defines a header cell in an HTML table.",
+          "Example: <table>\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$80</td>\n  </tr>\n</table>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Contains header information, unlike <td> for data.",
+          "Text is bold and centered by default."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["abbr", "text", "Abbreviated content version"],
+                ["colspan", "number", "Columns to span"],
+                ["headers", "header_id", "Related header cells"],
+                ["rowspan", "number", "Rows to span"],
+                ["scope", "col colgroup row rowgroup", "Header scope"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Aligned: <table style=\"width:100%\">\n  <tr>\n    <th style=\"text-align:left\">Month</th>\n    <th style=\"text-align:left\">Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$80</td>\n  </tr>\n</table>",
+          "Background color: <table>\n  <tr>\n    <th style=\"background-color:#FF0000\">Month</th>\n    <th style=\"background-color:#00FF00\">Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Height: <table>\n  <tr>\n    <th style=\"height:100px\">Month</th>\n    <th style=\"height:100px\">Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "No wrap: <table>\n  <tr>\n    <th>Month</th>\n    <th style=\"white-space:nowrap\">My Savings for a new car</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Vertical align: <table style=\"width:50%;\">\n  <tr style=\"height:100px\">\n    <th style=\"vertical-align:bottom\">Month</th>\n    <th style=\"vertical-align:bottom\">Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Width: <table style=\"width:100%\">\n  <tr>\n    <th style=\"width:70%\">Month</th>\n    <th style=\"width:30%\">Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+          "Headers: <table>\n  <tr>\n    <th>Name</th>\n    <th>Email</th>\n    <th>Phone</th>\n  </tr>\n  <tr>\n    <td>John Doe</td>\n    <td>john.doe@example.com</td>\n    <td>123-45-678</td>\n  </tr>\n</table>",
+          "Caption: <table>\n  <caption>Monthly savings</caption>\n  <tr>\n    <th>Month</th>\n    <th>Savings</th>\n  </tr>\n  <tr>\n    <td>January</td>\n    <td>$100</td>\n  </tr>\n  <tr>\n    <td>February</td>\n    <td>$80</td>\n  </tr>\n</table>",
+          "Spanning: <table>\n  <tr>\n    <th>Name</th>\n    <th>Email</th>\n    <th colspan=\"2\">Phone</th>\n  </tr>\n  <tr>\n    <td>John Doe</td>\n    <td>john.doe@example.com</td>\n    <td>123-45-678</td>\n    <td>212-00-546</td>\n  </tr>\n</table>"
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "th { display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center; }"
+        ]
+      }
+    ]
+  }

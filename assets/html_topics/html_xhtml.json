@@ -1,0 +1,68 @@
+{
+    "title": "HTML Versus XHTML",
+    "content": [
+      {
+        "heading": "HTML vs XHTML",
+        "paragraphs": [
+          "XHTML is a stricter, XML-based version of HTML for better structure and compatibility."
+        ]
+      },
+      {
+        "heading": "What is XHTML?",
+        "paragraphs": [
+          "XHTML (EXtensible HyperText Markup Language) follows XML syntax, ensuring well-formed markup and integration with XML applications."
+        ]
+      },
+      {
+        "heading": "Why XHTML?",
+        "paragraphs": [
+          "XHTML enforces strict rules for extensibility, error handling, and compatibility with data formats."
+        ]
+      },
+      {
+        "heading": "Key Differences from HTML",
+        "paragraphs": [
+          "- Mandatory DOCTYPE and <html>, <head>, <title>, <body> elements",
+          "- Proper nesting and closing of elements",
+          "- Lowercase element and attribute names",
+          "- Quoted attribute values",
+          "- No attribute minimization"
+        ]
+      },
+      {
+        "heading": "DOCTYPE and Namespace",
+        "paragraphs": [
+          "XHTML requires a DOCTYPE and xmlns attribute:",
+          "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <head>\n    <title>Title</title>\n  </head>\n  <body>content...</body>\n</html>"
+        ]
+      },
+      {
+        "heading": "Proper Nesting",
+        "paragraphs": [
+          "Elements must be nested correctly:",
+          "<b><i>Text</i></b>"
+        ]
+      },
+      {
+        "heading": "Closed Elements",
+        "paragraphs": [
+          "All elements, including empty ones, must be closed:",
+          "<p>Paragraph</p>\n<br />"
+        ]
+      },
+      {
+        "heading": "Lowercase and Quoted Attributes",
+        "paragraphs": [
+          "Use lowercase names and quoted values:",
+          "<a href=\"https://example.com\">Link</a>"
+        ]
+      },
+      {
+        "heading": "No Attribute Minimization",
+        "paragraphs": [
+          "Attributes must be fully specified:",
+          "<input type=\"checkbox\" checked=\"checked\" />"
+        ]
+      }
+    ]
+  }

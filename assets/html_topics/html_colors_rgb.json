@@ -1,0 +1,41 @@
+{
+    "title": "HTML RGB and RGBA Colors",
+    "content": [
+        {
+            "heading": "HTML RGB and RGBA Colors",
+            "paragraphs": [
+                "An RGB color value represents RED, GREEN, and BLUE light sources. An RGBA color value extends RGB with an Alpha channel for opacity."
+            ]
+        },
+        {
+            "heading": "RGB Color Values",
+            "paragraphs": [
+                "In HTML, a color can be specified as an RGB value using the formula: rgb(red, green, blue).",
+                "Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.",
+                "This means there are 256 x 256 x 256 = 16,777,216 possible colors!",
+                "For example, rgb(255, 0, 0) is red, as red is set to its highest value (255) and the others are set to 0.",
+                "Similarly, rgb(0, 255, 0) is green, with green at its highest value (255) and the others at 0.",
+                "To display black, set all parameters to 0: rgb(0, 0, 0).",
+                "To display white, set all parameters to 255: rgb(255, 255, 255)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "rgb(255, 0, 0), \nrgb(0, 0, 255), \nrgb(60, 179, 113), \nrgb(238, 130, 238),\n rgb(255, 165, 0),\n rgb(106, 90, 205)"
+            ]
+        },
+        {
+            "heading": "Shades of Gray",
+            "paragraphs": [
+                "Shades of gray are defined using equal values for all three parameters."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "rgb(60, 60, 60),\n rgb(100, 100, 100),\n rgb(140, 140, 140), \nrgb(180, 180, 180), \nrgb(200, 200, 200), \nrgb(240, 240, 240)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "HTML <optgroup> Tag",
+  "content": [
+    {
+      "heading": "<optgroup> Tag",
+      "paragraphs": [
+        "The <optgroup> tag groups options in a <select>.",
+        "Example: <select>\n  <optgroup label=\"Swedish Cars\">\n    <option value=\"volvo\">Volvo</option>\n    <option value=\"saab\">Saab</option>\n  </optgroup>\n</select>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Organizes related options for better usability."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["label", "text", "Group name"],
+              ["disabled", "disabled", "Disables group"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "None"
+      ]
+    }
+  ]
+}

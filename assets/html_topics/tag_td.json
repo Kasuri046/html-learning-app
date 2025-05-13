@@ -1,0 +1,54 @@
+{
+  "title": "HTML <td> Tag",
+  "content": [
+    {
+      "heading": "<td> Tag",
+      "paragraphs": [
+        "The <td> tag defines a table data cell.",
+        "Example: <table>\n  <tr>\n    <td>Cell A</td>\n    <td>Cell B</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Contains data, unlike <th> for headers.",
+        "Left-aligned by default."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["colspan", "number", "Columns to span"],
+              ["rowspan", "number", "Rows to span"],
+              ["headers", "header_id", "Related header cells"]
+            ]
+          }
+        },
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Styled: <table>\n  <tr>\n    <td style=\"text-align:right\">January</td>\n    <td>$100</td>\n  </tr>\n</table>",
+        "Spanning: <table>\n  <tr>\n    <th colspan=\"2\">Phone</th>\n  </tr>\n  <tr>\n    <td>123-45-678</td>\n    <td>212-00-546</td>\n  </tr>\n</table>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "td { display: table-cell; vertical-align: inherit; }"
+      ]
+    }
+  ]
+}

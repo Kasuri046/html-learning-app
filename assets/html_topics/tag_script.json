@@ -1,0 +1,54 @@
+{
+  "title": "HTML <script> Tag",
+  "content": [
+    {
+      "heading": "<script> Tag",
+      "paragraphs": [
+        "The <script> tag embeds client-side scripts.",
+        "Example: <script>\ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\n</script>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Contains JavaScript or links to external scripts via src.",
+        "Used for dynamic content, form validation, etc.",
+        "Use <noscript> for fallback."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        {
+          "table": {
+            "headers": ["Attribute", "Value", "Description"],
+            "rows": [
+              ["src", "URL", "External script URL"],
+              ["async", "async", "Executes script asynchronously"],
+              ["defer", "defer", "Defers script execution"]
+            ]
+          }
+        },
+        "Supports global attributes."
+      ]
+    },
+    {
+      "heading": "XHTML Notes",
+      "paragraphs": [
+        "In XHTML, wrap content in CDATA: <script>//<![CDATA[\nlet i = 10;\n//]]></script>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "script { display: none; }"
+      ]
+    }
+  ]
+}

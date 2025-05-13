@@ -1,0 +1,47 @@
+{
+    "title": "HTML <embed> Tag",
+    "content": [
+      {
+        "heading": "<embed> Tag",
+        "paragraphs": [
+          "The <embed> tag defines a container for external resources like images or web pages.",
+          "Example: <embed type=\"image/jpg\" src=\"pic_trulli.jpg\" width=\"300\" height=\"200\">"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Limited support for Java Applets, ActiveX, and Flash in modern browsers."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported by all major browsers."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          {
+            "table": {
+              "headers": ["Attribute", "Value", "Description"],
+              "rows": [
+                ["height", "pixels", "Height of embedded content"],
+                ["src", "URL", "Address of external file"],
+                ["type", "media_type", "Media type of content"],
+                ["width", "pixels", "Width of embedded content"]
+              ]
+            }
+          },
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Default CSS",
+        "paragraphs": [
+          "embed:focus { outline: none; }"
+        ]
+      }
+    ]
+  }

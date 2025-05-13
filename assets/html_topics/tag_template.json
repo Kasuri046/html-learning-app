@@ -1,0 +1,38 @@
+{
+    "title": "HTML <template> Tag",
+    "content": [
+      {
+        "heading": "<template> Tag",
+        "paragraphs": [
+          "The <template> tag holds HTML content hidden on page load, displayed via JavaScript.",
+          "Example: <button onclick=\"showContent()\">Show hidden content</button>\n<template>\n  <h2>Flower</h2>\n  <img src=\"img_white_flower.jpg\" width=\"214\" height=\"204\">\n</template>\n<script>\nfunction showContent() {\n  let temp = document.getElementsByTagName(\"template\")[0];\n  let clon = temp.content.cloneNode(true);\n  document.body.appendChild(clon);\n}\n</script>"
+        ]
+      },
+      {
+        "heading": "Definition and Usage",
+        "paragraphs": [
+          "Acts as a container for hidden HTML, rendered later with JavaScript.",
+          "Useful for reusable HTML code without immediate rendering."
+        ]
+      },
+      {
+        "heading": "Browser Support",
+        "paragraphs": [
+          "Supported since Chrome 26, Edge 13, Firefox 22, Safari 8, Opera 15."
+        ]
+      },
+      {
+        "heading": "Attributes",
+        "paragraphs": [
+          "Supports global and event attributes."
+        ]
+      },
+      {
+        "heading": "Examples",
+        "paragraphs": [
+          "Array iteration: <template>\n  <div class=\"myClass\">I like: </div>\n</template>\n<script>\nlet myArr = [\"Audi\", \"BMW\", \"Ford\", \"Honda\", \"Jaguar\", \"Nissan\"];\nfunction showContent() {\n  let temp = document.getElementsByTagName(\"template\")[0];\n  let item = temp.content.querySelector(\"div\");\n  for (let i = 0; i < myArr.length; i++) {\n    let a = document.importNode(item, true);\n    a.textContent += myArr[i];\n    document.body.appendChild(a);\n  }\n}\n</script>",
+          "Browser support check: <script>\nif (document.createElement(\"template\").content) {\n  document.write(\"Your browser supports template!\");\n} else {\n  document.write(\"Your browser does not support template!\");\n}\n</script>"
+        ]
+      }
+    ]
+  }

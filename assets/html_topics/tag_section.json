@@ -1,0 +1,42 @@
+{
+  "title": "HTML <section> Tag",
+  "content": [
+    {
+      "heading": "<section> Tag",
+      "paragraphs": [
+        "The <section> tag defines a section in a document.",
+        "Example: <section>\n  <h2>WWF History</h2>\n  <p>The World Wide Fund for Nature (WWF) is an international organization working on conservation, research, and restoration of the environment, founded in 1961.</p>\n</section>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Groups related content, typically with a heading."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported since Chrome 5, Edge 9, Firefox 4, Safari 5, Opera 11.5."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "paragraphs": [
+        "Multiple sections: <section>\n  <h2>WWF's Symbol</h2>\n  <p>The Panda is WWF's logo, originating from Chi Chi, a panda transferred to London Zoo in 1961.</p>\n</section>"
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "section { display: block; }"
+      ]
+    }
+  ]
+}

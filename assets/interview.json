@@ -1,0 +1,124 @@
+{
+  "interview_questions": [
+    {
+      "question": "What is HTML?",
+      "answer": "HTML (HyperText Markup Language) is the standard language for creating web pages.\nIt defines the structure and content of a webpage using tags and attributes."
+    },
+    {
+      "question": "What are the key features of HTML?",
+      "answer": "Key features of HTML include:\n- Semantic structure\n- Support for multimedia\n- Cross-browser compatibility\n- Form creation\n- Accessibility support\n- Integration with CSS and JavaScript"
+    },
+    {
+      "question": "What is the difference between HTML and HTML5?",
+      "answer": "HTML is the general term for the markup language, while HTML5 is the latest version.\nHTML5 introduces new elements (e.g., <article>, <section>), APIs, and multimedia support without plugins."
+    },
+    {
+      "question": "What is a tag in HTML?",
+      "answer": "A tag is a markup element used to define the structure or content of a webpage.\nExamples include <p> for paragraphs and <img> for images."
+    },
+    {
+      "question": "What is an attribute in HTML?",
+      "answer": "An attribute provides additional information about an HTML element.\nIt is included within the opening tag, e.g., src in <img src='image.jpg'>."
+    },
+    {
+      "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+      "answer": "The <!DOCTYPE html> declaration specifies that the document is an HTML5 document.\nIt ensures browsers render the page in standards-compliant mode."
+    },
+    {
+      "question": "What are semantic elements in HTML?",
+      "answer": "Semantic elements clearly describe their meaning to browsers and developers.\nExamples include <header>, <footer>, <article>, and <nav>."
+    },
+    {
+      "question": "What is the difference between block and inline elements?",
+      "answer": "Block elements take up the full width and start on a new line (e.g., <div>, <p>).\nInline elements take only the necessary width and stay on the same line (e.g., <span>, <a>)."
+    },
+    {
+      "question": "What is the purpose of the <meta> tag?",
+      "answer": "The <meta> tag provides metadata about the HTML document, such as character encoding, viewport settings, or SEO information.\nIt is placed within the <head> section."
+    },
+    {
+      "question": "What is the difference between <div> and <section> elements?",
+      "answer": "A <div> is a generic container with no semantic meaning.\nA <section> is a semantic element used to group related content, often with a heading."
+    },
+    {
+      "question": "What is the role of the alt attribute in the <img> tag?",
+      "answer": "The alt attribute provides alternative text for an image.\nIt is used for accessibility (e.g., screen readers) and displayed if the image fails to load."
+    },
+    {
+      "question": "What is the purpose of the <form> element?",
+      "answer": "The <form> element is used to collect user input.\nIt typically includes inputs like text fields, checkboxes, and buttons."
+    },
+    {
+      "question": "What are the different types of input elements in HTML?",
+      "answer": "Common input types include:\n- text\n- password\n- checkbox\n- radio\n- submit\n- file\n- date\n- email"
+    },
+    {
+      "question": "What is the difference between <button> and <input type='submit'>?",
+      "answer": "<input type='submit'> is a form-specific input for submitting forms.\n<button> is a more flexible element that can be styled and used for various actions."
+    },
+    {
+      "question": "What is the purpose of the <a> tag?",
+      "answer": "The <a> tag creates hyperlinks to other webpages, files, or locations within the same page.\nIt uses the href attribute to specify the destination."
+    },
+    {
+      "question": "What is the difference between absolute and relative URLs?",
+      "answer": "An absolute URL includes the full address (e.g., https://example.com/page.html).\nA relative URL specifies the path relative to the current page (e.g., /page.html)."
+    },
+    {
+      "question": "What is the role of the <head> element?",
+      "answer": "The <head> element contains metadata, links to stylesheets, scripts, and the page title.\nIt does not display content on the webpage."
+    },
+    {
+      "question": "What is the difference between <script> and <style> tags?",
+      "answer": "<script> is used to include or embed JavaScript code.\n<style> is used to define CSS styles for the webpage."
+    },
+    {
+      "question": "What is an HTML entity?",
+      "answer": "An HTML entity is a code used to display reserved characters or symbols.\nFor example, &lt; represents < and &amp; represents &."
+    },
+    {
+      "question": "What is the purpose of the id attribute?",
+      "answer": "The id attribute assigns a unique identifier to an element.\nIt is used for styling (CSS) or scripting (JavaScript) specific elements."
+    },
+    {
+      "question": "What is the difference between id and class attributes?",
+      "answer": "An id is unique to one element, while a class can be applied to multiple elements.\nClasses are used for shared styling or behavior."
+    },
+    {
+      "question": "What is the role of the <table> element?",
+      "answer": "The <table> element is used to display tabular data.\nIt includes <tr> for rows, <th> for headers, and <td> for data cells."
+    },
+    {
+      "question": "What is the purpose of the <iframe> element?",
+      "answer": "The <iframe> element embeds another webpage or content within the current webpage.\nIt is often used for videos or external widgets."
+    },
+    {
+      "question": "What is the difference between <b> and <strong> tags?",
+      "answer": "<b> is used for visual bold text without semantic meaning.\n<strong> indicates important text with semantic emphasis."
+    },
+    {
+      "question": "What is accessibility in HTML?",
+      "answer": "Accessibility ensures webpages are usable by people with disabilities.\nIt involves using semantic HTML, alt text, ARIA roles, and proper structure."
+    },
+    {
+      "question": "What are ARIA roles?",
+      "answer": "ARIA (Accessible Rich Internet Applications) roles enhance accessibility by providing additional semantics to assistive technologies.\nExamples include role='button' or role='navigation'."
+    },
+    {
+      "question": "What is the purpose of the data-* attribute?",
+      "answer": "The data-* attribute stores custom data for an element.\nIt is accessible via JavaScript and used for dynamic functionality."
+    },
+    {
+      "question": "What is the difference between <ul> and <ol> elements?",
+      "answer": "<ul> creates an unordered list with bullets.\n<ol> creates an ordered list with numbers or letters."
+    },
+    {
+      "question": "What is the role of the viewport meta tag?",
+      "answer": "The viewport meta tag controls the layout on mobile devices.\nIt sets the width and scale, e.g., <meta name='viewport' content='width=device-width, initial-scale=1'>."
+    },
+    {
+      "question": "What is the purpose of the <canvas> element in HTML5?",
+      "answer": "The <canvas> element provides a drawing surface for graphics and animations.\nIt is manipulated using JavaScript APIs."
+    }
+  ]
+}

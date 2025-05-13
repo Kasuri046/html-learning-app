@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Content Sections",
+  "questions": [
+    {
+      "question": "What does the <h1> tag define?",
+      "options": ["Image", "Link", "Main heading", "Paragraph"],
+      "correctAnswer": "Main heading"
+    },
+    {
+      "question": "How many heading levels exist?",
+      "options": ["10", "8", "4", "6"],
+      "correctAnswer": "6"
+    },
+    {
+      "question": "What is the <p> tag for?",
+      "options": ["Image", "List", "Paragraph", "Heading"],
+      "correctAnswer": "Paragraph"
+    },
+    {
+      "question": "What does the <br> tag do?",
+      "options": ["Horizontal line", "Bold text", "Line break", "New paragraph"],
+      "correctAnswer": "Line break"
+    },
+    {
+      "question": "What is the <hr> tag’s purpose?",
+      "options": ["Paragraph", "Heading", "Horizontal rule", "Line break"],
+      "correctAnswer": "Horizontal rule"
+    },
+    {
+      "question": "What does the <section> tag represent?",
+      "options": ["Script", "Footer", "Thematic content", "Navigation"],
+      "correctAnswer": "Thematic content"
+    },
+    {
+      "question": "What is the <article> tag for?",
+      "options": ["Metadata", "Styling", "Independent content", "Navigation"],
+      "correctAnswer": "Independent content"
+    },
+    {
+      "question": "What is a block element?",
+      "options": ["Scripted element", "Hidden element", "Full-width element", "Inline element"],
+      "correctAnswer": "Full-width element"
+    },
+    {
+      "question": "Which tag is a block element?",
+      "options": ["<b>", "<i>", "<span>", "<p>"],
+      "correctAnswer": "<p>"
+    },
+    {
+      "question": "What does <hr> add visually?",
+      "options": ["Image border", "Bold text", "Horizontal line", "Vertical line"],
+      "correctAnswer": "Horizontal line"
+    },
+    {
+      "question": "Which tag is semantic?",
+      "options": ["<br>", "<hr>", "<p>", "<section>"],
+      "correctAnswer": "<section>"
+    },
+    {
+      "question": "What is the smallest heading tag?",
+      "options": ["<h3>", "<h4>", "<h6>", "<h1>"],
+      "correctAnswer": "<h6>"
+    },
+    {
+      "question": "Why use <article>?",
+      "options": ["Metadata", "Scripting", "Self-contained content", "Styling"],
+      "correctAnswer": "Self-contained content"
+    },
+    {
+      "question": "What does <br> lack?",
+      "options": ["Style", "Content", "Attributes", "Closing tag"],
+      "correctAnswer": "Closing tag"
+    },
+    {
+      "question": "Which tag separates content?",
+      "options": ["<p>", "<section>", "<br>", "<hr>"],
+      "correctAnswer": "<hr>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "title": "HTML <frameset> Tag",
+    "content": [
+      {
+        "heading": "<frameset> Tag",
+        "paragraphs": [
+          "The <frameset> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use <iframe>: <iframe src=\"https://example.com\"></iframe>"
+        ]
+      }
+    ]
+  }

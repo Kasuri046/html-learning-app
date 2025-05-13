@@ -1,0 +1,80 @@
+{
+  "title": "Quiz: Description Lists",
+  "questions": [
+    {
+      "question": "What does the <dl> tag create?",
+      "options": ["Menu list", "Ordered list", "Description list", "Unordered list"],
+      "correctAnswer": "Description list"
+    },
+    {
+      "question": "What is the <dt> tag for?",
+      "options": ["List item", "List header", "Term name", "Description"],
+      "correctAnswer": "Term name"
+    },
+    {
+      "question": "What does the <dd> tag define?",
+      "options": ["List item", "List footer", "Term name", "Description"],
+      "correctAnswer": "Description"
+    },
+    {
+      "question": "What is a description list used for?",
+      "options": ["Scripts", "Navigation", "Images", "Term definitions"],
+      "correctAnswer": "Term definitions"
+    },
+    {
+      "question": "Which tag is used in <dl>?",
+      "options": ["<ul>", "<ol>", "<dt>", "<li>"],
+      "correctAnswer": "<dt>"
+    },
+    {
+      "question": "Can <dd> follow multiple <dt>?",
+      "options": ["Only one", "Only two", "No", "Yes"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "question": "What is a common <dl> use?",
+      "options": ["Images", "Videos", "Glossaries", "Paragraphs"],
+      "correctAnswer": "Glossaries"
+    },
+    {
+      "question": "Which tag pairs with <dd>?",
+      "options": ["<li>", "<ul>", "<p>", "<dt>"],
+      "correctAnswer": "<dt>"
+    },
+    {
+      "question": "Is <dl> a semantic tag?",
+      "options": ["No", "Only inline", "Yes", "Only block"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "question": "What does CSS style in <dl>?",
+      "options": ["List markers", "Font size only", "Indentation", "Background only"],
+      "correctAnswer": "Indentation"
+    },
+    {
+      "question": "Why use <dl> over <ul>?",
+      "options": ["Inline styling", "No markers", "Key-value pairs", "Random order"],
+      "correctAnswer": "Key-value pairs"
+    },
+    {
+      "question": "What improves with <dl>?",
+      "options": ["Security", "Page speed", "Content clarity", "File size"],
+      "correctAnswer": "Content clarity"
+    },
+    {
+      "question": "Can <dl> be nested?",
+      "options": ["No", "Only <dt>", "Yes", "Only <dd>"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "question": "Which tag is optional in <dl>?",
+      "options": ["<dt>", "Neither", "<dd>", "Both"],
+      "correctAnswer": "<dd>"
+    },
+    {
+      "question": "What does <dd> describe?",
+      "options": ["<ul> item", "<ol> item", "<dt> term", "<p> text"],
+      "correctAnswer": "<dt> term"
+    }
+  ]
+}

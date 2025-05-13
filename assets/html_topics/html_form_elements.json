@@ -1,0 +1,108 @@
+{
+    "title": "HTML Form Elements",
+    "content": [
+        {
+            "heading": "HTML Form Elements",
+            "paragraphs": [
+                "This chapter describes the different HTML form elements."
+            ]
+        },
+        {
+            "heading": "The HTML <form> Element",
+            "paragraphs": [
+                "The HTML <form> element can contain one or more of the following elements:",
+                "<input>, <label>, <select>, <textarea>, <button>, <fieldset>, <legend>, <datalist>, <output>, <option>, <optgroup>"
+            ]
+        },
+        {
+            "heading": "The <input> Element",
+            "paragraphs": [
+                "The <input> element is one of the most used form elements. It can be displayed in several ways depending on the type attribute.",
+                "Different values of the type attribute are covered in the next chapter: HTML Input Types."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<label for=\"fname\">\nFirst name:\n</label>\n<input type=\"text\" id=\"fname\" name=\"fname\">"
+            ]
+        },
+        {
+            "heading": "The <label> Element",
+            "paragraphs": [
+                "The <label> element defines a label for form elements. It's useful for screen-reader users and improves accessibility.",
+                "The for attribute of the <label> tag should match the id of the <input> element."
+            ]
+        },
+        {
+            "heading": "The <select> Element",
+            "paragraphs": [
+                "The <select> element defines a drop-down list.",
+                "The <option> element defines an option that can be selected."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<label for=\"cars\">\nChoose a car:\n</label>\n<select id=\"cars\" name=\"cars\">\n<option value=\"volvo\">\nVolvo\n</option>\n<option value=\"saab\">\nSaab\n</option>\n<option value=\"fiat\">\nFiat\n</option>\n<option value=\"audi\">\nAudi\n</option>\n</select>"
+            ]
+        },
+        {
+            "heading": "Allow Multiple Selections:",
+            "paragraphs": [
+                "Use the multiple attribute to allow the user to select more than one value.",
+                "Example:\n<label for=\"cars\">\nChoose a car:\n</label>\n<select id=\"cars\" name=\"cars\" size=\"4\" multiple>\n<option value=\"volvo\">\nVolvo\n</option>\n<option value=\"saab\">\nSaab\n</option>\n<option value=\"fiat\">\nFiat\n</option>\n<option value=\"audi\">\nAudi\n</option>\n</select>"
+            ]
+        },
+        {
+            "heading": "The <textarea> Element",
+            "paragraphs": [
+                "The <textarea> element defines a multi-line input field (text area)."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<textarea name=\"message\" rows=\"10\" cols=\"30\">\nThe cat was playing in the garden.\n</textarea>"
+            ]
+        },
+        {
+            "heading": "The <button> Element",
+            "paragraphs": [
+                "The <button> element defines a clickable button."
+            ]
+        },
+        {
+            "heading": "The <fieldset> and <legend> Elements",
+            "paragraphs": [
+                "The <fieldset> element groups related data in a form. The <legend> element defines a caption for the <fieldset>."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\">\n<fieldset>\n<legend>Personalia:</legend>\n<label for=\"fname\">First name:</label>\n<input type=\"text\" id=\"fname\" name=\"fname\">\n<br>\n<label for=\"lname\">L\nast name:\n</label>\n<input type=\"text\" id=\"lname\" name=\"lname\">\n<br>\n<input type=\"submit\" value=\"Submit\">\n</fieldset>\n</form>"
+            ]
+        },
+        {
+            "heading": "The <datalist> Element",
+            "paragraphs": [
+                "The <datalist> element specifies a list of pre-defined options for an <input> element.",
+                "Example:\n<input list=\"browsers\"><datalist id=\"browsers\"><option value=\"Edge\"><option value=\"Firefox\"><option value=\"Chrome\"><option value=\"Opera\"><option value=\"Safari\"></datalist>"
+            ]
+        },
+        {
+            "heading": "The <output> Element",
+            "paragraphs": [
+                "The <output> element represents the result of a calculation performed by a script.",
+                "Example:\n<form action=\"/action_page.php\" oninput=\"x.value=parseInt(a.value)+parseInt(b.value)\"> 0 <input type=\"range\" id=\"a\" name=\"a\" value=\"50\"> + <input type=\"number\" id=\"b\" name=\"b\" value=\"50\"> = <output name=\"x\" for=\"a b\"></output><br><input type=\"submit\"></form>"
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<output>\n<form action=\"/action_page.php\" oninput=\"x.value=parseInt(a.value)+parseInt(b.value)\">\n 0\n <input type=\"range\" id=\"a\" name=\"a\" value=\"50\">\n +\n <input type=\"number\" id=\"b\" name=\"b\" value=\"50\">\n = \n<output name=\"x\" for=\"a b\">\n</output>\n<br>\n<input type=\"submit\">\n</form>"
+            ]
+        }
+    ]
+}

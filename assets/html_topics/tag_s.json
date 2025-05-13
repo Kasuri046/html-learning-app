@@ -1,0 +1,37 @@
+{
+  "title": "HTML <s> Tag",
+  "content": [
+    {
+      "heading": "<s> Tag",
+      "paragraphs": [
+        "The <s> tag marks text as no longer accurate.",
+        "Example: <p><s>Only 50 tickets left!</s> SOLD OUT!</p>"
+      ]
+    },
+    {
+      "heading": "Definition and Usage",
+      "paragraphs": [
+        "Displays text with a strikethrough.",
+        "Use <del> for deleted text."
+      ]
+    },
+    {
+      "heading": "Browser Support",
+      "paragraphs": [
+        "Supported by all major browsers."
+      ]
+    },
+    {
+      "heading": "Attributes",
+      "paragraphs": [
+        "Supports global and event attributes."
+      ]
+    },
+    {
+      "heading": "Default CSS",
+      "paragraphs": [
+        "s { text-decoration: line-through; }"
+      ]
+    }
+  ]
+}

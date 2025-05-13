@@ -1,0 +1,18 @@
+{
+    "title": "HTML <dir> Tag",
+    "content": [
+      {
+        "heading": "<dir> Tag",
+        "paragraphs": [
+          "The <dir> tag is not supported in HTML5."
+        ]
+      },
+      {
+        "heading": "Alternatives",
+        "paragraphs": [
+          "Use <ul>: <ul><li>html</li><li>xhtml</li><li>css</li></ul>",
+          "Styled list: <ul style=\"line-height:80%\"><li>html</li><li>xhtml</li><li>css</li></ul>"
+        ]
+      }
+    ]
+  }

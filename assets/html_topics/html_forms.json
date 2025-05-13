@@ -1,0 +1,89 @@
+{
+    "title": "HTML Forms",
+    "content": [
+        {
+            "heading": "HTML Forms",
+            "paragraphs": [
+                "An HTML form is used to collect user input, which is often sent to a server for processing."
+            ]
+        },
+        {
+            "heading": "The <form> Element",
+            "paragraphs": [
+                "The HTML <form> element creates a form for user input. It is a container for different types of input elements like text fields, checkboxes, and submit buttons."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form> form elements </form>"
+            ]
+        },
+        {
+            "heading": "The <input> Element",
+            "paragraphs": [
+                "The HTML <input> element is the most used form element and can be displayed in various ways depending on the type attribute."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form>\n <label for=\"fname\">First name:\n</label>\n<br> \n<input type=\"text\" id=\"fname\" name=\"fname\">\n<br>\n <label for=\"lname\">Last name:</label>\n<br> \n<input type=\"text\" id=\"lname\" name=\"lname\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The <label> Element",
+            "paragraphs": [
+                "The <label> element defines a label for form elements, improving accessibility. The for attribute of the <label> tag should match the id of the <input> element."
+            ]
+        },
+        {
+            "heading": "Radio Buttons",
+            "paragraphs": [
+                "The <input type=\"radio\"> defines a radio button, allowing the selection of one choice."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<p>Choose your favorite Web language:</p>\n <form> \n<input type=\"radio\" id=\"html\" name=\"fav_language\" value=\"HTML\"> \n<label for=\"html\">\nHTML\n</label>\n<br> <input type=\"radio\" id=\"css\" name=\"fav_language\" value=\"CSS\">\n <label for=\"css\">CSS</label>\n<br>\n <input type=\"radio\" id=\"javascript\" name=\"fav_language\" value=\"JavaScript\"> <label for=\"javascript\">\nJavaScript\n</label>\n</form>"
+            ]
+        },
+        {
+            "heading": "Checkboxes",
+            "paragraphs": [
+                "The <input type=\"checkbox\"> defines a checkbox, allowing the selection of multiple options."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form> \n<input type=\"checkbox\" id=\"vehicle1\" name=\"vehicle1\" value=\"Bike\"> \n<label for=\"vehicle1\"> I have a bike</label>\n<br>\n <input type=\"checkbox\" id=\"vehicle2\" name=\"vehicle2\" value=\"Car\">\n <label for=\"vehicle2\"> I have a car</label>\n<br> <input type=\"checkbox\" id=\"vehicle3\" name=\"vehicle3\" value=\"Boat\"> \n<label for=\"vehicle3\"> \nI have a boat\n</label>\n </form>"
+            ]
+        },
+        {
+            "heading": "The Submit Button",
+            "paragraphs": [
+                "The <input type=\"submit\"> defines a button for submitting the form data."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\"> \n<label for=\"fname\">\nFirst name:</label><br> \n<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\">\n<br> \n<label for=\"lname\">\nLast name:</label>\n<br>\n <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\">\n<br>\n<br> \n<input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        },
+        {
+            "heading": "The Name Attribute for <input>",
+            "paragraphs": [
+                "Each input field must have a name attribute to be submitted; otherwise, its value will not be sent."
+            ]
+        },
+        {
+            "heading": "Example",
+            "paragraphs": [
+                "<form action=\"/action_page.php\"> \n<label for=\"fname\">First name:</label>\n<br> \n<input type=\"text\" id=\"fname\" value=\"John\"><br>\n<br>\n <input type=\"submit\" value=\"Submit\">\n</form>"
+            ]
+        }
+    ]
+}
