@@ -1,4 +1,3 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -220,7 +219,7 @@ class _LoginState extends State<Signin> {
                                 style: const TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                                 textAlign: TextAlign.left,
                                 decoration: InputDecoration(
-                                  prefixIcon: const Icon(Icons.email_outlined, color: Color(0xff023047),),
+                                  prefixIcon: const Icon(Icons.email_outlined, color: Color(0xff023047)),
                                   hintText: 'Email',
                                   hintStyle: const TextStyle(color: Colors.grey, fontFamily: 'Poppins'),
                                   border: OutlineInputBorder(
@@ -282,7 +281,7 @@ class _LoginState extends State<Signin> {
                       GestureDetector(
                         onTap: () => NavigationHelper.pushReplacementWithFade(context, const ForgotPasswordScreen()),
                         child: const Text('Forgot Password?',
-                            style: TextStyle(color:Color(0xff023047), fontSize: 16, fontFamily: 'Poppins')),
+                            style: TextStyle(color: Color(0xff023047), fontSize: 16, fontFamily: 'Poppins')),
                       ),
                       const SizedBox(height: 20),
                       isLoading
@@ -310,7 +309,7 @@ class _LoginState extends State<Signin> {
                             onTap: () => NavigationHelper.pushReplacementWithFade(context, const Signup()),
                             child: const Text("Signup",
                                 style: TextStyle(
-                                    color:Color(0xff023047),
+                                    color: Color(0xff023047),
                                     fontWeight: FontWeight.w600,
                                     fontSize: 14,
                                     fontFamily: 'Poppins')),

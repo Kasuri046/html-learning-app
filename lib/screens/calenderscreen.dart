@@ -375,7 +375,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                         );
                         int uniqueId = DateTime.now().millisecondsSinceEpoch ~/ 1000;
                         String formattedTime = _selectedTime.format(context);
-                        String title = 'HTML Lesson Reminder 📅';
+                        String title = 'HTML Lesson Reminder ⏰';
                         String body = 'Hey ${widget.userName}, your lesson is set for $formattedTime !';
                         await NotificationHelper.scheduleNotification(
                           id: uniqueId,
@@ -386,7 +386,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                         );
                         print("DEBUG: Scheduled notification with ID $uniqueId for $scheduledDate");
                         final event = Event(
-                          title: 'HTML Lesson Reminder 📅',
+                          title: 'HTML Lesson Reminder ⏰',
                           description: 'Continue learning HTML at $formattedTime.',
                           location: 'Online',
                           startDate: scheduledDate,

@@ -131,6 +131,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
+                  minimumSize: Size(MediaQuery.of(context).size.width * 0.9, 50), // Responsive width
                 ),
                 child: Text(
                   _currentPage == _pages.length - 1 ? 'Get Started' : 'Next',

@@ -1,3 +1,4 @@
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -6,6 +7,7 @@ import 'package:html_learning/start_screens/logoscreen.dart';
 import 'package:html_learning/start_screens/splashscreen.dart';
 import 'package:provider/provider.dart';
 import 'package:timezone/data/latest.dart' as tz;
+
 import 'components/bottom_navigation.dart';
 
 void main() async {

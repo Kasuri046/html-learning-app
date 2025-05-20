@@ -7,6 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:permission_handler/permission_handler.dart';
+
 import '../components/bottom_navigation.dart';
 
 class NotificationHelper {
@@ -26,7 +27,6 @@ class NotificationHelper {
       return;
     }
 
-
     const AndroidInitializationSettings androidSettings =
     AndroidInitializationSettings('@mipmap/ic_launcher');
     const InitializationSettings settings = InitializationSettings(android: androidSettings);
@@ -37,8 +37,8 @@ class NotificationHelper {
       await androidPlugin?.createNotificationChannel(
         const AndroidNotificationChannel(
           'reminder_channel',
-          'C++ Reminders',
-          description: 'Reminders for C++ learning',
+          'HTML Reminders',
+          description: 'Reminders for HTML learning',
           importance: Importance.max,
           playSound: true,
           enableVibration: true,
@@ -86,9 +86,9 @@ class NotificationHelper {
 
   static Future<void> showWelcomeNotification() async {
     final messages = [
-      {'title': 'Welcome Back! 🌟', 'body': 'Ready to dive into C++?'},
-      {'title': 'Hello Again! 🚀', 'body': 'Let’s crush some C++ code!'},
-      {'title': 'Back for More? 💻', 'body': 'Time to level up C++ skills!'},
+      {'title': 'Welcome Back! 🌟', 'body': 'Ready to dive into HTML?'},
+      {'title': 'Hello Again! 🚀', 'body': 'Let’s crush some HTML code!'},
+      {'title': 'Back for More? 💻', 'body': 'Time to level up HTML skills!'},
     ];
     final random = Random();
     final message = messages[random.nextInt(messages.length)];

@@ -52,7 +52,7 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
-  void _showResult() {
+  void _showResult() async {
     setState(() {
       _quizSubmitted = true;
     });
@@ -62,6 +62,11 @@ class _QuizScreenState extends State<QuizScreen> {
         score++;
       }
     }
+
+    // Update progress immediately after quiz submission
+    await Provider.of<ProgressProvider>(context, listen: false)
+        .updateQuizResult(widget.courseTitle, score / widget.quizData.length);
+
     if (score >= 10) {
       _showSuccessDialog(score);
     } else {
@@ -77,9 +82,11 @@ class _QuizScreenState extends State<QuizScreen> {
         String message = score == widget.quizData.length
             ? 'You aced it! Perfect score—way to go!'
             : 'Nice work! You passed the quiz—keep it up!';
+        final user = FirebaseAuth.instance.currentUser;
+        final userName = user?.displayName ?? 'User'; // Fetch the signed-in user's display name
         return AlertDialog(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0)),
-          backgroundColor: Color(0xffE6ECEF), // Lightened variant of 0xff023047
+          backgroundColor: Colors.teal[50],
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -131,18 +138,15 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(
                   fontFamily: 'Poppins',
                   fontSize: 12,
-                  color: Color(0xff011825), // Darker variant of 0xff023047
+                  color: Color(0xff023047),
                 ),
               ),
             ),
             TextButton(
-              onPressed: () async {
-                await Provider.of<ProgressProvider>(context, listen: false)
-                    .updateQuizResult(widget.courseTitle, score / widget.quizData.length);
-                Navigator.of(context).pop(); // Close dialog
+              onPressed: () {
                 Navigator.pushAndRemoveUntil(
                   context,
-                  MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: 'kamrosh')),
+                  MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: userName)),
                       (route) => false,
                 );
               },
@@ -151,7 +155,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(
                   fontFamily: 'Poppins',
                   fontSize: 12,
-                  color: Color(0xff011825), // Darker variant of 0xff023047
+                  color: Color(0xff023047),
                 ),
               ),
             ),
@@ -168,7 +172,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(
                   fontFamily: 'Poppins',
                   fontSize: 12,
-                  color: Colors.red,
+                  color: Colors.green,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -187,9 +191,11 @@ class _QuizScreenState extends State<QuizScreen> {
         String message = score < 4
             ? 'Don’t worry! Every try counts—review and bounce back!'
             : 'Almost there! A little more practice and you’ll nail it!';
+        final user = FirebaseAuth.instance.currentUser;
+        final userName = user?.displayName ?? 'User'; // Fetch the signed-in user's display name
         return AlertDialog(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0)),
-          backgroundColor: Color(0xffE6ECEF), // Lightened variant of 0xff023047
+          backgroundColor: Colors.teal[50],
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -247,24 +253,10 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
             ),
             TextButton(
-              onPressed: () async {
-                final user = FirebaseAuth.instance.currentUser;
-                if (user != null) {
-                  final snapshot = await FirebaseFirestore.instance
-                      .collection('users')
-                      .doc(user.uid)
-                      .collection('quizzes')
-                      .doc(widget.courseTitle)
-                      .get();
-                  if (!snapshot.exists || !(snapshot.data()?['quizPassed'] ?? false)) {
-                    await Provider.of<ProgressProvider>(context, listen: false)
-                        .updateQuizResult(widget.courseTitle, score / widget.quizData.length);
-                  }
-                }
-                Navigator.of(context).pop(); // Close dialog
+              onPressed: () {
                 Navigator.pushAndRemoveUntil(
                   context,
-                  MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: 'kamrosh')),
+                  MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: userName)),
                       (route) => false,
                 );
               },
@@ -273,7 +265,19 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(
                   fontFamily: 'Poppins',
                   fontSize: 12,
-                  color: Color(0xff011825), // Darker variant of 0xff023047
+                  color: Color(0xff014062),
+                ),
+              ),
+            ),
+            TextButton(
+              onPressed: null,
+              child: const Text(
+                'Check Results',
+                style: TextStyle(
+                  fontFamily: 'Poppins',
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
@@ -298,6 +302,9 @@ class _QuizScreenState extends State<QuizScreen> {
       return const Scaffold(body: Center(child: Text('No questions available.')));
     }
 
+    final user = FirebaseAuth.instance.currentUser;
+    final userName = user?.displayName ?? 'User'; // Fetch the signed-in user's display name
+
     final double screenWidth = MediaQuery.of(context).size.width;
     final double padding = screenWidth * 0.05;
     final double courseTitleFontSize = (screenWidth * 0.025).clamp(18, 22);
@@ -306,13 +313,13 @@ class _QuizScreenState extends State<QuizScreen> {
     final double optionFontSize = (screenWidth * 0.02).clamp(14, 16);
 
     return Scaffold(
-      backgroundColor: Color(0xff023047), // Replaced Colors.teal
+      backgroundColor: Color(0xff023047),
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(70),
         child: AppBar(
           iconTheme: const IconThemeData(color: Colors.white),
           title: const Text('Quiz', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontFamily: 'Poppins')),
-          backgroundColor: Color(0xff023047), // Replaced Colors.teal
+          backgroundColor: Color(0xff023047),
         ),
       ),
       body: Container(
@@ -345,7 +352,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   fontFamily: 'Poppins',
                   fontSize: questionNumberFontSize,
                   fontWeight: FontWeight.w600,
-                  color: Color(0xffB3C7e8), // Replaced Colors.teal.shade200
+                  color: Color(0xffB3C7e8),
                 ),
               ),
               const SizedBox(height: 20),
@@ -367,10 +374,10 @@ class _QuizScreenState extends State<QuizScreen> {
                         padding: const EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           color: index == _currentQuestionIndex
-                              ? Color(0xff023047) // Replaced Colors.teal
+                              ? Color(0xff023047)
                               : (isAnswered && _showResults
                               ? (isCorrect ? Colors.green : Colors.red)
-                              : Color(0xffE6ECEF)), // Replaced Colors.teal[100]
+                              : Color(0xffE6ECEF)),
                           borderRadius: BorderRadius.circular(8),
                           border: Border.all(color: Colors.black12),
                         ),
@@ -393,7 +400,7 @@ class _QuizScreenState extends State<QuizScreen> {
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Color(0xffE6ECEF), // Replaced Colors.teal[50]
+                  color: Color(0xffE6ECEF),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
@@ -433,7 +440,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         value: optionText,
                         groupValue: _answers[_currentQuestionIndex],
-                        activeColor: Color(0xff014062), // Replaced Colors.teal.shade400
+                        activeColor: Color(0xff014062),
                         onChanged: _quizSubmitted
                             ? null
                             : (value) {
@@ -454,7 +461,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   if (_currentQuestionIndex > 0)
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xff023047), // Replaced Colors.teal
+                        backgroundColor: Color(0xff023047),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                         padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
                         minimumSize: Size(screenWidth * 0.35, 0),
@@ -467,10 +474,10 @@ class _QuizScreenState extends State<QuizScreen> {
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       backgroundColor: _showResults
-                          ? Color(0xff023047) // Replaced Colors.teal
+                          ? Color(0xff023047)
                           : (_answers[_currentQuestionIndex] == null && !_quizSubmitted
-                          ? Color(0xffE6ECEF) // Replaced Colors.teal.shade100
-                          : Color(0xff023047)), // Replaced Colors.teal
+                          ? Color(0xffE6ECEF)
+                          : Color(0xff023047)),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
                       minimumSize: Size(screenWidth * 0.35, 0),
@@ -481,7 +488,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         ? () {
                       Navigator.pushAndRemoveUntil(
                         context,
-                        MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: 'kamrosh')),
+                        MaterialPageRoute(builder: (_) => CustomBottomNavigation(userName: userName)),
                             (route) => false,
                       );
                     }

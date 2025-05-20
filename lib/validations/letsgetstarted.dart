@@ -1,14 +1,14 @@
 import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:google_api_availability/google_api_availability.dart';
+import 'package:html_learning/validations/signin.dart';
+import 'package:html_learning/validations/signup.dart';
+
 import '../components/bottom_navigation.dart';
 import '../resources/shared_preferences.dart';
-import 'signin.dart';
-import 'signup.dart';
 
 class Start extends StatefulWidget {
   const Start({super.key});
@@ -18,7 +18,7 @@ class Start extends StatefulWidget {
 }
 
 class _StartState extends State<Start> {
-  bool _isSigningIn = false; // Track sign-in state to show progress indicator
+  bool _isLoading = false; // Track loading state
 
   @override
   void initState() {
@@ -27,14 +27,13 @@ class _StartState extends State<Start> {
   }
 
   Future<void> _checkLoginStatus() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    bool isLoggedIn = prefs.getBool('isLoggedIn') ?? false;
+    bool isLoggedIn = await SharedPrefHelper.isLoggedIn();
+    User? user = FirebaseAuth.instance.currentUser;
 
-    if (isLoggedIn) {
-      User? user = FirebaseAuth.instance.currentUser;
+    if (isLoggedIn && user != null) {
       String displayName = await _getDisplayName(user);
+      print("✅ Logged in, navigating with displayName='$displayName'");
       if (mounted) {
-        print("✅ Logged in, navigating with displayName='$displayName'");
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -42,6 +41,10 @@ class _StartState extends State<Start> {
           ),
         );
       }
+    } else if (isLoggedIn && user == null) {
+      // Reset SharedPreferences if isLoggedIn is true but no user exists
+      await SharedPrefHelper.clearAll();
+      print("DEBUG: Cleared SharedPreferences due to no authenticated user");
     }
   }
 
@@ -73,42 +76,50 @@ class _StartState extends State<Start> {
   }
 
   Future<void> _handleGoogleSignIn(BuildContext context) async {
-    if (_isSigningIn) return; // Prevent multiple sign-in attempts
+    if (_isLoading) return; // Prevent multiple clicks
 
-    setState(() => _isSigningIn = true);
+    setState(() {
+      _isLoading = true; // Start loading
+    });
+
+    final GoogleSignIn googleSignIn = GoogleSignIn();
+    final FirebaseAuth auth = FirebaseAuth.instance;
 
     try {
-      // Check Google Play Services availability
-      GooglePlayServicesAvailability availability = await GoogleApiAvailability.instance.checkGooglePlayServicesAvailability();
-      if (availability != GooglePlayServicesAvailability.success) {
-        // Handle user-resolvable issues (e.g., update required, service disabled)
-        if (availability == GooglePlayServicesAvailability.serviceVersionUpdateRequired ||
-            availability == GooglePlayServicesAvailability.serviceDisabled) {
-          await GoogleApiAvailability.instance.makeGooglePlayServicesAvailable();
-        }
-        _showSnackBar(context, 'Please update Google Play Services.', isError: true);
-        setState(() => _isSigningIn = false);
+      final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
+      if (googleUser == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Row(
+              children: [
+                const Icon(Icons.error_outline, color: Colors.white, size: 22),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Sign-in canceled.',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontFamily: 'Poppins',
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            backgroundColor: Colors.redAccent,
+            behavior: SnackBarBehavior.floating,
+            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            duration: const Duration(seconds: 3),
+          ),
+        );
+        setState(() {
+          _isLoading = false; // Stop loading
+        });
         return;
       }
 
-      final GoogleSignIn googleSignIn = GoogleSignIn();
-      final FirebaseAuth auth = FirebaseAuth.instance;
-
-      // Check if already signed in
-      GoogleSignInAccount? currentUser = await googleSignIn.signInSilently();
-      if (currentUser != null) {
-        print("🔍 User already signed in silently: ${currentUser.email}");
-      } else {
-        currentUser = await googleSignIn.signIn();
-      }
-
-      if (currentUser == null) {
-        _showSnackBar(context, 'Sign-in canceled.', isError: true);
-        setState(() => _isSigningIn = false);
-        return;
-      }
-
-      final GoogleSignInAuthentication googleAuth = await currentUser.authentication;
+      final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
       final credential = GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
@@ -118,7 +129,7 @@ class _StartState extends State<Start> {
       User? user = userCredential.user;
 
       if (user != null) {
-        String displayName = user.displayName ?? 'No Name';
+        String displayName = user.displayName ?? 'Learner';
         String email = user.email?.toLowerCase() ?? '';
 
         // Check Firestore for existing displayName
@@ -148,13 +159,36 @@ class _StartState extends State<Start> {
           print("✅ Synced Firebase Auth displayName to: '$displayName'");
         }
 
-        SharedPreferences prefs = await SharedPreferences.getInstance();
-        await prefs.setBool('isLoggedIn', true);
+        await SharedPrefHelper.setLoggedIn(true);
         await SharedPrefHelper.setUserName(displayName);
 
-        _showSnackBar(context, 'Welcome, $displayName!', isError: false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Row(
+              children: [
+                const Icon(Icons.check_circle, color: Colors.white, size: 22),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Welcome, $displayName!',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontFamily: 'Poppins',
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            backgroundColor: const Color(0xff023047),
+            behavior: SnackBarBehavior.floating,
+            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            duration: const Duration(seconds: 3),
+          ),
+        );
 
-        if (mounted) {
+        if (context.mounted) {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
@@ -163,56 +197,42 @@ class _StartState extends State<Start> {
           );
         }
       }
-    } catch (e, stackTrace) {
-      print("⚠️ Google Sign-In error: $e\nStackTrace: $stackTrace");
-      String errorMessage;
-      if (e.toString().contains('network_error')) {
-        errorMessage = 'Network error. Please check your connection and try again.';
-      } else if (e.toString().contains('sign_in_canceled')) {
-        errorMessage = 'Sign-in canceled.';
-      } else if (e.toString().contains('failed-precondition')) {
-        errorMessage = 'Firestore query failed. Please try again later.';
-      } else {
-        errorMessage = 'Sign-in failed. Please try again.';
+    } catch (e) {
+      print("⚠️ Google Sign-In error: $e");
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Row(
+              children: [
+                const Icon(Icons.error_outline, color: Colors.white, size: 22),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Sign-in failed. Please check your network and try again.',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontFamily: 'Poppins',
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            backgroundColor: Colors.redAccent,
+            behavior: SnackBarBehavior.floating,
+            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            duration: const Duration(seconds: 3),
+          ),
+        );
       }
-      _showSnackBar(context, errorMessage, isError: true);
     } finally {
       if (mounted) {
-        setState(() => _isSigningIn = false);
+        setState(() {
+          _isLoading = false; // Stop loading
+        });
       }
     }
-  }
-
-  void _showSnackBar(BuildContext context, String message, {required bool isError}) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
-          children: [
-            Icon(
-              isError ? Icons.error_outline : Icons.check_circle,
-              color: Colors.white,
-              size: 22,
-            ),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                message,
-                style: const TextStyle(
-                  fontSize: 14,
-                  fontFamily: 'Poppins',
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ],
-        ),
-        backgroundColor: isError ? Colors.redAccent : const Color(0xff023047),
-        behavior: SnackBarBehavior.floating,
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-        duration: const Duration(seconds: 3),
-      ),
-    );
   }
 
   @override
@@ -228,11 +248,11 @@ class _StartState extends State<Start> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Padding(
-                  padding: EdgeInsets.only(top: 150),
+                  padding: EdgeInsets.only(top: 95),
                   child: Text(
                     'Let\'s Get Started',
                     style: TextStyle(
-                      fontSize: 25,
+                      fontSize: 20,
                       fontFamily: 'Poppins',
                       color: Color(0xff023047),
                       fontWeight: FontWeight.bold,
@@ -242,16 +262,11 @@ class _StartState extends State<Start> {
                 ),
                 const SizedBox(height: 350),
                 if (Platform.isAndroid)
-                  _isSigningIn
-                      ? const Center(
-                    child: CircularProgressIndicator(
-                      valueColor: AlwaysStoppedAnimation<Color>(Color(0xff023047)),
-                    ),
-                  )
-                      : _buildSocialButton(
+                  _buildSocialButton(
                     context,
                     'Continue With Google',
                     'assets/img.png',
+                    _isLoading,
                         () => _handleGoogleSignIn(context),
                   )
                 else if (Platform.isIOS)
@@ -259,6 +274,7 @@ class _StartState extends State<Start> {
                     context,
                     'Continue With Apple',
                     'assets/apple.png',
+                    false, // Apple sign-in not implemented
                         () {},
                   ),
                 const SizedBox(height: 20),
@@ -288,9 +304,9 @@ class _StartState extends State<Start> {
     );
   }
 
-  Widget _buildSocialButton(BuildContext context, String title, String imagePath, VoidCallback onTap) {
+  Widget _buildSocialButton(BuildContext context, String title, String imagePath, bool isLoading, VoidCallback onTap) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: isLoading ? null : onTap, // Disable tap when loading
       child: Container(
         width: double.infinity,
         height: 50,
@@ -302,16 +318,32 @@ class _StartState extends State<Start> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(imagePath, height: 24),
-            const SizedBox(width: 10),
-            Text(
-              title,
-              style: const TextStyle(
-                color: Colors.black,
-                fontFamily: 'Poppins',
-                fontSize: 16,
+            if (!isLoading) ...[
+              Image.asset(imagePath, height: 24),
+              const SizedBox(width: 10),
+              Text(
+                title,
+                style: TextStyle(
+                  color: isLoading ? Colors.grey : Colors.black,
+                  fontFamily: 'Poppins',
+                  fontSize: 16,
+                ),
               ),
-            ),
+            ] else ...[
+              const CircularProgressIndicator(
+                valueColor: AlwaysStoppedAnimation<Color>(Color(0xff023047)),
+                strokeWidth: 2,
+              ),
+              const SizedBox(width: 10),
+              const Text(
+                'Signing In...',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontFamily: 'Poppins',
+                  fontSize: 16,
+                ),
+              ),
+            ],
           ],
         ),
       ),
